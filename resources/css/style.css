@@ -1,0 +1,21 @@
+@font-face { /* Created by Nils Cordes http://nilscordes.com */
+    font-family: cardenio;
+    src: url('cardenio-modern-std.ttf');
+}
+
+@font-face { /* Created by Nils Cordes http://nilscordes.com */
+    font-family: cardenio;
+    src: url('cardenio-modern-bold.ttf');
+    font-weight: bold;
+}
+
+h1 {
+    font-family: cardenio,sans-serif;
+    font-weight: bold; 
+    font-size: 30pt;
+}
+
+a {
+    font-family: cardenio, sans-serif;
+    font-size: 16pt;
+}
