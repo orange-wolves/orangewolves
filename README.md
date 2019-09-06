@@ -15,7 +15,6 @@ Introduces all of team.
 Project is created with:
 * Visual studio code: Version: 1.37.1 
 * [Click here to download VS code](https://www.google.com)
-* ------------------------------------
 * Github desktop tool. 
 * *[Click here to download Github desktop tool](https://desktop.github.com/)
 
