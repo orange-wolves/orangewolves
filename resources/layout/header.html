@@ -26,7 +26,7 @@
 			</li>
 			<li class="dropdown">
 				<form name="search" action="/orangewolves/search/index.php" method="GET">
-					<input type="search" name="searchtext" placeholder="Search" required>
+					<input type="search" name="searchtext" placeholder="Search" pattern=".*\S.*" minlength=3 required>
 					
 				</form>
 			</li>
