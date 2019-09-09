@@ -1,19 +1,40 @@
-<header>
-    <a href="/orangewolves"><img src= "/orangewolves/resources/images/logo.jpg"    
-        alt="Orange Wolves Logo" style="width:150px;height:150px"></a><br>
-    <a href="/orangewolves/schedule">Schedule</a><br>
-    <a href="/orangewolves/buses">Buses</a><br>
-    <a href="/orangewolves/teams">Teams</a><br>
-
-    <form name="search" action="/orangewolves/search/index.php" method="GET">
-        <input required name="searchtext" placeholder="Search" oninvalid="this.setCustomValidity('Blah')">
-        <input type="submit" value="Search">
-	</form>
-
-    <br>
-    <a href="/orangewolves/event-info">Event Info</a><br>
-    <a href="/orangewolves/sponsors">Sponsors</a><br>
-    <a href="/orangewolves/contact-us">Contact Us</a><br>
-
-</header>
-
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="resources/css/header.css">
+	<body>
+	<header>
+	<div class="row">
+		<div class="sides col-1"></div>
+		<div class="navbar col-6">
+		<ul>
+			<li><a href="/orangewolves">Orange Wolves</a></li>
+			<li><a href="/orangewolves/schedule">Schedule</a></li>
+			<li><a href="/orangewolves/buses">Buses</a></li>
+			<li><a href="/orangewolves/teams">Teams</a></li>
+		</div>
+		<div class="search col-4">
+			<li class="dropdown">
+				<a href="" class="dropbtn">Drop</a>
+					<div class="dropdown-content">
+						<a href="/orangewolves/schedule">Schedule</a>
+						<a href="/orangewolves/buses">Buses</a>
+						<a href="/orangewolves/teams">Teams</a>
+						<a href="/orangewolves/event-info">Event Info</a>
+						<a href="/orangewolves/sponsors">Sponsors</a>
+						<a href="/orangewolves/contact-us">Contact Us</a>
+					</div>
+			</li>
+			<li class="dropdown">
+				<form name="search" action="/orangewolves/search/index.php" method="GET">
+					<input type="search" name="searchtext" placeholder="Search" required>
+					
+				</form>
+			</li>
+		</div>
+		</ul>
+	</div>
+</div>
+<div class="sides col-1"></div>
+	</header>
+</body>
+</html>
