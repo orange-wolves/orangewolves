@@ -6,7 +6,7 @@
     <a href="/orangewolves/teams">Teams</a><br>
 
     <form name="search" action="/orangewolves/search/index.php" method="GET">
-        <input required name="searchtext" placeholder="Search">
+        <input required pattern=".*\S.*" minlength=3 name="searchtext" placeholder="Search">
         <input type="submit" value="Search">
 	</form>
 
