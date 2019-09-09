@@ -23,10 +23,37 @@
    </style>
    <body onload="changeText()">
          <?php
+         function stringWordBold($str,$word)
+         {
+            if (stripos($str, $word) !== false){//Here to ensure <b>/</b> won't appear
+               //%str is the entire string whilie $word is the word that will bolded.
+               $str = substr_replace($str,"<b>",strripos($str, $word),0);
+               $str = substr_replace($str,"</b>",strripos($str, $word)+strlen($word),0);
+            }
+            return $str;
+         }
+         function formatShownString($str, $word, $length){
+            //$length is meant to  be how many characters you want to be displayed
+            $count = strlen($str) / 3;
+            $pos = stripos($str, $word);
+            if(($count * 3) < $length){
+               return $str;
+            }
+            else if($pos < $count){
+               return substr($str, 0, $length)."...";
+            }
+            else if($pos  >= $count && $pos < ($count * 2)){
+              $str = substr($str, $pos-($length/2), $length);
+               return "...".$str."...";
+            }
+            else if($pos >= ($count * 2)){
+               return "...".substr($str, -$length);
+            }
+         }
          $visabletext = $_GET['searchtext'];//to be visable for the user
          $visabletext = htmlspecialchars($visabletext);
          $searchtext = $_GET['searchtext'];
-         $searchtext = trim($searchtext);
+         $searchtext = trim($searchtext); //data sanitation
          $searchtext = strip_tags($searchtext);
          $searchtext = addslashes($searchtext);
          $textlength = 200;//This relates to the max characters shown on the description
