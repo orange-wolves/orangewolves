@@ -31,6 +31,7 @@ In this post we're laying out few rules to help our work simplify and clean up.
 * Use feature branches, no direct commits on master.
 * Line2
 * Line3
+* Line 4
 
 
 ## Development team member
