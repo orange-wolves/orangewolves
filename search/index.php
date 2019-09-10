@@ -52,10 +52,7 @@
          }
          $visabletext = $_GET['searchtext'];//to be visable for the user
          $visabletext = htmlspecialchars($visabletext);
-         $searchtext = $_GET['searchtext'];
-         $searchtext = trim($searchtext); //data sanitation
-         $searchtext = strip_tags($searchtext);
-         $searchtext = addslashes($searchtext);
+         $searchtext = trim(mysqli_real_escape_string($conn, $_GET['searchtext']));//data sanitation
          $textlength = 200;//This relates to the max characters shown on the description
 
          $text; //Area to hold text for modification 
