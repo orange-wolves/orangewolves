@@ -1,15 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-    </head>
-<header>
-    <h1>Homepage</h1>
-</header>
-<body>
-    <?php include("resources/layout/header.html"); ?><br>
-</body>
 
-<?php include("resources/layout/footer.html"); ?>
+	<head>
+		<title>Orange Wolves Homepage</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no>
+		<link rel="stylesheet" type="text/css" href="resources/css/layout.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/header.css">
+	</head>
+		
+	<body>
+		<div class="webpage">	
+			<div class="pagecontent col-12">
 
+<!-----------------------------HEADER------------------------------>
+				
+				<div class="row">
+					<header>
+						<?php include("resources/layout/header.html"); ?>
+					</header>
+				</div>
+
+<!-----------------------------CONTENT------------------------------>					
+				
+				<div class="row">
+					<h1>Homepage</h1>
+
+
+
+				</div>
+
+<!-----------------------------FOOTER------------------------------>
+				
+				<div class="row">
+					<footer>
+						<?php include("resources/layout/footer.html"); ?>
+					</footer>
+				</div>
+
+
+			</div>
+		</div>
+	</body>
 </html>
