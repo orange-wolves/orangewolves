@@ -1,0 +1,59 @@
+
+*{
+
+    text-align:center;
+}
+
+
+ul {
+    list-style-type: none;
+    background-color: grey;
+    text-align:center;
+}
+
+li {
+    display: inline-block;
+    background-color:white;
+   
+}
+
+.footerLeft li{
+
+    margin: auto;
+    display:block; 
+    background-color:green;
+    height:30px;
+    
+}
+
+.footerLeft{
+
+    background-color: red;
+    height:150px;
+       
+    
+}
+
+.footerRight {
+
+    display:block;
+    background-color:blue;
+    
+
+}
+
+.iconscontaner{
+
+    background-color:yellow;
+    display:block;
+    padding:1em 50% 1em 50%;
+    height:150px;
+   
+}
+
+
+
+
+
+
+

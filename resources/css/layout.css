@@ -77,6 +77,10 @@
     .navbar{
         display:none;
     }
+
+    .whitespace{display:none;}
+    .topbar{width:50%;}
+    
     
 }
 
