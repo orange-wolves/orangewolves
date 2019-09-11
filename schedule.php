@@ -4,10 +4,17 @@
     <h1>Schedule</h1>
 </header>
 <body>
+
+
     <?php include("resources/layout/header.html"); ?>
 
+	
     // Demo list created by Ibrahim and Asim. still being worked on.
     <?php
+	 date_default_timezone_set('Australia/Canberra');
+	$today=date('y/m/d');
+	
+	echo "$today";
         require '/resources/php/dbConnectOrangeWolves.php';
         $sql= "SELECT * FROM events";
         $result = mysqli_query($conn, $sql) or die("Error Events information - ".mysqli_error($conn));
@@ -35,11 +42,27 @@
 			  
 			  if ($row['date'] =="2019-11-15") 
 			  {
-				  
+				if($today==$row['date'])
+				{
                echo "<tr>";
-               echo "<td >$row[date] $row[name]</td>";
+				?><td bgcolor="#FFA500"> <?php echo"$row[date] $row[name]</td>";
+				}
+				elseif($today==$today)
+				{
+				echo "<tr>";
+				echo "<td>$row[date] $row[name]</td>";
+				}
 			   echo "<td >$row[description]</td>";
                echo "</tr>";
+				
+				
+				 /*  old code will delete later
+			  echo "<tr>"; 
+              ?><td bgcolor="#FFA500"> <?php echo"$row[date] $row[name]</td>";
+			   echo "<td >$row[description]</td>";
+               echo "</tr>";*/
+				
+				
 			  }
 			  
            } 
@@ -59,10 +82,26 @@
 			  if ($row['date'] =="2019-11-16") 
 			  {
 				  
+				  if($today==$row['date'])
+				{
                echo "<tr>";
-               echo "<td >$row[date] $row[name]</td>";
+				?><td bgcolor="#FFA500"> <?php echo"$row[date] $row[name]</td>";
+				}
+				elseif($today==$today)
+				{
+				echo "<tr>";
+				echo "<td>$row[date] $row[name]</td>";
+				}
 			   echo "<td >$row[description]</td>";
                echo "</tr>";
+				  
+				  
+				  
+              /*  old code will delete later
+			  echo "<tr>"; 
+              ?><td bgcolor="#FFA500"> <?php echo"$row[date] $row[name]</td>";
+			   echo "<td >$row[description]</td>";
+               echo "</tr>";*/
 			  }
 			  
            } 
@@ -81,10 +120,26 @@
 			  if ($row['date'] =="2019-11-17") 
 			  {
 				
+               if($today==$row['date'])
+				{
                echo "<tr>";
-               echo "<td >$row[date] $row[name]</td>";
+				?><td bgcolor="#FFA500"> <?php echo"$row[date] $row[name]</td>";
+				}
+				elseif($today==$today)
+				{
+				echo "<tr>";
+				echo "<td>$row[date] $row[name]</td>";
+				}
 			   echo "<td >$row[description]</td>";
                echo "</tr>";
+			   
+			   
+			   /*  old code will delete later
+			  echo "<tr>"; 
+              ?><td bgcolor="#FFA500"> <?php echo"$row[date] $row[name]</td>";
+			   echo "<td >$row[description]</td>";
+               echo "</tr>";*/
+			   
 			  }
 			  
 			  

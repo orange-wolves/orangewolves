@@ -1,31 +1,61 @@
-.navbar {
-    background-color:grey;
-    position:sticky;
-    height:60px;
-    padding:20px;
+.nav {
+	position:sticky;
+	background-color:dimgrey;
+	height:4em;
+	padding-top:1.5em;
 }
 
-.search {
-    background-color:grey;
-    position:sticky;
-    height:60px;
-    padding:20px;
+.icon {
+	padding:1em;
+	padding-top:0;
+}
+
+.navbar {
+	text-align:right;
+	border:solid 1px black;
+}
+
+.searchbar {
+	overflow:visible;
+	white-space: nowrap;
+}
+
+.mobilenav {
+	text-align:right;
 }
 
 ul {
     list-style-type: none;
-    background-color: grey;
     text-align:center;
 }
 
-li {
+.nav li{
     display: inline-block;
-    background-color:white;
-    margin:0 2%;
+	text-align:center;
+	border: solid 1px black;
+	padding-left:0.5em;
+	padding-right:0.5em;
+	width:6.5em;
+}
+
+.nav a{
+	text-decoration:none;
+	color:white;
+	text-transform:uppercase;
+}
+
+.nav a:visted{
+	text-decoration:none ;
+}
+
+
+.icon a{
+	width:6em;
+	border: solid 1px black;
 }
 
 .dropdown {
-    float:right;
+	float:right;
 }
 
 .dropdown-content a {
@@ -51,14 +81,16 @@ input[type=search]{
     background-color: white;
     background-image: url('searchicon.png');
     background-position: 10px 10px;
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
     
     -webkit-transition: width 0.4s ease-in-out;
-    transition: scale(x) 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
     
 }
 
 input[type=search]:focus {
-    width:120px;
+	width:20vw;
+	position:relative;
 }
+
 
