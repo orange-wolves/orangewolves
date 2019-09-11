@@ -5,17 +5,6 @@
 }
 
 
-ul {
-    list-style-type: none;
-    background-color: grey;
-    text-align:center;
-}
-
-li {
-    display: inline-block;
-    background-color:white;
-   
-}
 
 .footerLeft li{
 

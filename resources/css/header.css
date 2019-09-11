@@ -2,29 +2,34 @@
 	position:sticky;
 	background-color:dimgrey;
 	height:4em;
-	padding-top:1.5em;
 }
 
 .icon {
-	padding:1em;
-	padding-top:0;
+	height:4em;
+	padding-top:1.3em;
 }
 
 .navbar {
 	text-align:right;
 	border:solid 1px black;
+	height:4em;
+	padding-top:1.3em;
 }
 
 .searchbar {
 	overflow:visible;
 	white-space: nowrap;
+	height:4em;
+	padding-top:1.3em;
 }
 
 .mobilenav {
 	text-align:right;
+	height:4em;
+	padding-top:1.3em;
 }
 
-ul {
+nav.ul {
     list-style-type: none;
     text-align:center;
 }
