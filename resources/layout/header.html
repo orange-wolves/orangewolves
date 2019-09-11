@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html>
 	<head>
-    <link rel="stylesheet" type="text/css" href="resources/css/header.css">
-	<link rel="stylesheet" type="text/css" href="resources/css/layout.css">
-</head>
-        <body>
-            <div class="row">
+	
+	</head>
 
-<div class="navbar col-7">
-    <ul>
-        <li><a href="/orangewolves">Orange Wolves</a></li>
-        <li><a href="/orangewolves/schedule">Schedule</a></li>
-        <li><a href="/orangewolves/buses">Buses</a></li>
-        <li><a href="/orangewolves/teams">Teams</a></li>
-        </ul>
-</div>
+  	<body>
+      <div class="row">
+				<div class="nav col-12">
 
-<div class="search col-5">
-    <ul>
-        <li class="dropdown">
-            <a href="" class="dropbtn">Drop</a>
-            <div class="dropdown-content">
-                <a href="/orangewolves/schedule">Schedule</a>
-                <a href="/orangewolves/buses">Buses</a>
-                <a href="/orangewolves/teams">Teams</a>
-                <a href="/orangewolves/event-info">Event Info</a>
-                <a href="/orangewolves/sponsors">Sponsors</a>
-                <a href="/orangewolves/contact-us">Contact Us</a>
-            </div>
-        </li>
-    </ul>
-    
-        <form class="dropdown" name="search" action="/orangewolves/search/index.php" method="GET">
-            <input type="search" name="searchtext" placeholder="Search" pattern=".*\S.*" minlength=3 required>
-        </form>
+					<div class="icon col-3">
+						<a href="/orangewolves">Orange Wolves</a>
+					</div>
 
-</div>
-    </div>
+					<div class="navbar col-6">
+						<ul>
+							<li><a href="/orangewolves/event-info">Event Info</a></li>
+							<li><a href="/orangewolves/schedule">Schedule</a></li>
+							<li><a href="/orangewolves/buses">Buses</a></li>
+							<li><a href="/orangewolves/teams">Teams</a></li>
+						</ul>
+					</div>
 
+					<div class="searchbar col-2">
+						<form class="dropdown" name="search" action="/orangewolves/search/index.php" method="GET">
+							<input type="search" name="searchtext" placeholder="Search" pattern=".*\S.*" minlength=3 required>
+						</form>
+					</div>
 
-        </body>
+					<div class="mobilenav col-1">
+						<ul>
+							<li class="dropdown">
+								<a href="" class="dropbtn">Drop</a>
+								<div class="dropdown-content">
+									<a href="/orangewolves/schedule">Schedule</a>
+									<a href="/orangewolves/buses">Buses</a>
+									<a href="/orangewolves/teams">Teams</a>
+									<a href="/orangewolves/event-info">Event Info</a>
+									<a href="/orangewolves/sponsors">Sponsors</a>
+									<a href="/orangewolves/contact-us">Contact Us</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+  	</body>
 </html>
