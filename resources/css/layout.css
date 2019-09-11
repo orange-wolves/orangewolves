@@ -12,6 +12,8 @@
 
 [class*="col-"] {
     float:left;
+    border:solid 1px black;
+
 }
 
 /*Large Screens*/
