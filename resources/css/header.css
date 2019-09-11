@@ -1,116 +1,64 @@
-* {
-		box-sizing: border-box;
-		padding:0;
-		margin:0;
-}
-
-[class*="col-"] {
-	float:left;
-	border:solid red 1px;
-}
-
-/*Desktop*/
-@media only screen and (min-width: 680px) {
-	.col-1 {width: 8.33%;}
-	.col-2 {width: 16.66%;}
-	.col-3 {width: 25%;}
-	.col-4 {width: 33.33%;}
-	.col-5 {width: 41.66%;}
-	.col-6 {width: 50%;}
-	.col-7 {width: 58.33%;}
-	.col-8 {width: 66.66%;}
-	.col-9 {width: 75%;}
-	.col-10 {width: 83.33%;}
-	.col-11 {width: 91.66%;}
-	.col-12 {width: 100%;}
-}
-
-/*Mobile*/
-@media only screen and (max-width: 680px) {
-	.col-1 {width: 8.33%;}
-	.col-2 {width: 16.66%;}
-	.col-3 {width: 25%;}
-	.col-4 {width: 33.33%;}
-	.col-5 {width: 41.66%;}
-	.col-6 {width: 50%;}
-	.col-7 {width: 58.33%;}
-	.col-8 {width: 66.66%;}
-	.col-9 {width: 75%;}
-	.col-10 {width: 83.33%;}
-	.col-11 {width: 91.66%;}
-	.col-12 {width: 100%;}
-
-	.search {
-		width:100%;
-	}
-
-	.navbar, .sides{
-		display:none;
-	}
-
-}
-
 .navbar {
-	background-color:grey;
-	position:sticky;
-	height:60px;
-	padding:20px;
+    background-color:grey;
+    position:sticky;
+    height:60px;
+    padding:20px;
 }
 
 .search {
-	background-color:grey;
-	position:sticky;
-	height:60px;
-	padding:20px;
+    background-color:grey;
+    position:sticky;
+    height:60px;
+    padding:20px;
 }
 
 ul {
-	list-style-type: none;
-	background-color: grey;
-	text-align:center;
+    list-style-type: none;
+    background-color: grey;
+    text-align:center;
 }
 
 li {
-	display: inline-block;
-	background-color:white;
-	margin:0 2%;
+    display: inline-block;
+    background-color:white;
+    margin:0 2%;
 }
 
 .dropdown {
-	float:right;
+    float:right;
 }
 
 .dropdown-content a {
-	display: block;
-	background-color:orange;
-	text-align: left;
+    display: block;
+    background-color:red;
+    text-align: left;
 }
 
 .dropdown-content {
-	display:none;
-	position:absolute;
+    display:none;
+    position:absolute;
 }
 
 .dropdown:hover .dropdown-content {
-	display:block;
+    display:block;
 }
 
 input[type=search]{
-	width: 20px;
-	box-sizing: border-box;
-	border:none;
-	font-size: 16px;
-	background-color: white;
-	background-image: url('searchicon.png');
-	background-position: 10px 10px; 
-	background-repeat: no-repeat;
-	
-	-webkit-transition: width 0.4s ease-in-out;
-	transition: scale(x) 0.4s ease-in-out;
-
+    width: 20px;
+    box-sizing: border-box;
+    border:none;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: scale(x) 0.4s ease-in-out;
+    
 }
 
 input[type=search]:focus {
-	width:120px;
-  }
+    width:120px;
+}
 
