@@ -83,10 +83,15 @@
     
 }
 
-.webpage{
+.webpage {
     max-width:1200px;
     margin-left:auto;
     margin-right:auto;
+}
+
+.empty {
+    padding:0.1em;
+    visibility:hidden;
 }
 
 @font-face { /* Created by Nils Cordes http://nilscordes.com */
