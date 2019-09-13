@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no>
 		<link rel="stylesheet" type="text/css" href="../resources/css/layout.css">
       <link rel="stylesheet" type="text/css" href="../resources/css/header.css">
+      <link rel="stylesheet" type="text/css" href="../resources/css/footer.css">
       <script>
          function changeText(orignialText, outPutText) {
             document.getElementById(outPutText).innerHTML = //Sets the id content to the one below
@@ -13,26 +14,30 @@
             }
       </script>
       <style>
-         a:link {
+         a:link.searchContent {
             text-decoration: none;
+         }
+         h4.searchContent {
+            margin-left: 1em;
+            margin-top: 0.5em;
          }
 
          .searchContent0 {
-            
             margin: 1em 0px;
+            margin-left: 2em;
+            margin-right: 2em;
+            padding: 0.2em;
             color: white;
             background-color: gray;
          }
 
          .searchContent1 {
-            
             margin: 1em 0px;
+            margin-left: 2em;
+            margin-right: 2em;
+            padding: 0.2em;
             color: black;
             background-color: darkgray;
-         }
-
-         .crap{
-            background-color: white;
          }
       </style>
    </head>
@@ -53,17 +58,17 @@
 <!-----------------------------CONTENT------------------------------>					
 				
 				<div class="row">
-               <div class="col-1">
+               <div class="col-1 empty">
                </div>
                <div class="col-10">
 					   <h1>Search Result</h1>
                </div>
-               <div class="col-1">
+               <div class="col-1 empty">
                </div>
             </div>
 
             <div class='row'>
-               <div class="col-1">
+               <div class="col-1 empty">
                </div>
 
                <div class="col-10 searchContent">
@@ -108,7 +113,7 @@
                   $results = 0;
 
                   //echo "<p>Following results for: $visabletext</p>";
-                  echo "<h4 id=final style='margin-left: 1em; margin-top: 0.5em;'></h4>";//Information is shown here is there are results
+                  echo "<h4 id=final class='searchContent'></h4>";//Information is shown here that is the results
 
                   $sql =  "SELECT orangewolves.bus.busName, orangewolves.bus.description
                            FROM orangewolves.bus 
@@ -119,7 +124,7 @@
                   while ($line_array = mysqli_fetch_array($result))
                   {
                      $endlink = str_replace(' ', '-', $line_array[0]);
-                     echo  "<a href=\"../buses/$endlink\"><div class='searchContent$count' style='margin-left: 2em;'>";
+                     echo  "<a href=\"../buses/$endlink\" class='searchContent'><div class='searchContent$count'>";
                      echo        "<h3>".stringWordBold($line_array[0],$searchtext)."</h3>";//Title
                      $text = $line_array[1];//Descriptions
                      $text = formatShownString($text, $searchtext, $textlength);
@@ -141,7 +146,7 @@
                   while ($line_array = mysqli_fetch_array($result))
                   {
                      $endlink = str_replace(' ', '-', $line_array[0]);
-                     echo "<a href=\"../event-info\"><div class='searchContent$count' style='margin-left: 2em;'>";
+                     echo "<a href=\"../event-info\" class='searchContent'><div class='searchContent$count'>";
                      echo "<h3>".stringWordBold($line_array[0],$searchtext)."</h3>";//Title
                      $text = $line_array[1];//Descriptions
                      $text = formatShownString($text, $searchtext, $textlength);
@@ -164,7 +169,7 @@
                   while ($line_array = mysqli_fetch_array($result))
                   {
                      $endlink = str_replace(' ', '-', $line_array[0]);
-                     echo "<a href=\"../teams/$endlink\"><div class='searchContent$count' style='margin-left: 2em;'>";
+                     echo "<a href=\"../teams/$endlink\" class='searchContent'><div class='searchContent$count'>";
                      echo "<h3>".stringWordBold($line_array[0],$searchtext)."</h3>";//Title
                      $text = $line_array[1];//Descriptions
                      $text = formatShownString($text, $searchtext, $textlength);
@@ -190,7 +195,7 @@
                   while ($line_array = mysqli_fetch_array($result))
                   {
                      $endlink = str_replace(' ', '-', $line_array[0]);
-                     echo "<a href=\"../buses/$endlink\"><div class='searchContent$count' style='margin-left: 2em;'>";
+                     echo "<a href=\"../buses/$endlink\" class='searchContent'><div class='searchContent$count'>";
                      echo "<h3>".stringWordBold($line_array[0],$searchtext)."</h3>";//Title
                      $text = $line_array[1];//Descriptions
                      $text = formatShownString($text, $searchtext, $textlength);
@@ -212,7 +217,7 @@
                   while ($line_array = mysqli_fetch_array($result))
                   {
                      $endlink = str_replace(' ', '-', $line_array[1]);
-                     echo "<a href=\"../event-info\"><div class='searchContent$count' style='margin-left: 2em;'>";
+                     echo "<a href=\"../event-info\" class='searchContent'><div class='searchContent$count'>";
                      echo "<h3>".stringWordBold($line_array[0],$searchtext)."</h3>";//Title
                      $text = $line_array[1];//Descriptions
                      $text = formatShownString($text, $searchtext, $textlength);
@@ -235,7 +240,7 @@
                   while ($line_array = mysqli_fetch_array($result))
                   {
                      $endlink = str_replace(' ', '-', $line_array[0]);
-                     echo "<a href=\"../teams/$endlink\"><div class='searchContent$count' style='margin-left: 2em;'>";
+                     echo "<a href=\"../teams/$endlink\" class='searchContent'><div class='searchContent$count'>";
                      echo "<h3>".stringWordBold($line_array[0],$searchtext)."</h3>";//Title
                      $text = $line_array[1];//Descriptions
                      $text = formatShownString($text, $searchtext, $textlength);
