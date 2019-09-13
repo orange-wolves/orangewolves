@@ -17,6 +17,11 @@
          a:link.searchContent {
             text-decoration: none;
          }
+
+         .searchContent {
+            color: #2699fb;
+         }
+
          h4.searchContent {
             margin-left: 1em;
             margin-top: 0.5em;
@@ -27,8 +32,9 @@
             margin-left: 2em;
             margin-right: 2em;
             padding: 0.2em;
-            color: white;
-            background-color: gray;
+            color: #ffffff;
+            background-color: #7fc4fd;
+            border-radius: 5px;
          }
 
          .searchContent1 {
@@ -36,8 +42,9 @@
             margin-left: 2em;
             margin-right: 2em;
             padding: 0.2em;
-            color: black;
-            background-color: darkgray;
+            color: #2699fb;
+            background-color: #f1f8fe;
+            border-radius: 5px;
          }
       </style>
    </head>
@@ -61,7 +68,7 @@
                <div class="col-1 empty">
                </div>
                <div class="col-10">
-					   <h1>Search Result</h1>
+					   <h1 class='searchContent'>Search Result</h1>
                </div>
                <div class="col-1 empty">
                </div>
