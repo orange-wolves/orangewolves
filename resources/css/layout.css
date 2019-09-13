@@ -12,8 +12,6 @@
 
 [class*="col-"] {
     float:left;
-    
-
 }
 
 /*Large Screens*/
@@ -67,12 +65,16 @@
         width:100%;
     }
 
-    .search {
-        width:55%;
+    .searchbar {
+        width:40%;
     }
 
     .mobilenav {
-        width:15%;
+        width:20%;
+    }
+
+    .icon{
+        width:40%
     }
     
     .navbar{
@@ -81,11 +83,6 @@
 
     .whitespace{display:none;}
     .topbar{width:50%;}
-    
-    
-    .icon{
-        width:30%
-    }
     
 }
 
@@ -112,12 +109,17 @@
 }
 
 h1 {
-    font-family: cardenio,sans-serif;
+    font-family: serif;
     font-weight: bold; 
     font-size: 30pt;
 }
 
 a {
     font-family: sans-serif;
+    font-size: 10pt;
+}
+
+body {
+    font-family: arial, sans-serif;
     font-size: 10pt;
 }
