@@ -7,46 +7,13 @@
 		<link rel="stylesheet" type="text/css" href="../resources/css/layout.css">
       <link rel="stylesheet" type="text/css" href="../resources/css/header.css">
       <link rel="stylesheet" type="text/css" href="../resources/css/footer.css">
+      <link rel="stylesheet" type="text/css" href="../resources/css/search.css">
       <script>
          function changeText(orignialText, outPutText) {
             document.getElementById(outPutText).innerHTML = //Sets the id content to the one below
             document.getElementById(orignialText).textContent;
             }
       </script>
-      <style>
-         a:link.searchContent {
-            text-decoration: none;
-         }
-
-         .searchContent {
-            color: #2699fb;
-         }
-
-         h4.searchContent {
-            margin-left: 1em;
-            margin-top: 0.5em;
-         }
-
-         .searchContent0 {
-            margin: 1em 0px;
-            margin-left: 2em;
-            margin-right: 2em;
-            padding: 0.2em;
-            color: #ffffff;
-            background-color: #7fc4fd;
-            border-radius: 5px;
-         }
-
-         .searchContent1 {
-            margin: 1em 0px;
-            margin-left: 2em;
-            margin-right: 2em;
-            padding: 0.2em;
-            color: #2699fb;
-            background-color: #f1f8fe;
-            border-radius: 5px;
-         }
-      </style>
    </head>
    
 		
