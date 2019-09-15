@@ -72,7 +72,7 @@
                             </div></a>
                         </div>
                     </div>
-                </div>
+                </div><!--End Row-->
                 <div class="row">
                     <div class="col-6">
                         <div class="row busPortal" style='height: 14em;'>
