@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 	</head>
 
   	<body>
@@ -12,7 +12,7 @@
 						<a href="/orangewolves">Orange Wolves</a>
 					</div>
 
-					<div class="navbar col-6">
+					<div class="navbar col-7">
 						<ul>
 							<li><a href="/orangewolves/event-info">Event Info</a></li>
 							<li><a href="/orangewolves/schedule">Schedule</a></li>
@@ -21,16 +21,16 @@
 						</ul>
 					</div>
 
-					<div class="searchbar col-2">
+					<div class="searchbar col-1">
 						<form class="dropdown" name="search" action="/orangewolves/search/index.php" method="GET">
-							<input type="search" name="searchtext" placeholder="Search" pattern=".*\S.*" minlength=3 required>
+							<input type="search" name="searchtext" placeholder="search" pattern=".*\S.*" minlength=3 autocomplete="off" required>
 						</form>
 					</div>
 
 					<div class="mobilenav col-1">
 						<ul>
-							<li class="dropdown">
-								<a href="" class="dropbtn">Drop</a>
+							<div class="dropdown">
+								<a class="dropbtn fa fa-bars"></a>
 								<div class="dropdown-content">
 									<a href="/orangewolves/schedule">Schedule</a>
 									<a href="/orangewolves/buses">Buses</a>
@@ -39,7 +39,7 @@
 									<a href="/orangewolves/sponsors">Sponsors</a>
 									<a href="/orangewolves/contact-us">Contact Us</a>
 								</div>
-							</li>
+							</div>
 						</ul>
 					</div>
 
