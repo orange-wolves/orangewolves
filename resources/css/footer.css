@@ -1,21 +1,13 @@
 
-
 /*Mobile*/
 @media only screen and (max-width: 768px) {
     
-    [class*="col-"] {
-        width:100%;
-        float:left;
-    }
-
-  
     .topbar{
         width:100%;
         text-align: center;
     }
 
     .footerLeft{width:50%;}
-
 }
 
 .topbar{
