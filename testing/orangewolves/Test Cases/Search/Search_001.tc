@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check response on entering valid input</description>
+   <name>Search_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9b1975b-3b91-4f71-856f-6aeeef2e57f3</testCaseGuid>
+</TestCaseEntity>
