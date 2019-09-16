@@ -16,7 +16,7 @@
 }
 
 /*Large Screens*/
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
     .col-3 {width: 25%;}
@@ -32,7 +32,7 @@
 }
 
 /*Desktop*/
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
     .col-3 {width: 25%;}
@@ -76,14 +76,13 @@
     }
 
     .footerLeft{width:50%;}
-    
 
     .empty{display:none;}
 
 }
 
 .webpage {
-    max-width:1200px;
+    max-width:1000px;
     margin-left:auto;
     margin-right:auto;
 }
