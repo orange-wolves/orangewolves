@@ -17,7 +17,6 @@ div.busPortal{
     background-color: #7fc4fd;
 }
 
-
 .busDescription {
     padding-top: 1px;
     position: absolute;
@@ -29,9 +28,8 @@ div.busPortal{
 }
 
 .busLink{
-    height: 18em;
+    height: 20em;
     position: relative;
-    min-height: 150px;
 }
 
 .busImage{
@@ -41,7 +39,7 @@ div.busPortal{
     /*background: darkcyan;*/
 }
 
-.description{height: 36em;}
+.Orangedescription{height: 33.4em;}
 
 @media only screen and (max-width: 768px) {
     .busLink{
@@ -65,7 +63,7 @@ div.busPortal{
         height: 100%;
     }
 
-    .description{height: 14em;}
+    .Orangedescription{height: 14em;}
 
 
 }

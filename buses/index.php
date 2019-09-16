@@ -14,7 +14,7 @@
 
 <!-----------------------------HEADER------------------------------>
 				
-				<div class="row">
+				<div class="row content">
 					<header>
 						<?php include("../resources/layout/header.html"); ?>
 					</header>
@@ -22,8 +22,8 @@
 
 <!-----------------------------CONTENT------------------------------>					
 				
-                <div class="row content">
-					<div class="col-3 busPortal description">
+                <div class="row">
+					<div class="col-3 busPortal Orangedescription">
 						<p>Orange Wolves</p>
                     </div>
                     <div class="col-9">
