@@ -23,7 +23,7 @@
 <!-----------------------------CONTENT------------------------------>					
 				
                 <div class="row content">
-					<div class="col-3 busPortal description">
+					<div class="col-3 busPortal Orangedescription">
 						<p>Orange Wolves</p>
                     </div>
                     <div class="col-9">
