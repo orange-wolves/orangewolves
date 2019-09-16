@@ -1,58 +1,53 @@
 <!DOCTYPE html>
 <html>
-<header>
-    <h1>Schedule</h1>
-</header>
+<head>
+<style>
+tr:hover {background-color: #f5f5f5;}
+</style>
+   <title>Schedule></title>
+	<link rel="stylesheet" href="schedule.css" type="text/css" />
+</head>
 <body>
+<h1>Schedule</h1>
 
-
-    <?php include("resources/layout/header.html"); ?>
+    <?php// include("resources/layout/header.html"); ?>
 
 	
-    // Demo list created by Ibrahim and Asim. still being worked on.
+  
     <?php
 	 date_default_timezone_set('Australia/Canberra');
-	$today=date('y/m/d');
+	$today=date('Y-m-d');
 	
-	echo "$today";
+	
         require '/resources/php/dbConnectOrangeWolves.php';
         $sql= "SELECT * FROM events";
         $result = mysqli_query($conn, $sql) or die("Error Events information - ".mysqli_error($conn));
       
-	 /*
-	 Old code will delete later.
-	 while($row = mysqli_fetch_array($result)){
-            $eventName = $row["name"];
-            $description = $row["description"];
-            $date = $row["date"];
-            $teamID = $row["teamID"];
-            $busID = $row["busID"];
-            echo "<h2>$eventName</h2>";
-            echo "<h3>$date</h3>";
-            echo "<p>$description</p><br><br>";
-     
+		  ?><p>Today date is  <?=$today?> </p> <?php
+	  
+	
 
-	 }  */
-	 
   echo "<table border=1>";
-           echo "<tr><td> Day 1</td><td>Description</tr>";
+           echo "<tr><th> Day 1</th><th>Description</th></tr>";
            
 		   while ($row = mysqli_fetch_array($result))
            {
 			  
 			  if ($row['date'] =="2019-11-15") 
 			  {
-				if($today==$row['date'])
+				if($today=="2019-09-16")
 				{
                echo "<tr>";
-				?><td bgcolor="#FFA500"> <?php echo"$row[date] $row[name]</td>";
+				?><td bgcolor="#00FF00"> <?php echo"$row[date] $row[name]</td>";
+				?><td bgcolor="#00FF00"> <?php echo"$row[description]</td>";
 				}
 				elseif($today==$today)
 				{
 				echo "<tr>";
 				echo "<td>$row[date] $row[name]</td>";
+				
+			     echo "<td >$row[description]</td>";
 				}
-			   echo "<td >$row[description]</td>";
                echo "</tr>";
 				
 				
@@ -74,7 +69,7 @@
 		    $result = mysqli_query($conn, $sql) or die("Error Events information - ".mysqli_error($conn));
 		  
 		  echo "<table border=1>";
-           echo "<tr><td>Day 2</td><td>Description</tr>";
+           echo "<tr><th>Day 2</th><th>Description</th></tr>";
            
 		   while ($row = mysqli_fetch_array($result))
            {
@@ -85,23 +80,21 @@
 				  if($today==$row['date'])
 				{
                echo "<tr>";
-				?><td bgcolor="#FFA500"> <?php echo"$row[date] $row[name]</td>";
+					?><td bgcolor="#00FF00"> <?php echo"$row[date] $row[name]</td>";
+					?><td bgcolor="#00FF00"> <?php echo"$row[description]</td>";
 				}
 				elseif($today==$today)
 				{
 				echo "<tr>";
 				echo "<td>$row[date] $row[name]</td>";
-				}
+				
 			   echo "<td >$row[description]</td>";
+				}
                echo "</tr>";
 				  
 				  
 				  
-              /*  old code will delete later
-			  echo "<tr>"; 
-              ?><td bgcolor="#FFA500"> <?php echo"$row[date] $row[name]</td>";
-			   echo "<td >$row[description]</td>";
-               echo "</tr>";*/
+              
 			  }
 			  
            } 
@@ -112,7 +105,7 @@
 		   
 		    $result = mysqli_query($conn, $sql) or die("Error Events information - ".mysqli_error($conn));
 		   echo "<table border=1>";
-           echo "<tr><td>Day 3</td><td>Description</tr>";
+           echo "<tr><th>Day 3</th><th>Description</th></tr>";
            
 		   while ($row = mysqli_fetch_array($result))
            {
@@ -123,22 +116,20 @@
                if($today==$row['date'])
 				{
                echo "<tr>";
-				?><td bgcolor="#FFA500"> <?php echo"$row[date] $row[name]</td>";
+				?><td bgcolor="#00FF00"> <?php echo"$row[date] $row[name]</td>";
+				?><td bgcolor="#00FF00"> <?php echo"$row[description]</td>";
 				}
 				elseif($today==$today)
 				{
 				echo "<tr>";
 				echo "<td>$row[date] $row[name]</td>";
-				}
+				
 			   echo "<td >$row[description]</td>";
+				}
                echo "</tr>";
 			   
 			   
-			   /*  old code will delete later
-			  echo "<tr>"; 
-              ?><td bgcolor="#FFA500"> <?php echo"$row[date] $row[name]</td>";
-			   echo "<td >$row[description]</td>";
-               echo "</tr>";*/
+			 
 			   
 			  }
 			  
@@ -154,6 +145,6 @@
     
 </body>
 
-<?php include("resources/layout/footer.html"); ?>
+<?php //include("resources/layout/footer.html"); ?>
 
 </html>
