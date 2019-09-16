@@ -23,7 +23,7 @@
 
 <!-----------------------------CONTENT------------------------------>					
 				
-				<div class="row">
+				<div class="row content">
 					<h1>Homepage</h1>
 
 
