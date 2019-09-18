@@ -39,7 +39,30 @@ div.busPortal{
     /*background: darkcyan;*/
 }
 
+.cols-container {
+    display: flex;
+    width: 100%;
+  }
+  .cols {
+    flex: 1;
+    padding: 16px;
+  }
+
 .Orangedescription{height: 33.4em;}
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+}
+
+.flex-container > div {
+    margin: 0px;
+}
+
+.flex-center {
+        display: flex;
+        align-items: center;
+}
 
 @media only screen and (max-width: 768px) {
     .busLink{
@@ -64,6 +87,11 @@ div.busPortal{
     }
 
     .Orangedescription{height: 14em;}
+
+    .flex-container {
+        display: table;
+        align-items: stretch;
+    }
 
 
 }

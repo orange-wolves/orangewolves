@@ -7,6 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="../resources/css/layout.css">
 		<link rel="stylesheet" type="text/css" href="../resources/css/header.css">
 		<link rel="stylesheet" type="text/css" href="../resources/css/footer.css">
+
 	</head>
 	<body>
 		<div class="webpage">	
@@ -57,44 +58,28 @@
                         </div>
                     </div>
                 </div><!--End Row-->
-                <div class="row">
-                    <div class="col-6">
-                        <div class="row busPortal" style='height: 14em;'>
-                            <p>Video</p></p>
-                        </div>
-                        <div>
-                            <div class="busPortal" style='height: 5.5em; width: 33%; float: left'>
-                                <p>Video 1</p></p>
-                            </div>
-                            <div class="busPortal" style='height: 5.5em; width: 34%; float: left'>
-                                <p>Video 2</p></p>
-                            </div>
-                            <div class="busPortal" style='height: 5.5em; width: 33%; float: left'>
-                                <p>Video 3</p></p>
-                            </div>
-                        </div>
+                <div class="row flex-container">
+                    <div class="col-6"  style="flex-grow: 1; border: .3em solid white;">
+						<?php include("../resources/videos/videoSlider.html"); ?>
                     </div>
 
-					<div class="col-6 busText" style="display: table; height: 19.5em; #position: relative; overflow: hidden;">
-						<div style=" #position: absolute; #top: 50%;display: table-cell; vertical-align: middle;">
-						<div  style=" #position: relative; #top: -50%">
-						<h3>Duis pharetra sit.</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a luctus enim. Proin aliquam ante et leo gravida vestibulum. Mauris sit amet dui vel nunc ullamcorper condimentum. Curabitur placerat sem vel magna imperdiet tempus. Pellentesque at dapibus justo. Vestibulum ullamcorper aliquet mollis. Phasellus vitae laoreet est. Morbi ut dolor iaculis, rutrum libero vitae, tristique mauris. Vestibulum eleifend sem a odio aliquet, id tempus felis tincidunt. Mauris ultricies, arcu nec consectetur feugiat, nunc metus feugiat diam, in dignissim turpis nisl et magna.</p>
-						</div>
+					<div class="col-6 busText flex-center" style="flex-grow: 1;">
+						<div>
+							<h3>Duis pharetra sit.</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a luctus enim. Proin aliquam ante et leo gravida vestibulum. Mauris sit amet dui vel nunc ullamcorper condimentum. Curabitur placerat sem vel magna imperdiet tempus. Pellentesque at dapibus justo. Vestibulum ullamcorper aliquet mollis. Phasellus vitae laoreet est. Morbi ut dolor iaculis, rutrum libero vitae, tristique mauris. Vestibulum eleifend sem a odio aliquet, id tempus felis tincidunt. Mauris ultricies, arcu nec consectetur feugiat, nunc metus feugiat diam, in dignissim turpis nisl et magna.</p>	
 						</div>
 					</div>
-                </div>
+				</div>
 			    
 
 <!-----------------------------FOOTER------------------------------>
 				
 				<div class="row">
 					<footer>
-						<?php include("../resources/layout/footer.html"); ?>
+						<?php include("../resources/layout/footer.html"); 
+						?>
 					</footer>
 				</div>
-
-
 			</div>
 		</div>
 	</body>
