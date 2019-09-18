@@ -23,7 +23,7 @@
 
 <!-----------------------------HEADER------------------------------>
 				
-				<div class="row">
+				<div class="row content">
 					<header>
 						<?php include("../resources/layout/header.html"); ?>
 					</header>
@@ -33,6 +33,7 @@
 				
 				<div class="row">
                <div class="col-1 empty">
+                  <p>word</p>
                </div>
                <div class="col-10">
 					   <h1 class='searchContent'>Search Result</h1>
