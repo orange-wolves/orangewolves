@@ -4,6 +4,7 @@
 		width:1000px;
 	}
 }
+
 /*Mobile*/
 @media only screen and (max-width: 768px) {
 	.searchbar {
@@ -30,6 +31,7 @@
 	top:0;
 	background-color:#2699fb;
 	height:5em;
+	z-index:100;
 }
 .nav ul {
     list-style-type: none;

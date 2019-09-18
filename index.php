@@ -15,7 +15,7 @@
 
 <!-----------------------------HEADER------------------------------>
 				
-				<div class="row">
+				<div class="row content">
 					<header>
 						<?php include("resources/layout/header.html"); ?>
 					</header>
@@ -23,7 +23,7 @@
 
 <!-----------------------------CONTENT------------------------------>					
 				
-				<div class="row content">
+				<div class="row">
 					<h1>Homepage</h1>
 
 

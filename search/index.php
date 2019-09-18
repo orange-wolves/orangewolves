@@ -74,7 +74,7 @@
                         return "...".substr($str, -$length);
                      }
                   }
-                  require '/../resources/php/dbConnectOrangeWolves.php';
+                  require '../resources/php/dbConnectOrangeWolves.php';
                   $visabletext = $_GET['searchtext'];//to be visable for the user
                   $visabletext = htmlspecialchars($visabletext);
                   $searchtext = trim(mysqli_real_escape_string($conn, $_GET['searchtext']));//data sanitation
