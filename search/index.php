@@ -32,21 +32,15 @@
 <!-----------------------------CONTENT------------------------------>					
 				
 				<div class="row">
-               <div class="col-1 empty">
-                  <p>word</p>
-               </div>
-               <div class="col-10">
-					   <h1 class='searchContent'>Search Result</h1>
-               </div>
-               <div class="col-1 empty">
-               </div>
+               
+					   <h1 class='searchContent' id='searchhead'>Search Result</h1>
+               
             </div>
 
             <div class='row'>
-               <div class="col-1 empty">
-               </div>
+               
 
-               <div class="col-10 searchContent">
+               <div class="col-12 searchContent">
                   <?php
                   function stringWordBold($str,$word)
                   {
@@ -88,7 +82,7 @@
                   $results = 0;
 
                   //echo "<p>Following results for: $visabletext</p>";
-                  echo "<h4 id=final class='searchContent'></h4>";//Information is shown here that is the results
+                  echo "<h4 id='final' class='searchContent'></h4>";//Information is shown here that is the results
 
                   $sql =  "SELECT orangewolves.bus.busName, orangewolves.bus.description
                            FROM orangewolves.bus 
@@ -229,7 +223,7 @@
                   }
 
                   if($results > 0){
-                     echo "<h4 id=TotalResults style='margin-left: 1em; margin-bottom: 0.5em;'>There are $results results for: $visabletext</h4>";
+                     echo "<h4 id=TotalResults class='searchContent' style='margin-bottom: 0.5em'>There are $results results for: $visabletext</h4>";
                   }
                   else
                      echo "<br><h4 style='margin-left: 1em; margin-bottom: 0.5em;'>There are no results</h4><br>";
@@ -237,6 +231,7 @@
                   //echo "<p>End results for: $visabletext</p>";
                   ?>
                </div>
+
                
                <script>
                   var orignialText = "TotalResults";

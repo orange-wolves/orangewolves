@@ -8,8 +8,18 @@ a:link.searchContent {
 
  h4.searchContent {
     margin-left: 1em;
+    margin-right: 1em;
     margin-top: 0.5em;
+    padding: 0.2em;
+    background-color: #4aabff;
+    color:white;
  }
+
+ h1.searchContent {
+   margin-left: 0.2em;
+   margin-right: 1em;
+   margin-top: 0.5em;
+}
 
  .searchContent0 {
     margin: 0.5em 0px;
@@ -17,7 +27,7 @@ a:link.searchContent {
     margin-right: 2em;
     padding: 0.2em;
     color: #ffffff;
-    background-color: #7fc4fd;
+    background-color: #bce0ff;
  }
 
  .searchContent1 {
@@ -28,3 +38,21 @@ a:link.searchContent {
     color: #2699fb;
     background-color: #f1f8fe;
  }
+
+ @media only screen and (max-width: 768px) {
+   #searchhead{
+      text-align: center;
+   }
+
+   #TotalResults{
+      text-align: center;
+   }
+   #final{
+      text-align: center;
+   }
+   h1.searchContent {
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 0px;
+   }
+}
