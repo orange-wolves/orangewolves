@@ -2,6 +2,26 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+		<script>
+			function dropdown() {
+				document.getElementById("dropdown").classList.toggle("show");
+			}
+			window.onclick = function(event){
+				if (!event.target.matches('.dropbtn')){
+					var dropdowns = document.getElementsByClassName("dropdown-content");
+					var i;
+
+					for (i = 0; i <dropdowns.length; i++){
+						var openDropdown = dropdowns[i];
+
+						if (openDropdown.classList.contains('show')){
+							openDropdown.classList.remove('show');
+						}
+					}
+				}
+			}
+		</script>
 	</head>
 
   	<body>
@@ -28,62 +48,21 @@
 					</div>
 
 					<div class="mobilenav col-1">
-						
-							<div class="row">
-
+						<ul>
 							<div class="dropdown">
-								<a id="btnicon" onclick="myFunction()" class="dropbtn fa fa-bars"></a>
-								
-									<div id="myDropdown" class="dropcontent">
-										<ul id="dropdown">
-										<a href="/orangewolves/schedule"><li>Schedule</li></a>
-										<a href="/orangewolves/buses"><li>Buses</li></a>
-										<a href="/orangewolves/teams"><li>Teams</li></a>
-										<a href="/orangewolves/event-info"><li>Event Info</li></a>
-										<a href="/orangewolves/sponsors"><li>Sponsors</li></a>
-										<a href="/orangewolves/contact-us"><li>Contact Us</li></a>
-										</ul>
-									</div>
+								<a onclick="dropdown()" class="dropbtn fa fa-bars"></a>
+								<div id="dropdown" class="dropdown-content">
+									<a href="/orangewolves/schedule">Schedule</a>
+									<a href="/orangewolves/buses">Buses</a>
+									<a href="/orangewolves/teams">Teams</a>
+									<a href="/orangewolves/event-info">Event Info</a>
+									<a href="/orangewolves/sponsors">Sponsors</a>
+									<a href="/orangewolves/contact-us">Contact Us</a>
+								</div>
 							</div>
-
-							</div>
-							
-								
-					</div>
-						
-					</div>
-
+						</ul>
+					</div>	
 				</div>
-				
-			
-
-			
-			<script>
-
-                //rays test               
-				function myFunction() {
-					document.getElementById("myDropdown").classList.toggle("show");
-				}
-
-				window.onclick = function(event) {
-					if (!event.target.matches('.dropbtn')) {
-						var dropdowns = document.getElementsByClassName("dropcontent");
-						var i;
-						for (i = 0; i < dropdowns.length; i++) {
-							var openDropdown = dropdowns[i];
-							if (openDropdown.classList.contains('show')) {
-								openDropdown.classList.remove('show');
-							}
-						}
-					}
-				}
-
-
-
-				</script>	
-
-
-
-
+			</div>
   	</body>
 </html>
