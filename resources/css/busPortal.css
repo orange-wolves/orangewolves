@@ -1,9 +1,4 @@
-.busPortal{
-    color: #2699fb;
-    background-color: #f1f8fe;
-    text-align: center;
-    vertical-align:bottom;
-}
+
 
 div.busPortal{
     border: .3em solid white;
@@ -20,6 +15,7 @@ div.busPortal{
 .busDescription {
     padding-top: 1px;
     position: absolute;
+    text-align: center;
     bottom: 0;
     left: 0;
     overflow: hidden;
@@ -30,6 +26,7 @@ div.busPortal{
 .busLink{
     height: 20em;
     position: relative;
+    text-align: center;
 }
 
 .ImageContainer{
@@ -44,10 +41,10 @@ div.busPortal{
     display: flex;
     width: 100%;
   }
-  .cols {
+.cols {
     flex: 1;
     padding: 16px;
-  }
+}
 
 .Orangedescription{height: 33.4em;}
 
@@ -79,10 +76,11 @@ div.busPortal{
     .ImageContainer{
         float: left;
         width: 30%;
-        height: auto;
+        
     }
     .busImage{
         height: 100%;
+        width: 100%;
     }
 
     .busDescription {
