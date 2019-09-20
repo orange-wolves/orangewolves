@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-tr:hover {background-color: #f5f5f5;}
-</style>
-   <title>Schedule></title>
-	<link rel="stylesheet" href="schedule.css" type="text/css" />
-</head>
-<body>
-<h1>Schedule</h1>
 
-    <?php// include("resources/layout/header.html"); ?>
+	<head>
+		<title>Orange Wolves Homepage</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no>
+		<link rel="stylesheet" type="text/css" href="resources/css/layout.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/header.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/footer.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/schedule.css">
+	</head>
+		
+	<body>
+		<div class="webpage">	
+			<div class="pagecontent col-12">
 
-	
-  
+<!-----------------------------HEADER------------------------------>
+				
+				<div class="row content">
+					<header>
+						<?php include("resources/layout/header.html"); ?>
+					</header>
+				</div>
+
+<!-----------------------------CONTENT------------------------------>					
+				
+				<div class="row">
+									
+					  <h1>Schedule</h1>
     <?php
 	 date_default_timezone_set('Australia/Canberra');
 	$today=date('Y-m-d');
@@ -26,7 +39,7 @@ tr:hover {background-color: #f5f5f5;}
 		  ?><p>Today date is  <?=$today?> </p> <?php
 	  
 	
-
+	
   echo "<table border=1>";
            echo "<tr><th> Day 1</th><th>Description</th></tr>";
            
@@ -63,11 +76,13 @@ tr:hover {background-color: #f5f5f5;}
            } 
 		   
            echo "</table>";
-		   
+		  
+		  
 		   echo "<br></br>";
 		   
 		    $result = mysqli_query($conn, $sql) or die("Error Events information - ".mysqli_error($conn));
 		  
+	
 		  echo "<table border=1>";
            echo "<tr><th>Day 2</th><th>Description</th></tr>";
            
@@ -100,10 +115,12 @@ tr:hover {background-color: #f5f5f5;}
            } 
 		   
            echo "</table>";
-		   
+		 
 		    echo "<br></br>";
 		   
 		    $result = mysqli_query($conn, $sql) or die("Error Events information - ".mysqli_error($conn));
+			
+			
 		   echo "<table border=1>";
            echo "<tr><th>Day 3</th><th>Description</th></tr>";
            
@@ -138,13 +155,40 @@ tr:hover {background-color: #f5f5f5;}
 		   
            echo "</table>";
 		   
-		   
+		    echo "<br><br><h1>yep this works </h1>";
            mysqli_close($conn);
 		
     ?>
     
-</body>
+					
+					
+					
+					
 
-<?php //include("resources/layout/footer.html"); ?>
 
+				</div>
+
+<!-----------------------------FOOTER------------------------------>
+				
+				<div class="row">
+					<footer>
+						<?php include("resources/layout/footer.html"); ?>
+					</footer>
+				</div>
+
+
+			</div>
+		</div>
+	</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
