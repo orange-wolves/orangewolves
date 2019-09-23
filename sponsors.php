@@ -7,6 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="resources/css/layout.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/header.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/footer.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/pages.css">
 	</head>
 		
 	<body>
@@ -24,10 +25,47 @@
 <!-----------------------------CONTENT------------------------------>					
 				
 				<div class="row">
-					<h1>Sponsors</h1>
 
+					<div class="col-12 sponsor-heading">
+						<h1>Sponsors</h1>
+					</div>
 
+				</div>
 
+				<div class="row">
+					<div class="col-12 sponsor-container">
+						<div class="col-3 sponsor-img">
+							<img src="resources\images\img-200px.png">
+						</div>
+						<div class="col-3 sponsor-img">
+						<img src="resources\images\img-200px.png">
+						</div>
+						<div class="col-3 sponsor-img">
+						<img src="resources\images\img-200px.png">
+						</div>
+						<div class="col-3 sponsor-img">
+						<img src="resources\images\img-200px.png">
+						</div>
+					</div>
+					<div class="col-12 sponsor-container">
+						<div class="col-3 sponsor-img">
+							<img src="resources\images\img-200px.png">
+						</div>
+						<div class="col-3 sponsor-img">
+						<img src="resources\images\img-200px.png">
+						</div>
+						<div class="col-3 sponsor-img">
+						<img src="resources\images\img-200px.png">
+						</div>
+						<div class="col-3 sponsor-img">
+						<img src="resources\images\img-200px.png">
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<br>
+					<br>
 				</div>
 
 <!-----------------------------FOOTER------------------------------>

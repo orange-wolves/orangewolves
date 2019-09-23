@@ -1,0 +1,52 @@
+/*Large Screens*/
+@media only screen and (min-width: 1000px) {
+    .sponsor-container{
+    padding:0px 50px;
+    }
+}
+
+/*Desktop*/
+@media only screen and (max-width: 1000px) {
+    .sponsor-container{
+        padding:0px 50px;
+        }
+}
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+    .sponsor-img {
+        width:45%;
+        margin:0 2.5%;
+    }
+
+    .sponsor-container {
+        padding:0vw 10vw;
+    
+    }
+}
+
+.sponsor-heading {
+    color:#2699fb;
+    padding:10px;
+    padding-left:50px;
+    margin-bottom:10px;
+    background-color: white;
+}
+
+.sponsor-container {
+    background-color: white;
+    text-align:center;
+}
+
+.sponsor-img {
+    background-color: white;
+    margin-bottom:20px;
+    padding:0px 10px;
+}
+
+.sponsor-img img { /*border is removed once image is in place*/
+    max-width:100%;
+    height:auto;
+    background-color:#f1f8fe;
+    border:none;
+}
