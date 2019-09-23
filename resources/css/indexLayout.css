@@ -1,0 +1,84 @@
+/*holds all hero content*/
+.container-hero{
+    height: 250;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+/*position overlay over image*/
+.hero-overlay{
+    position: relative;
+    height: 250px;
+    background-color: #2699fb;
+    opacity: 0.5;
+}
+/*position text over image/overlay*/
+.hero-txt{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 70px;
+    color: blueviolet;
+    height: 150px;
+    color: #707070;
+}
+
+.hero-p-font{
+    font-family: verdana, sans-serif;
+    font-size: 8pt;
+}
+
+h2{
+    font-family: verdana, sans-serif;
+    font-size: 14pt;
+}
+
+.info-box-container{
+    height: 300px;
+ }
+
+.info-box-1-left{
+   height: 300px; 
+   margin-bottom: 5px;
+   width: 490px;
+   margin-left: 5px;
+   
+}
+
+.info-box-1-right{
+    height: 300px; 
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 490px; 
+ }
+
+.info-box-2-left{
+    height: 225px; 
+    margin-bottom: 5px;
+    margin-left: 5px;
+    width: 490px;
+ }
+
+ .info-box-2-right{
+    height: 225px; 
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 490px;
+ }
+
+ .feature-info{
+     background-color: #2699fb;
+ }
+
+ .small-info-box{
+    margin-top: 5px;
+    height: 300px;
+ }
+
+/*allows for a single tab spacing*/
+.tab-1{
+    display: inline-block; 
+    width: ONE-TAB-WIDTH;
+}
+
+.set-width{
+    width: 48.5%;
+}
