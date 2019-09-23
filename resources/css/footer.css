@@ -12,9 +12,9 @@
 
 .topbar{
 
-    margin-top:50px;
+    margin-top:2em;
     text-align: center;
-    padding:10px;
+    
     background-color:#2699fb;
 }
 
@@ -25,18 +25,20 @@
     text-align: center;
     background-color:#2699fb;
     color:#ffffff;
-    height:26px;
+    height:1.7em;
+    
     
 }
 
 .footerLeft{
 
     background-color:#2699fb;
-    height:150px;
+    height:8em;
     padding:10px;
         
     
 }
+
 
 
 .footerRight {
@@ -52,7 +54,7 @@
     position: relative;
     background-color:#2699fb;
     display:block;
-    height:150px;
+    height:8em;
     
    
 }
@@ -92,7 +94,7 @@
 
   }
 
- 
+
 
 
 
