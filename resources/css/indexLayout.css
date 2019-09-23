@@ -16,7 +16,6 @@
     position: absolute;
     margin-top: 30px;
     margin-left: 70px;
-    color: blueviolet;
     height: 150px;
     color: #707070;
 }
@@ -32,7 +31,12 @@ h2{
 }
 
 .info-box-container{
-    height: 300px;
+    height: fit-content;
+ }
+
+ .info-box-container-sml{
+    height: fit-content;
+    margin-left: 100px;
  }
 
 .info-box-1-left{
@@ -65,12 +69,33 @@ h2{
  }
 
  .feature-info{
-     background-color: #2699fb;
+     background-color:  #7fc4fd;
  }
 
  .small-info-box{
     margin-top: 5px;
-    height: 300px;
+    margin-bottom: 5px;
+    height: 250px;
+    margin-left: 10px;
+ }
+
+ .small-info-inner{
+    height: 50px;
+    position: relative;
+    background-color: #7fc4fd;
+    opacity: 0.5;
+ }
+
+ h3{
+     padding-top: 10px;
+     margin-left: 15px;
+     font-size: 6pt;
+ }
+
+ .para-small{
+    font-size: 6pt;
+    margin-left: 20px;
+    padding-top: 5px;
  }
 
 /*allows for a single tab spacing*/
@@ -86,3 +111,4 @@ h2{
 .box-color-index{
     background-color: #f1f8fe;
 }
+
