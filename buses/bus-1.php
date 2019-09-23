@@ -6,7 +6,7 @@
         <link rel="stylesheet" type="text/css" href="../resources/css/layout.css">
 		<link rel="stylesheet" type="text/css" href="../resources/css/header.css">
         <link rel="stylesheet" type="text/css" href="../resources/css/footer.css">
-        <link rel="stylesheet" type="text/css" href="../resources/css/content.css">
+        <link rel="stylesheet" type="text/css" href="../resources/css/bus1.css">
     </head>
 
     <body>
@@ -78,7 +78,7 @@
                     <header>
                         <?php include("../resources/layout/footer.html"); ?>
                     </header>
-d            </div>
+            </div>
         </div>
     </body>
 </html>
