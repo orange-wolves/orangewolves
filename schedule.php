@@ -24,10 +24,262 @@
 
 <!-----------------------------CONTENT------------------------------>					
 				
-				<div class="row">
-									
-					  <h1>Schedule</h1>
+<div class="row">
+					
+
+	<div class="row">
+	
+	
+	
+		<div class="col-12">
+			
+			<?php
+	
+	
+			 date_default_timezone_set('Australia/Canberra');
+			$today=date('Y-m-d');
+			
+	
+			require '/resources/php/dbConnectOrangeWolves.php';
+			$sql= "SELECT * FROM events";
+			$result = mysqli_query($conn, $sql) or die("Error Events information - ".mysqli_error($conn));
+			?>
+		
+		
+			<?php
+				if($today=='2019-11-17'||$today=='2019-11-15'||$today=='2019-11-16')
+				{
+					{echo"<h1>Schedule</h1>";}
+					
+					
+					
+				}
+			
+			
+				else
+				{
+					echo"<h1>Event Starts</h1>";
+					echo"<h1>15-17 November </h1>";
+				}
+			
+				?>
+								
+		</div>
+	</div>
+
+	
+	<div class="row"> <!---- day one container ----->
+	
+			
+		
+		
+		
+		
+		<?php
+	
+	
+	 date_default_timezone_set('Australia/Canberra');
+	$today=date('Y-m-d');
+	 $time = date("G:i");
+	
+        require '/resources/php/dbConnectOrangeWolves.php';
+        $sql= "SELECT * FROM events";
+        $result = mysqli_query($conn, $sql) or die("Error Events information - ".mysqli_error($conn));
+		?>
+		
+		
+		<!--table 1---->
+		
+		
+		<div class="col-4"> 
+			<div class="row"> 
+				<div class="col-12"> <!---- day one div----->
+				<h1>Friday </h1>
+				
+				</div>
+				
+					<div class="row "> <!--- table rows with event and discrip--->
+						
+							
+							<?php
+							while ($row = mysqli_fetch_array($result))
+						   {
+							  
+							  if ($row['date'] =="2019-11-15") 
+								{
+								
+								echo"<div class='row'>";
+								echo"<div class='col-6'>";
+								 echo "$row[name]";
+								echo"</div>";
+								echo"<div class='col-6'>";
+								 echo "$row[description]";
+								echo"</div>";
+								
+								echo"</div>";
+								
+								}
+							  
+								
+							} ?>
+			
+		   
+		
+					</div>
+				
+			</div>
+				
+		</div>
+		
+			
+			
+			<?php
+	
+	
+	 date_default_timezone_set('Australia/Canberra');
+	$today=date('Y-m-d');
+	
+	
+        require '/resources/php/dbConnectOrangeWolves.php';
+        $sql= "SELECT * FROM events";
+        $result = mysqli_query($conn, $sql) or die("Error Events information - ".mysqli_error($conn));
+		?>
+			
+			<div class="col-4"> 
+			<div class="row"> 
+				<div class="col-12"> <!---- day one div----->
+				<h1>Saturday</h1>
+				
+				</div>
+				
+					<div class="row "> <!--- table rows with event and discrip--->
+						
+							
+							<?php
+							while ($row = mysqli_fetch_array($result))
+						   {
+							  
+							  if ($row['date'] =="2019-11-16") 
+								{
+								
+								echo"<div class='row'>";
+								echo"<div class='col-6'>";
+								 echo "$row[name]";
+								echo"</div>";
+								echo"<div class='col-6'>";
+								 echo "$row[description]";
+								echo"</div>";
+								
+								echo"</div>";
+								
+								}
+							  
+								
+							} ?>
+			
+		   
+		
+					</div>
+				
+			</div>
+				
+		</div>
+		
+		
+		<?php
+	
+	
+	 date_default_timezone_set('Australia/Canberra');
+	$today=date('Y-m-d');
+	
+	
+        require '/resources/php/dbConnectOrangeWolves.php';
+        $sql= "SELECT * FROM events";
+        $result = mysqli_query($conn, $sql) or die("Error Events information - ".mysqli_error($conn));
+		?>
+			
+			<div class="col-4"> 
+			<div class="row"> 
+				<div class="col-12"> <!---- day one div----->
+				<h1>Sunday</h1>
+				
+				</div>
+				
+					<div class="row "> <!--- table rows with event and discrip--->
+						
+							
+							<?php
+							while ($row = mysqli_fetch_array($result))
+						   {
+							  
+							  if ($row['date'] =="2019-11-17") 
+								{
+								
+								echo"<div class='row'>";
+								echo"<div class='col-6'>";
+								 echo "$row[name]";
+								echo"</div>";
+								echo"<div class='col-6'>";
+								 echo "$row[description]";
+								echo"</div>";
+								
+								echo"</div>";
+								
+								}
+							  
+								
+							} ?>
+			
+		   
+		
+					</div>
+				
+			</div>
+				
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</div>
+	
+
+	
+	
+	
+		
+	
+	
+	
+		
+	
+	
+					
+					
+
+
+
+
+
+
+
+
+
+
     <?php
+	
+	/*
 	 date_default_timezone_set('Australia/Canberra');
 	$today=date('Y-m-d');
 	
@@ -48,7 +300,7 @@
 			  
 			  if ($row['date'] =="2019-11-15") 
 			  {
-				if($today=="2019-09-16")
+				if($today=="2019-09-23")
 				{
                echo "<tr>";
 				?><td bgcolor="#00FF00"> <?php echo"$row[date] $row[name]</td>";
@@ -64,11 +316,11 @@
                echo "</tr>";
 				
 				
-				 /*  old code will delete later
+				   old code will delete later
 			  echo "<tr>"; 
               ?><td bgcolor="#FFA500"> <?php echo"$row[date] $row[name]</td>";
 			   echo "<td >$row[description]</td>";
-               echo "</tr>";*/
+               echo "</tr>";
 				
 				
 			  }
@@ -158,11 +410,11 @@
 		    echo "<br><br><h1>yep this works </h1>";
            mysqli_close($conn);
 		
-    ?>
+  
     
 					
-					
-					
+				*/	
+					  ?>
 					
 
 

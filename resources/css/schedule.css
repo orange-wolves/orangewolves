@@ -8,7 +8,7 @@ font-size: 300%;
 
 
 
-p {
+.tabletext {
 	
 	
 	font-size: 150%;
@@ -16,30 +16,6 @@ p {
     margin-right:15%;
 }
 
-table {
-	
-	
-	border-collapse: collapse;
-	margin-left:15%; 
-    margin-right:15%;
-	width: 70%;
-	height: 100%;
-		
-}
 
-th{
-	text-align:center;
-	width:10%;
-	
-	background-color: #FFA500;
-	color: white;
-	
-	
-}
-
-td{
-	text-align:center;
-	width:10px;
-	
-}
-
+.test{border: 1px solid blue;}
+div{border:1px solid black;}
