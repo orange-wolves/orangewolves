@@ -1,94 +1,58 @@
 
-/*Large Screens*/
-@media only screen and (min-width: 1000px) {
-   
-    .leftbar{
-    
-        height:600px;
-       
-         
-     }
 
-     .teamleft,.teamright{display:none;}
-
-     .team{
-
-        width:100%;
-        height:100px;
-    
-    }
-    .teamblock{overflow-y:auto;}
-
-}
-
-/*Desktop*/
-@media only screen and (max-width: 1000px) {
+/*
+#7fc4fd - Mid blue (divs)
+#f1f8fe - Light blue (divs)
+#ffffff - White (divs, text)
+*/
+/*above 768 height wont change unless has two states seems to override it with bottom code*/
+@media only screen and (min-width: 768px) {
 
     .leftbar{
-    
         height:600px;
-       
-         
-     }
-
-     .teamleft,.teamright{display:none;}
-
-     .team{
-
-        width:100%;
-        height:100px;
-    
+        
     }
-    .teamblock{overflow-y:auto;}
-    
 }
-
-
-
 
 /*Mobile*/
 @media only screen and (max-width: 768px) {
 
     .leftbar{
-        
+        width:100%;
         height:300px;
-           
+        
     }
 
-    .teamup,.teamdown{display:none;}
-    .teamleft,.teamright{display:block;width:10%;height:500px;}
-    .teamleft{writing-mode: vertical-lr;}
-    .teamright{writing-mode: vertical-rl;}
-    .teamblock{
-        overflow:hidden;
-        width:80%;
-        white-space: nowrap;}
-    .team{width:33%;height:100%;}
+    .team{width:50%;}
+    .teamblock{width:100%;}
+       
+}      
+
+.teamblock{height:auto;
+
+}
+
+.team{
+height:200px;
+background-color:#f1f8fe;
+border:2px solid white;
     
 }
-
-
-div{border:1px solid black;}
-
-h1{color:red;}
-
-
-.teamblock{
-
-    border:10px solid green;
-    height:500px;
-      
-    }
-
-
-.teamup ,.teamdown{
-
-    height:50px;
+.blank{
+height:200px;
+background-color:#f1f8fe;
+border:2px solid white;
 }
 
+.wrapper{
+background-color:#f1f8fe;
+border:2px solid white;
+}
 
 .block{
-
-height:300px;
+    height:300px;
 
 }
+
+
+
