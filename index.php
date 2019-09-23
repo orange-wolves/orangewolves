@@ -61,39 +61,72 @@
 						</div>
 					</div>
 				</div>	
-				
-				<div class="row">
-					<div class="info-box-container">
-						<div class="col-3 small-info-box box-color-index">
 
+				<div class="info-box-container-sml">
+					<div class="row">
+						<div class="col-2 small-info-box box-color-index">
+							<div class="small-info-inner">
+								<h3>Lorem Ipsum Dolor</h3>
+								<p class="para-small">website</p>
+							</div>
 						</div>
-						<div class="col-3 small-info-box box-color-index">
-
+						<div class="col-2 small-info-box box-color-index">
+							<div class="small-info-inner">
+								<h3>Lorem Ipsum Dolor</h3>
+								<p class="para-small">website</p>
+							</div>
 						</div>
-						<div class="col-3 small-info-box box-color-index">
-
+						<div class="col-2 small-info-box box-color-index">
+							<div class="small-info-inner">
+							<h3>Lorem Ipsum Dolor</h3>
+							<p class="para-small">website</p>
+							</div>
 						</div>
-						<div class="col-3 small-info-box box-color-index">
-
+						<div class="col-2 small-info-box box-color-index">
+							<div class="small-info-inner">
+								<h3>Lorem Ipsum Dolor</h3>
+								<p class="para-small">website</p>
+							</div>
 						</div>
-					
-					</div>
+						<div class="col-2 small-info-box box-color-index">
+							<div class="small-info-inner">
+								<h3>Lorem Ipsum Dolor</h3>
+								<p class="para-small">website</p>
+							</div>
+						</div>
 				</div>	
 
 				<div class="row">
-					<div class="info-box-container">
-						<div class="col-3 small-info-box conLight">
-
+						<div class="col-2 small-info-box box-color-index">
+							<div class="small-info-inner">
+								<h3>Lorem Ipsum Dolor</h3>
+								<p class="para-small">website</p>
+							</div>
 						</div>
-						<div class="col-3 small-info-box conLight">
-
+						<div class="col-2 small-info-box box-color-index">
+							<div class="small-info-inner">
+								<h3>Lorem Ipsum Dolor</h3>
+								<p class="para-small">website</p>
+							</div>
 						</div>
-						<div class="col-3 small-info-box conLight">
-
+						<div class="col-2 small-info-box box-color-index">
+							<div class="small-info-inner">
+								<h3>Lorem Ipsum Dolor</h3>
+								<p class="para-small">website</p>
+							</div>
 						</div>
-						<div class="col-3 small-info-box conLight">
-
+						<div class="col-2 small-info-box box-color-index">
+							<div class="small-info-inner">
+								<h3>Lorem Ipsum Dolor</h3>
+								<p class="para-small">website</p>
+							</div>
 						</div>
+						<div class="col-2 small-info-box box-color-index">
+							<div class="small-info-inner">
+								<h3>Lorem Ipsum Dolor</h3>
+								<p class="para-small">website</p>
+							</div>
+						</div>		
 					</div>
 				</div>	
 
