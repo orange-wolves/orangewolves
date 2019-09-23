@@ -2,10 +2,11 @@
 <html>
     <head>
         <title>Bus 1</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no>
         <link rel="stylesheet" type="text/css" href="../resources/css/layout.css">
 		<link rel="stylesheet" type="text/css" href="../resources/css/header.css">
         <link rel="stylesheet" type="text/css" href="../resources/css/footer.css">
-        <link rel="stylesheet" type="text/css" href="../resources/css/content.css">
+        <link rel="stylesheet" type="text/css" href="../resources/css/bus1.css">
     </head>
 
     <body>
@@ -20,9 +21,9 @@
 <!----------------------------------Body------------------------------------------------------>            
             <div class="row content_center">
                 <!----------First column--------->
-                <div class="col-4">
+                <div class="col-4 conMod">
                     <!----------1th block in left side, content discription--------->
-                    <div class="row discription">
+                    <div class="row fillup">
                         <p id="left_top_title">BUS 1</p>
                         <p class="left_top_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt.</p><br><br>
                     </div>
@@ -43,23 +44,23 @@
                     </div>
                 </div>
                 <!----------Second column--------->
-                <div class="col-8">
+                <div class="col-8 conLight">
                     <!----------1th block in right side, display image1--------->
                     <div class="row right_image">
                             <img src="../resources/images/image_background_wide.png" alt="image">
                     </div>
                     
                     <!----------2th block in right side, ??introduce??--------->
-                    <div id= "introduce" class="row">
+                    <div class="row fillup">
                             <!--Sub column of introduce-->
-                            <div class="right_sub_column">
+                            <div id="right_sub_column_1" class="col-6">
                                 <p id="right_introduce_title">Introduce</p>
-                                <p class="right_side_text">Content should be here.</p>
+                                <p class="right_side_text">Content should be here.</p><br><br><br><br><br><br><br>
                             </div>
 
                             <!--Sub column of introduce-->
-                            <div class="right_sub_column">
-                                <p class="right_side_text">Content should be here.</p>
+                            <div id="right_sub_column_2" class="col-6">
+                                <p class="right_side_text">Content should be here.</p><br><br><br><br><br><br><br>
                             </div>
                             <!--Sub column of introduce-->
 
@@ -67,7 +68,7 @@
                     </div>
 
                     <!----------3th block in right side, display image2--------->
-                    <div class="row right_image">
+                    <div class="row right_image bottom">
                             <img src="../resources/images/image_background_wide.png" alt="image">
                     </div>
                 </div> 
