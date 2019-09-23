@@ -42,10 +42,10 @@
 							<!------INFO------>	
 				<div class="row">
 					<div class="info-box-container">
-						<div class="col-5 info-box-1-left conLight">
+						<div class="col-5 info-box-1-left box-color-index">
 
 						</div>
-						<div class="col-5 info-box-1-right conLight">
+						<div class="col-5 info-box-1-right box-color-index">
 
 						</div>
 					</div>
@@ -53,7 +53,7 @@
 
 				<div class="row">
 					<div class="info-box-container">
-						<div class="col-5 info-box-2-left conLight">
+						<div class="col-5 info-box-2-left box-color-index">
 
 						</div>
 						<div class="col-5 info-box-2-right feature-info">
@@ -64,16 +64,16 @@
 				
 				<div class="row">
 					<div class="info-box-container">
-						<div class="col-3 small-info-box conLight">
+						<div class="col-3 small-info-box box-color-index">
 
 						</div>
-						<div class="col-3 small-info-box conLight">
+						<div class="col-3 small-info-box box-color-index">
 
 						</div>
-						<div class="col-3 small-info-box conLight">
+						<div class="col-3 small-info-box box-color-index">
 
 						</div>
-						<div class="col-3 small-info-box conLight">
+						<div class="col-3 small-info-box box-color-index">
 
 						</div>
 					
