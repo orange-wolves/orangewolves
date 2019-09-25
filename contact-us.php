@@ -7,6 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="resources/css/layout.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/header.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/footer.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/pages.css">
 	</head>
 		
 	<body>
@@ -23,12 +24,25 @@
 
 <!-----------------------------CONTENT------------------------------>					
 				
+			<div class="wrapper">
 				<div class="row">
-					<h1>Contact Us</h1>
-
-
-
+					<div class="col-12 info-hero">
+						<div class="content-heading">
+							<h1>Contact Us</h1>
+							Jumbotron or image slider.
+						</div>
+					</div>
 				</div>
+
+				<div class="row">
+					<div class="col-7 info-container">
+						Contact text
+					</div>
+					<div class="col-5 link-container">
+						Contact details
+					</div>
+				</div>
+			</div>
 
 <!-----------------------------FOOTER------------------------------>
 				

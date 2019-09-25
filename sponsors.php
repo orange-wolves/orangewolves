@@ -26,7 +26,7 @@
 				
 				<div class="row">
 
-					<div class="col-12 sponsor-heading">
+					<div class="col-12 content-heading">
 						<h1>Sponsors</h1>
 					</div>
 
