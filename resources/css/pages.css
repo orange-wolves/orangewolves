@@ -28,7 +28,7 @@
 .content-heading {
     color:#2699fb;
     padding:10px;
-    padding-left:50px;
+    padding-left:5%;
     margin-bottom:10px;
 }
 
@@ -37,6 +37,7 @@
     background-color: #f1f8fe;
     height:250px;
     padding:30px;
+    padding-left:5%;
     border:solid 2px white;
 }
 
