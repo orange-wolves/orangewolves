@@ -54,5 +54,27 @@ border:2px solid white;
 
 }
 
+.link{
+text-align: center;
+height:100%;
+width:100%;
+background-color:#f1f8fe;
+padding:10px;
+
+}
+
+.link:hover{
+
+    background-color:#7fc4fd;
+        
+    }
+
+/*  this will add border to page
+.contain{
+    
+    padding-left: 10%;
+    padding-right: 10%;
+    }
+*/
 
 
