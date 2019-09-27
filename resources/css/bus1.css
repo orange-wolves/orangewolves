@@ -1,7 +1,7 @@
 
-
 .left_image{
     padding: 2px;
+
 }
 
 img{
@@ -21,10 +21,11 @@ img{
 .right_image_2{
     height: 32%;
     padding: 2px;
+
 }
 
 .right_text{
-    height: 45%
+    height: 45%;
     padding: 2px;
 }
 
@@ -36,6 +37,11 @@ img{
 #right_sub_column_2{
     float: right;
     padding-top: 1em;
+}
+
+.center{
+    text-align:center;
+    margin:0 auto;
 }
 
 .fillup{

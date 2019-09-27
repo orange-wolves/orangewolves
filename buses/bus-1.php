@@ -23,11 +23,12 @@
                 <!----------First column--------->
                 <div class="col-4 conMod">
                     <!----------1th block in left side, content discription--------->
-                    <div class="row">
+                    <div class="row ">
                         <p id="left_top_title">BUS 1</p>
                         <p class="left_top_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt.</p><br><br>
                         <br>
                         <br>
+                        
                         <br>
                         <br>
                         <br>
@@ -36,17 +37,17 @@
                     </div>
 
                     <!----------2th block in left side, display image1--------->
-                    <div class="row left_image">
+                    <div class="row left_image center">
                         <img src="../resources/images/image_545x380.png" alt="image">
                     </div>
                     
                     <!----------3th block in left side, display image2--------->
-                    <div class="row left_image">
+                    <div class="row left_image center">
                         <img src="../resources/images/image_545x380.png" alt="image">
                     </div>
 
                     <!----------4th block in left side, display image3--------->
-                    <div class="row left_image bottom">
+                    <div class="row left_image center">
                         <img src="../resources/images/image_545x380.png" alt="image">
                     </div>
                 </div>
@@ -74,7 +75,6 @@
                                 <br>
                                 <br>
                                 <br>
-                                
                                 <br>
                                 <br>
                                 <br><br><br><br><br><br><br>
