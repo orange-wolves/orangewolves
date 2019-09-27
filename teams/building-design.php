@@ -7,6 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="../resources/css/header.css">
         <link rel="stylesheet" type="text/css" href="../resources/css/footer.css">
         <link rel="stylesheet" type="text/css" href="../resources/css/bus1.css">
+        <link rel="stylesheet" type="text/css" href="../resources/css/team.css">
     </head>
 
     <body>
@@ -18,7 +19,21 @@
                     </header>
             </div>
 
-<!----------------------------------Body------------------------------------------------------>            
+<!----------------------------------Body------------------------------------------------------>           
+
+<!----------------------------- side arrow nav ---------------------------------->
+            
+            <div class="sidebuttion">
+            <a href="this page"><div class ="arrowL"><img class="imgfit"src="../resources/images/arrow-left.svg"></div></a>
+            <a href="this page"><div class ="arrowR"><img class="imgfit"src="../resources/images/arrow-left.svg"></div></a>
+            </div>
+<!----------------------------- side arrow nav ---------------------------------->            
+            
+            
+            
+            
+    
+            
             <div class="row content_center">
                 <!----------First column--------->
                 <div class="col-4 conMod">

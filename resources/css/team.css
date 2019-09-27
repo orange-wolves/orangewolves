@@ -67,12 +67,43 @@ background-color:#f1f8fe;
     background-color:#7fc4fd;
         
     }
-/* when adding images to the team feild <>
+
+
+    .sidebuttion{
+
+        position:fixed;
+        top:50%;
+        width:100%;
+        max-width: 1000px;
+        height:100px;
+                
+    }
+       
+    .arrowL, .arrowR{
+       
+        height:100%;
+        width:50px;
+        background-color:black;
+        opacity: 0.2;
+        border-radius: 10px;
+        
+    }
+    .arrowL {
+        
+        float:left;
+       
+    }
+    .arrowR{
+        transform:rotate(180deg);
+        float:right;
+    }
+   
     .imgfit{
         
+        width:100%;
         height:100%;
     }
-
+/* when adding images to the team feild <>
     .toptext{
 
         height:80px;
