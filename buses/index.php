@@ -41,7 +41,7 @@
 							</div></a>
 							<a href="bus-3"><div class="col-4 conLight busLink">
 								<div class="ImageContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
-								<div class="busDescription"><p><b>Bus 2</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt.</p></div>
+								<div class="busDescription"><p><b>Bus 3</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt.</p></div>
 							</div></a>
                         </div>
                         <div class="row">
