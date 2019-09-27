@@ -34,7 +34,7 @@
 				</div>
 				<div class="row">
 					<div class="col-12 info-container">
-						Text here
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod ex porta metus blandit, a hendrerit nulla elementum. Quisque sed lacus vel neque posuere pharetra. Nullam tortor libero, sollicitudin vel lacinia ut, congue ut nunc. Praesent ut quam ut ligula venenatis convallis. Nullam vel tellus nisi.</p>
 					</div>
 				</div>
 			</div>

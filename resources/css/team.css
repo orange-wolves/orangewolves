@@ -51,7 +51,6 @@ border:2px solid white;
 
 .block{
     height:300px;
-
 }
 
 .link{
@@ -59,7 +58,7 @@ text-align: center;
 height:100%;
 width:100%;
 background-color:#f1f8fe;
-padding:10px;
+
 
 }
 
@@ -68,6 +67,24 @@ padding:10px;
     background-color:#7fc4fd;
         
     }
+/* when adding images to the team feild <>
+    .imgfit{
+        
+        height:100%;
+    }
+
+    .toptext{
+
+        height:80px;
+        background-color: red;
+
+    }
+
+    .imgslot{
+        height:120px;
+        background-color: blue;
+    }
+   */ 
 
 /*  this will add border to page
 .contain{

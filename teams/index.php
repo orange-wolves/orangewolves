@@ -89,14 +89,22 @@
                     <div class="row">
                         <div class="col-3 team" >
 
-                        <a href="photography"><div class="link"><h2>Photography</h2></div></a>
+                        <a href="photography">
+                            <div class="link">
+
+                                <div class="toptext"><h2>Photography</h2></div>
+                               <!-- <div class="imgslot"><img class="imgfit" src="/orangewolves/resources/images/twitter.png" alt="twitter"></img></div> -->
+
+                            </div>
+                        </a>
                                                         
                         </div>
 
                         <div class="col-3 team " >
 
                         <a href="sound-production"><div class="link"><h2>Sound production</h2></div></a>
-                                                        
+
+                                                                         
                         </div>
 
                         <div class="col-3 team " >

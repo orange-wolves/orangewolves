@@ -67,10 +67,11 @@
                                 <br>
                             </div>
                             <div id="right_sub_column_1" class="col-6">
-                                <p class="right_side_text">Content should be here.</p>
+                                <p class="right_side_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at imperdiet velit. Quisque lobortis volutpat lorem a varius. Praesent gravida ac augue ac fermentum. Quisque cursus luctus tellus, a molestie ante rutrum facilisis. Mauris consequat, tortor maximus euismod convallis, sem ante fermentum lacus, ac sagittis nulla metus imperdiet elit. Morbi elementum, diam a sagittis volutpat, ligula ante interdum velit, at eleifend enim lectus vel diam. Donec aliquet a nisi vel condimentum. Suspendisse potenti.</p>
                                 <br>
                                 <br>
                                 <br>
+<<<<<<< HEAD
                                 <br>
                                 <br>
                                 <br>
@@ -78,11 +79,13 @@
                                 <br>
                                 <br>
                                 <br><br><br><br><br><br><br>
+=======
+>>>>>>> bf3dd926d34efc34e21ed2db6105a65ae71491b1
                             </div>
 
                             <!--Sub column of introduce-->
                             <div id="right_sub_column_2" class="col-6">
-                                <p class="right_side_text">Content should be here.</p><br><br><br><br><br><br><br>
+                                <p class="right_side_text">Pellentesque porttitor condimentum massa quis ornare. Integer vestibulum ultrices arcu, eget dapibus enim auctor sed. In in mi posuere leo luctus sollicitudin. Sed facilisis, quam vel aliquet fringilla, eros ex tincidunt nibh, quis maximus mi mi quis nisi. Ut finibus nisi felis, nec vulputate tortor convallis quis. Nunc nec pharetra ex. Ut sit amet enim nulla. Cras pretium arcu velit, consequat bibendum turpis gravida vulputate. Pellentesque rutrum, massa nec bibendum interdum, orci leo rhoncus sapien, sit amet porta velit nisl nec magna. Proin id quam vel tortor molestie luctus et sit amet elit. Etiam in accumsan tortor, ac volutpat ligula.</p>
                             </div>
                             <!--Sub column of introduce-->
 
