@@ -25,6 +25,9 @@
                 <div class="row">
 					<div class="col-3 conLight Orangedescription">
 						<p>Orange Wolves</p>
+						<br>
+						<br>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod ex porta metus blandit, a hendrerit nulla elementum. Quisque sed lacus vel neque posuere pharetra. Nullam tortor libero, sollicitudin vel lacinia ut, congue ut nunc. Praesent ut quam ut ligula venenatis convallis. <br><br>Nullam vel tellus nisi. Etiam suscipit bibendum molestie. Nullam eu placerat mauris, eu scelerisque nisi. Aenean ac elit sit amet erat semper posuere sed eget odio. Fusce eget auctor tortor. Suspendisse potenti. Praesent ullamcorper metus et sem venenatis, id volutpat tellus semper.</p>
                     </div>
                     <div class="col-9">
                         <div class="row">

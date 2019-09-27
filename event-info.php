@@ -35,6 +35,7 @@
 				<div class="row">
 				<div class="col-9 info-container">
 					<p>General Event Info Here</p>
+					<br><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod ex porta metus blandit, a hendrerit nulla elementum. Quisque sed lacus vel neque posuere pharetra. Nullam tortor libero, sollicitudin vel lacinia ut, congue ut nunc. Praesent ut quam ut ligula venenatis convallis. Nullam vel tellus nisi.</p>
 				</div>
 				<div class="col-3 link-container">
 					<a href="schedule.php"><h1>Event Schedule</h1></a>
@@ -43,7 +44,16 @@
 				<div class="row">
 					<div class="col-12">
 					<div class="col-5 info-container">
-						Getting there - transport information
+						<p>Getting there - transport information</p>
+						<br>
+						<ul>
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+							<li>Nam facilisis sapien eu metus malesuada sagittis.</li>
+							<li>Pellentesque auctor augue et rutrum posuere.</li>
+							<li>Nullam sed magna ac neque tincidunt interdum.</li>
+							<li>Nulla at mauris volutpat, congue ex sit amet, elementum lacus.</li>
+							<li>Donec ut diam non massa fringilla faucibus vel et eros.</li>
+						</ul>
 					</div>
 				<div class="col-7 map">
 					Map - Google API or Static Image
