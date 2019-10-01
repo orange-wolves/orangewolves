@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+body {
+  margin: 0;
+}
+
+
+#parallax-container {
+  height: 849px;
+  display: block;
+}
+
+#parallax-container div {
+  position: fixed;
+  top: 0;
+  background-position: center !important;
+	
+	
+  transform: translateY(0px);
+  height: 849px;
+  width: 100%;
+}
+
+#content {
+  position: relative;
+  background-color: #FFFFFF;
+  color: #f05a28;
+  padding: 100px;
+}
+
+#content h1 {
+    font-size: 45px;
+    text-align: left;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+#content p {
+    font-size: 15px;
+    text-align: left;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    line-height: 6px;
+}
