@@ -4,11 +4,10 @@
         <title>Orange Wolves</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no>
         <link rel="stylesheet" type="text/css" href="../resources/css/layout.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         
 <style>
-    div{
-        border:1px solid black;
-    }
+   
     .parallax {
   /* The image used */
   background-image: url("image/Vector5.png");
@@ -17,6 +16,7 @@
   height: 100vh; 
 
   /* Create the parallax scrolling effect */
+  padding: 1px;
   background-attachment: fixed;
   background-position-x: 50%;
   background-position-y: 30%;
@@ -24,14 +24,17 @@
   background-size: auto 50vh;
 }
 
+
 .img{
     position: absolute;
     top: 0px;
     z-index:2;
     height:100%;
+    
+    
 }
 
-div.imgBox {
+.imgBox {
     margin-top:30vh;
     position: relative;
     height:80vh;
@@ -93,25 +96,61 @@ th, td {
   margin: 5vh;
   line-height: 1.2em;
 }
+
+@keyframes scrolldown{
+0%{top:10%;}
+100%{top:48%;}
+}
+
+.up , .down, .downabit ,.upabit {
+    top:0;
+    transition-property: top;
+    transition-duration: 1s;
+    transition-delay: 0.1s
+}
+
+.cover{
+    height:100px;
+    transition-property: height;
+    transition-duration: 1s;
+    transition-delay: 0.1s
+}
+.whitespace{
+
+    height:10vh;
+    width:100%; 
+    bottom:0; 
+    background-color: white;
+    position :absolute;
+    z-index: 10;
+    padding:1px;
+}
+
+
     </style>
+
 
     </head>
 
-    <body>
+    <body >
 <!----------------------------------Body------------------------------------------------------>  
- <div class="parallax">
+ <div class="parallax" >
 
     <div class="imgBox">
-        <img class="img"src="image/Vector4.png">
-        <img class="img"src="image/Vector3.png">
-        <img class="img"src="image/Vector2.png">
-        <img class="img"src="image/Vector1.png">
+        <img class="img down"src="image/Vector4.png">
+        <img class="img downabit"src="image/Vector3.png">
+        <img class="img upabit"src="image/Vector2.png">
+        <img class="img up"src="image/Vector1.png">
         <img class="arrowd anamateup-down"src="image/arrow-left.svg">
+        <div class="whitespace cover"></div>
     </div>
-    <div class="row">
+
+    
+
+        <div class="row">
         <div class="col-12 description">
             <h1>Website is Live in</h1>
-			<table >
+			<table style="width:500px;">
 				<tr id="count">
 				</tr>
 				<tr>
@@ -152,6 +191,40 @@ th, td {
 </div>
 
     </body>
+
+   
+            <script>
+
+            window.onscroll = function() {myFunction()};
+
+            function myFunction() {
+            if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 300) {
+               
+                $(".up").css({top: '-20vh'}); 
+                $(".upabit").css({top: '-8vh'});
+                $(".down").css({top: '20vh'});
+                $(".downabit").css({top: '12vh'});
+                $(".cover").css({height: '20vh'});
+                $(".arrowd").css({display:'none'});
+
+            } else {
+               
+                $(".up").css({top: '0'}); 
+                $(".upabit").css({top: '0'});
+                $(".down").css({top: '0'});
+                $(".downabit").css({top: '0'});
+                $(".cover").css({height: '0'});
+                $(".arrowd").css({display:'block'});
+               
+            }
+            }
+
+
+
+
+            </script>
+
+   
 
     <script>
         // Set the date we're counting down to
