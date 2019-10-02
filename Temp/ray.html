@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Orange Wolves</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no>
+        <link rel="stylesheet" type="text/css" href="../resources/css/layout.css">
+        
+<style>
+    div{
+        border:1px solid black;
+    }
+    .parallax {
+  /* The image used */
+  background-image: url("image/Vector5.png");
+
+  /* Set a specific height */
+  height: 100vh; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position-x: 50%;
+  background-position-y: 30%;
+  background-repeat: no-repeat;
+  background-size: auto 50vh;
+}
+
+
+.img{
+position: absolute;
+top: 50vh;
+z-index:2;
+width: 100%;
+}
+
+div.imgBox {
+  position: relative;
+}
+
+div.content{
+    height: 100vh;
+}
+
+h1.content{
+    text-align: center;
+}
+    </style>
+
+    </head>
+
+    <body>
+<!----------------------------------Body------------------------------------------------------>  
+ <div class="parallax">
+    <div class="imgBox">
+        <img class="img"src="image/Vector4.png">
+        <img class="img"src="image/Vector3.png">
+        <img class="img"src="image/Vector2.png">
+        <img class="img"src="image/Vector1.png">
+    </div>
+</div>
+<div class="row">
+        <div class="col-12">
+            <h1 class="content" id="count"></h1>
+        </div>
+</div>
+<div class="row">
+        <div class="col-6 content">
+                <h1><strong>Feast your eyes on this!</strong></h1>
+                <br>
+                <p><b>Orange Wolves</b> is a multi-disciplinary<br>
+                immersive experience that encompasses music,<br>
+                media, arts, fashion, technology and design.</p>
+                <br>
+                <p>The event will be a celebration of creativity,<br>
+                technology and performance - providing the<br>
+                audience with a creative, transformational <br>
+                and immersive experience.</p>
+                <br>
+                <p>The plan is to use <b>6</b> retired Action buses<br>
+                that will be transformed into small cinemas,<br>
+                music venues, fashion parades, make spaces,<br>
+                and installation spaces - located in the<br>
+                CANBERRA CBD, for three days<br></p>
+                <br>
+                <p><b>26 – 28 November 2019</b><br></p>
+        </div>
+    </div>
+
+       
+</div>
+    </body>
+
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Nov 1, 2019 00:00:00").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Output the result in an element with id="demo"
+        document.getElementById("count").innerHTML = days + " Days " + hours + " hours "
+        + minutes + " minutes " + seconds + " seconds";
+
+        // If the count down is over, write some text 
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("count").innerHTML = "Website is Now Live";
+            }
+        }, 1000);
+    </script>
+</html>
