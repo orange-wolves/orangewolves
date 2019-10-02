@@ -4,80 +4,100 @@
     <meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Untitled Document</title>
-    <!-- Parallax CSS -->
+	<link rel="stylesheet" type="text/css" href="../resources/css/layout.css">
+    <title>Orange Wolves</title>
 	<link href="css/Parallax.css" rel="stylesheet" type="text/css">
-	<!-- Bootstrap -->	 
-	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
 	
   </head>
-  <body style="padding-top: 70px">
-  	<!-- body code goes here -->
+  <body>
 	  
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark"> 
-	
-	  <a class="navbar-brand" href="#">
-          <img src="image/Logo.png" alt="">
-        </a>
-	    
-	  </div>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-	    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-	      <ul class="navbar-nav mr-auto">
-	        <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
-	        <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li>
-	        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown </a>
-	          <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
-	            <div class="dropdown-divider"></div>
-	            <a class="dropdown-item" href="#">Something else here</a> </div>
-            </li>
-	        <li class="nav-item"> <a class="nav-link disabled" href="#">Disabled</a> </li>
-          </ul>
-	      <form class="form-inline my-2 my-lg-0">
-	        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-	        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+  
+	  
+	 <div class="row"> 
+<div id="parallax-container">	
+  <div style="background: url(image/Vector5.png); background-position-x: 50%; background-position-y: 0%; background-repeat: no-repeat;background-size: auto 60vh;"></div>
+  <div style="background: url(image/Vector4.png); background-repeat: no-repeat;"></div>
+  <div style="background: url(image/Vector3.png); background-repeat: no-repeat;"></div>
+  <div style="background: url(image/Vector2.png); background-repeat: no-repeat;"></div>
+  <div style="background: url(image/Vector1.png); background-repeat: no-repeat;"></div>	
+</div>
+</div>
+<div id="content">
+<div class="row">
+			<p class="content" id="description">Website is Live in</p>
+			<table >
+				<tr id="count">
+				</tr>
+				<tr>
+					<td>Days</td><td>Hours</td><td>Minutes</td><td>Seconds</td>
+				</tr>
+			</table>
+</div>
+<div class="row">
+        <div class="col-6 content" >
+                <h1><strong>Feast your eyes on this!</strong></h1>
+                <br>
+                <p><b>Orange Wolves</b> is a multi-disciplinary<br>
+                immersive experience that encompasses music,<br>
+                media, arts, fashion, technology and design.</p>
+                <br>
+                <p>The event will be a celebration of creativity,<br>
+                technology and performance - providing the<br>
+                audience with a creative, transformational <br>
+                and immersive experience.</p>
+                <br>
+                <p>The plan is to use <b>6</b> retired Action buses<br>
+                that will be transformed into small cinemas,<br>
+                music venues, fashion parades, make spaces,<br>
+                and installation spaces - located in the<br>
+                CANBERRA CBD, for three days<br></p>
+                <br>
+                <p><b>26 – 28 November 2019</b><br></p>
+        </div>
     </div>
-  </nav>
-	  
-	  
-<div id="parallax-container">
-  <div style="background: url(image/Vector1.png);"></div>	
-  <div style="background: url(image/Vector5.png);"></div>
-  <div style="background: url(image/Vector4.png);"></div>
-  <div style="background: url(image/Vector3.png);"></div>
-  <div style="background: url(image/Vector2.png);"></div>
-  <div style="background: url(image/Vector1.png);"></div>	
 </div>
-		<div id="content">
-		  <h1><strong>Feast your eyes on this!</strong></h1>
-		  <br>
-			<p><b>Orange Wolves</b> is a multi-disciplinary</p>
-			<p>immersive experience that encompasses music,</p>
-			<p>media, arts, fashion, technology and design.</p><br>
-
-			<p>The event will be a celebration of creativity,</p>
-			<p>technology and performance - providing the</p>
-			<p>audience with a creative, transformational</p> 
-			<p>and immersive experience.</p><br>
- 
-			<p>The plan is to use <b>6</b> retired Action buses</p>
-			<p>that will be transformed into small cinemas,</p>
-			<p>music venues, fashion parades, make spaces,</p>
-			<p>and installation spaces - located in the</p>
-			<p>CANBERRA CBD, for three days</p><br>
-
-			<p><b>26 – 28 November 2019</b></p><br>
+       
 </div>
+    </body>
 
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-	<script src="js/jquery-3.3.1.min.js"></script>
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Nov 1, 2019 00:00:00").getTime();
 
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<!-- Parallax CSS -->
-  <script src="js/Parallax.js"> </script>
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Output the result in an element with id="demo"
+		document.getElementById("count").innerHTML = "<td>"+days+"</td><td>"+hours+"</td><td>"+minutes+"</td><td>"+seconds+"</td>";
+
+        // If the count down is over, write some text 
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("count").innerHTML = "Website is Now Live";
+            }
+		}, 1000);
+		
+		window.addEventListener('scroll', () => {
+		let parent =  document.getElementById('parallax-container');
+		let children = parent.getElementsByTagName('div');
+		for(let i = 0; i < children.length; i++) {
+			children[i].style.transform = 'translateY(-' + (window.pageYOffset * i / children.length) + 'px)';
+			}
+		}, false)
+    </script>
+
 	  
-  <script src="js/popper.min.js"></script> 
-  <script src="js/bootstrap-4.3.1.js"></script>
   </body>
 </html>

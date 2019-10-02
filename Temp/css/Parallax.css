@@ -5,43 +5,75 @@
     display: none; 
 }
 
-body {
-  margin: 0;
-}
 
 
 #parallax-container {
-  height: 849px;
+  height: 100vh;
   display: block;
+  background-repeat: no-repeat;
 }
 
 #parallax-container div {
   position: fixed;
-  top: 0;
   background-position: center !important;
-	
-	
+	background-repeat: no-repeat;
   transform: translateY(0px);
-  height: 849px;
+  height: 120vh;
   width: 100%;
 }
+
 
 #content {
   position: relative;
   background-color: #FFFFFF;
   color: #f05a28;
-  padding: 100px;
+  padding-top: 15vh;  
+  padding-left: 8vw;
+  padding-right: 8vw;
 }
 
-#content h1 {
+h1.content {
     font-size: 45px;
     text-align: left;
-    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-family: "Gill Sans";
 }
 
-#content p {
+p.content {
     font-size: 15px;
     text-align: left;
-    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-family: "Gill Sans";
     line-height: 6px;
+}
+
+div.content{   
+  min-height: 65vh; 
+  height: auto;
+  margin: 2em;
+    }
+
+#count{
+  text-align: center;
+  font-size: 45px;
+  margin: 5vh;
+  line-height: 1.2em;
+}
+
+#description{
+  text-align: center;
+  font-size: 45px;
+  line-height: 1em;
+}
+    
+table, td, th {  
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+}
+
+th, td {
+  text-align: center;
 }
