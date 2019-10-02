@@ -24,21 +24,38 @@
   background-size: auto 50vh;
 }
 
-
 .img{
-position: absolute;
-top: 50vh;
-z-index:2;
-width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index:2;
+    height:100%;
 }
 
 div.imgBox {
-  position: relative;
+    margin-top:30vh;
+    position: relative;
+    height:80vh;
+    width:100%;
+    overflow: hidden;
 }
 
-div.content{
-    height: 100vh;
+.arrowd{
+position:absolute;
+right: 10%;
+z-index: 10;
+transform:rotate(-90deg);
+animation-name: anamateupdown;
+animation-duration: 0.5s;
+animation-iteration-count: infinite;
 }
+
+@keyframes anamateupdown{
+0%{top:45%;}
+100%{top:48%;}
+}
+
+
+
 
 h1.content{
     text-align: center;
@@ -50,20 +67,22 @@ h1.content{
     <body>
 <!----------------------------------Body------------------------------------------------------>  
  <div class="parallax">
+
     <div class="imgBox">
         <img class="img"src="image/Vector4.png">
         <img class="img"src="image/Vector3.png">
         <img class="img"src="image/Vector2.png">
         <img class="img"src="image/Vector1.png">
+        <img class="arrowd anamateup-down"src="image/arrow-left.svg">
     </div>
-</div>
-<div class="row">
+    <div class="row">
         <div class="col-12">
-            <h1 class="content" id="count"></h1>
+            <h1 id="count"></h1>
         </div>
-</div>
-<div class="row">
-        <div class="col-6 content">
+    </div>
+
+    <div class="row">
+        <div class="col-6">
                 <h1><strong>Feast your eyes on this!</strong></h1>
                 <br>
                 <p><b>Orange Wolves</b> is a multi-disciplinary<br>
@@ -83,10 +102,15 @@ h1.content{
                 <br>
                 <p><b>26 – 28 November 2019</b><br></p>
         </div>
+
+     
     </div>
 
-       
+
+
+    
 </div>
+
     </body>
 
     <script>
