@@ -126,6 +126,23 @@ th, td {
     padding:1px;
 }
 
+.aspect{
+
+padding:10%;
+height:50%;
+
+
+}
+
+.fit{
+
+border:5px solid orange;
+height:100%;
+width:100%;
+
+
+}
+
 
     </style>
 
@@ -182,10 +199,19 @@ th, td {
                 <p><b>26 – 28 November 2019</b><br></p>
         </div>
 
+        <div class="col-6">
+            <div class="aspect">
+                    <video controls preload muted class="fit" id="vid1"src="https://mdbootstrap.com/img/video/Agua-natural.mp4" type="video/mp4"></video>
+
+            </div>
+
+
+
+        </div>
+
+
      
     </div>
-
-
 
     
 </div>
@@ -193,12 +219,13 @@ th, td {
     </body>
 
    
+   
             <script>
 
             window.onscroll = function() {myFunction()};
 
             function myFunction() {
-            if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 300) {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
                
                 $(".up").css({top: '-20vh'}); 
                 $(".upabit").css({top: '-8vh'});
@@ -206,7 +233,8 @@ th, td {
                 $(".downabit").css({top: '12vh'});
                 $(".cover").css({height: '20vh'});
                 $(".arrowd").css({display:'none'});
-
+                document.getElementById("vid1").autoplay = true;  
+                
             } else {
                
                 $(".up").css({top: '0'}); 
@@ -215,13 +243,12 @@ th, td {
                 $(".downabit").css({top: '0'});
                 $(".cover").css({height: '0'});
                 $(".arrowd").css({display:'block'});
+                document.getElementById("vid1").autoplay = false; 
                
             }
             }
 
-
-
-
+            
             </script>
 
    
