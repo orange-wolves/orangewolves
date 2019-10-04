@@ -75,6 +75,9 @@ th, td {
     line-height: 1.3em;
 }
 
+.information h1{
+    line-height: 1.3em;
+}
 
 
 .description{
@@ -83,11 +86,11 @@ th, td {
     line-height: 1.3em;
     font-family: "Gill Sans";
     text-align: center;
-    margin: 0.3em;
 }
 
 .description h1{
     margin: 0.3em;
+    line-height: 1.5em;
 }
 
 #count{
@@ -127,20 +130,32 @@ th, td {
 }
 
 .aspect{
-
-padding:10%;
-height:50%;
-
-
+    padding:10%;
+    height:50%;
+    margin-top: -4em;
 }
 
-.fit{
+.fit{  
+    width: 30vw;
+    height: 85vh;
+}
 
-border:5px solid orange;
-height:100%;
-width:100%;
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width:100%;
+        float:left;
+    }
 
+    .fit{  
+        width: 80vw;
+        height: 80vh;
+    }
 
+    .aspect{
+        padding:-10%;
+        height:50%;
+    }
 }
 
 
@@ -167,7 +182,7 @@ width:100%;
         <div class="row">
         <div class="col-12 description">
             <h1>Website is Live in</h1>
-			<table style="width:500px;">
+			<table style="width:90vw;">
 				<tr id="count">
 				</tr>
 				<tr>
@@ -196,12 +211,12 @@ width:100%;
                 and installation spaces - located in the<br>
                 CANBERRA CBD, for three days<br></p>
                 <br>
-                <p><b>26 – 28 November 2019</b><br></p>
+                <p><b>26 - 28 November 2019</b><br></p>
         </div>
 
         <div class="col-6">
             <div class="aspect">
-                <video controls preload muted class="fit" id="vid1"src="vid/OrangeWolves_LogoAnimation.mp4" type="video/mp4"></video>
+                <video controls preload class="fit" id="vid1" src="vid/OrangeWolves_LogoAnimation.mp4" type="video/mp4"></video>
            </div>
 
 
