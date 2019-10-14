@@ -24,23 +24,41 @@
   background-size: auto 50vh;
 }
 
+.p{
+    font-family: sans-serif;
+}
+
+.h1{
+    font-family: sans-serif;
+}
+
 
 .img{
     position: absolute;
     top: 0px;
+    bottom: 0px;
     z-index:2;
     height:100%;
-    
-    
+    min-width: 2000px;
+    min-height: 300px;
 }
+
 
 .imgBox {
     margin-top:30vh;
     position: relative;
     height:80vh;
-    width:100%;
     overflow: hidden;
 }
+
+.imgBoxBorder {
+    position: relative;
+    height:4em;
+    overflow: hidden;
+    min-width: 2000px;
+}
+
+
 
 .arrowd{
 position:absolute;
@@ -52,25 +70,18 @@ animation-duration: 0.5s;
 animation-iteration-count: infinite;
 }
 
+.flip{
+    transform:rotate(180deg);
+}
+
 @keyframes anamateupdown{
 0%{top:45%;}
 100%{top:48%;}
 }
 
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin: 0 auto;
-}
-
-th, td {
-  text-align: center;
-}
-
 .information{
-    color: #f05a28;
-    padding: 6vh;
-    font-family: "Gill Sans";
+    color: #f6921E;
+    padding: 10vw;
     font-size: 1.3em;
     line-height: 1.3em;
 }
@@ -78,26 +89,26 @@ th, td {
 .information h1{
     line-height: 1.3em;
 }
-
-
 .description{
-    color: #f05a28;
-    font-size: 1.3em;
+    font-size: 1.6em;
     line-height: 1.3em;
-    font-family: "Gill Sans";
     text-align: center;
 }
 
 .description h1{
-    margin: 0.3em;
     line-height: 1.5em;
+}
+
+.subdescription{
+    font-size: .5em;
+    line-height: 1.3em;
+    text-align: center;
 }
 
 #count{
   text-align: center;
-  font-size: 2.2em;
-  margin: 5vh;
-  line-height: 1.2em;
+  text-align: left;
+  padding-left: 10px;
 }
 
 @keyframes scrolldown{
@@ -120,7 +131,7 @@ th, td {
 }
 .whitespace{
 
-    height:10vh;
+    height:6vh;
     width:100%; 
     bottom:0; 
     background-color: white;
@@ -128,6 +139,7 @@ th, td {
     z-index: 10;
     padding:1px;
 }
+
 
 .aspect{
     padding:10%;
@@ -140,13 +152,16 @@ th, td {
     height: 85vh;
 }
 
+.floatRight{
+    text-align: right;
+}
+
 /*Mobile*/
 @media only screen and (max-width: 768px) {
     [class*="col-"] {
         width:100%;
         float:left;
     }
-
     .fit{  
         width: 80vw;
         height: 80vh;
@@ -156,8 +171,21 @@ th, td {
         padding:-10%;
         height:50%;
     }
+
+    .description{
+        text-align: center;
+    }
+
+    .floatRight{
+        text-align: center;
+    }
 }
 
+
+.temp{
+    color: white;
+    background-color: #f6921E;
+}
 
     </style>
 
@@ -178,25 +206,53 @@ th, td {
     </div>
 
     
-
-        <div class="row">
-        <div class="col-12 description">
-            <h1>Website is Live in</h1>
-			<table style="width:90vw;">
-				<tr id="count">
-				</tr>
-				<tr>
-					<td>Days</td><td>Hours</td><td>Minutes</td><td>Seconds</td>
-				</tr>
-			</table>
+    <div class="row imgBoxBorder">
+        <img src="image/Vector2a.png" class="imgBoxBorder">
+    </div>
+    <div class="row temp">
+        <div class="col-6 description floatRight">
+            <h1>WEBSITE GOES LIVE IN:</h1>
         </div>
+        <div class="col-6 description" style="text-align: left;">
+            <div class="row">
+                <div class="col-3 description">
+                    <div class="row">
+                        <div id="days"></div>
+                        <div class="subdescription">Days</div>
+                    </div>
+                </div>
+                <div class="col-3 description">
+                    <div class="row">
+                        <div id="hours"></div>
+                        <div class="subdescription">Hours</div>
+                    </div>
+                </div>
+                <div class="col-3 description">
+                    <div class="row">
+                        <div id="minutes"></div>
+                        <div class="subdescription">Minutes</div>
+                    </div>
+                </div>
+                <div class="col-3 description">
+                    <div class="row">
+                        <div id="seconds"></div>
+                        <div class="subdescription">Seconds</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row imgBoxBorder flip">
+        <img src="image/Vector2a.png" class="imgBoxBorder">
+    </div>
+
     </div>
 
     <div class="row">
         <div class="col-6 information">
-                <h1><strong>Feast your eyes on this!</strong></h1>
+                <h1><strong>FEAST YOUR EYES ON THIS!</strong></h1>
                 <br>
-                <p><b>Orange Wolves</b> is a multi-disciplinary<br>
+                <p><b><I>Orange Wolves</I></b> is a multi-disciplinary<br>
                 immersive experience that encompasses music,<br>
                 media, arts, fashion, technology and design.</p>
                 <br>
@@ -218,9 +274,6 @@ th, td {
             <div class="aspect">
                 <video controls preload class="fit" id="vid1" src="vid/OrangeWolves_LogoAnimation.mp4" type="video/mp4"></video>
            </div>
-
-
-
         </div>
 
 
@@ -288,7 +341,10 @@ th, td {
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
         // Output the result in an element with id="demo"
-        document.getElementById("count").innerHTML = "<td>"+days+"</td><td>"+hours+"</td><td>"+minutes+"</td><td>"+seconds+"</td>";
+        document.getElementById("days").innerHTML = days;
+        document.getElementById("hours").innerHTML = hours;
+        document.getElementById("minutes").innerHTML = minutes;
+        document.getElementById("seconds").innerHTML = seconds;
 
         // If the count down is over, write some text 
         if (distance < 0) {
