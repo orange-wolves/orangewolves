@@ -1,0 +1,40 @@
+
+
+h1 {
+color: orange;
+text-align: center;
+font-size: 300%;
+}
+
+
+
+.tabletext {
+	
+	
+	font-size: 150%;
+	margin-left:15%; 
+    margin-right:15%;
+}
+
+
+
+.eventname{
+	
+	text-align:center;
+	border:1px solid black;
+	
+}
+.eventdiscription{
+	
+	text-align:center;
+	padding:20px;
+	
+}
+
+
+[class*="eventinfo-"] {
+    display:none;
+	
+}
+
+

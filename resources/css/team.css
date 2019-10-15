@@ -1,0 +1,128 @@
+
+
+/*
+#7fc4fd - Mid blue (divs)
+#f1f8fe - Light blue (divs)
+#ffffff - White (divs, text)
+*/
+/*above 768 height wont change unless has two states seems to override it with bottom code*/
+@media only screen and (min-width: 768px) {
+
+    .leftbar{
+        height:600px;
+        
+    }
+}
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+
+    .leftbar{
+        width:100%;
+        height:300px;
+        
+    }
+
+    .team{width:50%;}
+    .teamblock{width:100%;}
+       
+}      
+
+.teamblock{height:auto;
+
+}
+
+.team{
+height:200px;
+background-color:#f1f8fe;
+border:2px solid white;
+    
+}
+.blank{
+height:200px;
+background-color:#f1f8fe;
+border:2px solid white;
+}
+
+.wrapper{
+background-color:#f1f8fe;
+border:2px solid white;
+}
+
+.block{
+    height:300px;
+}
+
+.link{
+text-align: center;
+height:100%;
+width:100%;
+background-color:#f1f8fe;
+
+
+}
+
+.link:hover{
+
+    background-color:#7fc4fd;
+        
+    }
+
+
+    .sidebuttion{
+
+        position:fixed;
+        top:50%;
+        width:100%;
+        max-width: 1000px;
+        height:100px;
+                
+    }
+       
+    .arrowL, .arrowR{
+       
+        height:100%;
+        width:50px;
+        background-color:black;
+        opacity: 0.2;
+        border-radius: 10px;
+        
+    }
+    .arrowL {
+        
+        float:left;
+       
+    }
+    .arrowR{
+        transform:rotate(180deg);
+        float:right;
+    }
+   
+    .imgfit{
+        
+        width:100%;
+        height:100%;
+    }
+/* when adding images to the team feild <>
+    .toptext{
+
+        height:80px;
+        background-color: red;
+
+    }
+
+    .imgslot{
+        height:120px;
+        background-color: blue;
+    }
+   */ 
+
+/*  this will add border to page
+.contain{
+    
+    padding-left: 10%;
+    padding-right: 10%;
+    }
+*/
+
+

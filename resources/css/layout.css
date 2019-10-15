@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class*="col-"] {
+    float:left;
+}
+
+/*Large Screens*/
+@media only screen and (min-width: 1000px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+/*Desktop*/
+@media only screen and (max-width: 1000px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width:100%;
+        float:left;
+    }
+}
+
+.webpage {
+    max-width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.empty {
+    padding:0.1em;
+    visibility:hidden;
+}
+
+.content {
+    margin-bottom:1px;
+}
+
+.wrapper {
+    border:solid 2px white;
+}
+
+@font-face { /* Created by Nils Cordes http://nilscordes.com */
+    font-family: cardenio;
+    src: url('cardenio-modern-std.ttf');
+}
+
+@font-face { /* Created by Nils Cordes http://nilscordes.com */
+    font-family: cardenio;
+    src: url('cardenio-modern-bold.ttf');
+    font-weight: bold;
+}
+
+h1 {
+    font-family: serif;
+    font-weight: bold; 
+    font-size: 30pt;
+}
+
+a {
+    font-family: verdana, sans-serif;
+    font-size: 10pt;
+    text-decoration: none;
+}
+
+body {
+    font-family: verdana, sans-serif;
+}
+
+.conNone {
+    padding: 5px;
+    color: #2698fb;
+    background-color: #ffffff;
+    border: .3em solid white;
+}
+
+.conLight{
+    padding: 5px;
+    color: #2699fb;
+    background-color: #f1f8fe;
+    border: .3em solid white;
+}
+
+.conMod{
+    padding: 5px;
+    color: #2698fb;
+    background-color: #bce0ff;
+    border: .3em solid white;
+} 
+
+.conDark{
+    padding: 5px;
+    color: #ffffff;
+    background-color: #2699fb;
+    border: .3em solid white;
+}
