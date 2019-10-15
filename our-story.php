@@ -2,7 +2,7 @@
 <html>
 
 	<head>
-		<title>Event Information</title>
+		<title>Our Story</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no>
 		<link rel="stylesheet" type="text/css" href="resources/css/layout.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/header.css">
@@ -27,24 +27,24 @@
 				<div class="row">
 					<div class="col-12 info-hero">
 						<div class="content-heading">
-							<h1>Event Information</h1>
+							<h1>Our Story</h1>
 							Jumbotron or image slider.
 						</div>
 					</div>
 				</div>
 				<div class="row">
 				<div class="col-9 info-container">
-					<p>General Event Info Here</p>
+					<p>Info Here</p>
 					<br><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod ex porta metus blandit, a hendrerit nulla elementum. Quisque sed lacus vel neque posuere pharetra. Nullam tortor libero, sollicitudin vel lacinia ut, congue ut nunc. Praesent ut quam ut ligula venenatis convallis. Nullam vel tellus nisi.</p>
 				</div>
 				<div class="col-3 link-container">
-					<a href="schedule.php"><h1>Event Schedule</h1></a>
+					
 				</div>
 				</div>
 				<div class="row">
 					<div class="col-12">
 					<div class="col-5 info-container">
-						<p>Getting there - transport information</p>
+						<p>More info</p>
 						<br>
 						<ul>
 							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
@@ -55,8 +55,8 @@
 							<li>Donec ut diam non massa fringilla faucibus vel et eros.</li>
 						</ul>
 					</div>
-				<div class="col-7 map">
-					Map - Google API or Static Image
+				<div class="col-7 info-container">
+					
 				</div>
 </div>
 </div>

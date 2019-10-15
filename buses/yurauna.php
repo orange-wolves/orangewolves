@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Hair & Makeup</title>
+        <title>Yurauna</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no>
         <link rel="stylesheet" type="text/css" href="../resources/css/layout.css">
 		<link rel="stylesheet" type="text/css" href="../resources/css/header.css">
@@ -24,7 +24,7 @@
                 <div class="col-4 conMod">
                     <!----------1th block in left side, content discription--------->
                     <div class="row">
-                        <p id="left_top_title">Hair & Makeup</p>
+                        <p id="left_top_title">Yurauna</p>
                         <p class="left_top_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt.</p><br><br>
                         <br>
                         <br>
