@@ -1,68 +1,60 @@
 
-.left_image{
-    padding: 2px;
-
-}
-
 img{
     max-width: 100%;
+    height: auto;
 }
 
-#left_top_title{
-    padding-top: 1em;
-    text-align: center; 
-}
-
-.right_image_1{
-    height: 23%;
+.image{
     padding: 2px;
 }
 
-.right_image_2{
-    height: 32%;
-    padding: 2px;
-
+#busbrief{
+    color: #e57908;
+    font-family: cardenio, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    margin: auto;
 }
 
-.right_text{
-    height: 45%;
-    padding: 2px;
-}
-
-#right_sub_column_1{
+.relative{
+    position: relative;
+    width: 50%;
     float: left;
-    padding-top: 1em;
-    padding-right: 1em;
 }
 
-#right_sub_column_2{
-    float: right;
-    padding-top: 1em;
+#busDescription{
+    position: absolute;
+    top: 20px;
+    left: 5px;
 }
 
-.center{
-    text-align:center;
-    margin:0 auto;
+#busIcon{
+    width: 50%;
+    float: left;
 }
 
-.fillup{
-    height: 100%;
+#busIcon img{
+    max-height: 3em;
 }
 
-#brief{
-    height: 15em;
-}
-
-.smallImg img{
-    max-height: 20vh;
+#busSummary p{
+    padding: 0.2em;
 }
 
 /*Mobile*/
 @media only screen and (max-width: 768px) {
-    .left_image{
-        text-align: center;
-    }
     #brief{
         height: auto;
+    }
+    #busIcon{
+        text-align: right;
+    }
+    .image{
+        text-align: center;
+    }
+    .image img{
+        max-width: 32%;
+        margin: 0 0.5%;
+        float: left;
     }
 }
