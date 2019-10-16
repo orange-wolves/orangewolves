@@ -2,74 +2,67 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-		<link rel="stylesheet" href="https://use.typekit.net/gnw2myt.css">
-	</head>
 
-  	<body>
-		<div class="row">
-			<div class="col-12 logo">
-				<a href="/orangewolves"><img src="\orangewolves\resources\images\OrangeWolvesLogo.svg" alt="Orange Wolves Logo"></a>
-			</div>
-		</div>
-      	<div class="row">
-			<div class="col-12" id="navbar">
-				<ul>
-					<li><a href="/orangewolves/our-story">Our Story</a></li>
-					<li><a href="/orangewolves/buses">Buses</a></li>
-					<li><a href="/orangewolves/sponsors">Sponsors</a></li>
-					<li><a href="/orangewolves/contact-us">Contact</a></li>
-				</ul>
-			</div>
-
-			<div class="col-12" id="mobilenav">
-				<ul>
-					<div class="dropdown">
-						<a onclick="dropdown()" class="dropbtn fa fa-bars"></a>
-							<div id="dropdown" class="dropdown-content">
-								<img src="resources\images\dropdown.svg">
-								<a href="/orangewolves/our-story">Our Story</a>
-								<a href="/orangewolves/buses">Buses</a>
-								<a href="/orangewolves/sponsors">Sponsors</a>
-								<a href="/orangewolves/contact-us">Contact</a>
-							</div>
-					</div>
-				</ul>
-			</div>	
-		</div>
 		<script>
-		/*Dropdown*/
-		function dropdown() {
-			document.getElementById("dropdown").classList.toggle("show");
-		}
-		window.onclick = function(event){
-			if (!event.target.matches('.dropbtn')){
-				var dropdowns = document.getElementsByClassName("dropdown-content");
-				var i;
+			function dropdown() {
+				document.getElementById("dropdown").classList.toggle("show");
+			}
+			window.onclick = function(event){
+				if (!event.target.matches('.dropbtn')){
+					var dropdowns = document.getElementsByClassName("dropdown-content");
+					var i;
 
-				for (i = 0; i <dropdowns.length; i++){
-					var openDropdown = dropdowns[i];
+					for (i = 0; i <dropdowns.length; i++){
+						var openDropdown = dropdowns[i];
 
-					if (openDropdown.classList.contains('show')){
-						openDropdown.classList.remove('show');
+						if (openDropdown.classList.contains('show')){
+							openDropdown.classList.remove('show');
+						}
 					}
 				}
 			}
-		}
-		/*Sticky Navbar*/
-			var navbar = document.getElementById("navbar");
-			var mobilenav = document.getElementById("mobilenav");
-			var sticky = navbar.offsetTop;
-			var stickym = mobilenav.offsetTop;
-			function myFunction() {
-				if (window.pageYOffset >= sticky && window.pageYOffset >= stickym) {
-					navbar.classList.add("sticky")
-					mobilenav.classList.add("sticky")
-				} else {
-					navbar.classList.remove("sticky");
-					mobilenav.classList.remove("sticky");
-				}
-			}
-			window.onscroll = function() {myFunction()};
 		</script>
+	</head>
+
+  	<body>
+      <div class="row">
+				<div class="nav col-12">
+
+					<div class="icon col-3">
+						<a href="/orangewolves">Orange Wolves</a>
+					</div>
+
+					<div class="navbar col-7">
+						<ul>
+							<li><a href="/orangewolves/event-info">Event Info</a></li>
+							<li><a href="/orangewolves/schedule">Schedule</a></li>
+							<li><a href="/orangewolves/buses">Buses</a></li>
+							<li><a href="/orangewolves/teams">Teams</a></li>
+						</ul>
+					</div>
+
+					<div class="searchbar col-1">
+						<form class="searchbox" name="search" action="/orangewolves/search/index.php" method="GET">
+							<input type="search" name="searchtext" placeholder="search" pattern=".*\S.*" minlength=3 autocomplete="off" required>
+						</form>
+					</div>
+
+					<div class="mobilenav col-1">
+						<ul>
+							<div class="dropdown">
+								<a onclick="dropdown()" class="dropbtn fa fa-bars"></a>
+								<div id="dropdown" class="dropdown-content">
+									<a href="/orangewolves/schedule">Schedule</a>
+									<a href="/orangewolves/buses">Buses</a>
+									<a href="/orangewolves/teams">Teams</a>
+									<a href="/orangewolves/event-info">Event Info</a>
+									<a href="/orangewolves/sponsors">Sponsors</a>
+									<a href="/orangewolves/contact-us">Contact Us</a>
+								</div>
+							</div>
+						</ul>
+					</div>	
+				</div>
+			</div>
   	</body>
 </html>
