@@ -27,7 +27,9 @@
 				<div class="row">
 
 					<div class="col-12 content-heading">
-						<h1>Sponsors</h1>
+						<h1>Major Sponsors</h1>
+						<div class="line">
+						</div>
 					</div>
 
 				</div>
@@ -38,34 +40,87 @@
 							<img src="resources\images\img-200px.png">
 						</div>
 						<div class="col-3 sponsor-img">
-						<img src="resources\images\img-200px.png">
+							<img src="resources\images\img-200px.png">
 						</div>
 						<div class="col-3 sponsor-img">
-						<img src="resources\images\img-200px.png">
+							<img src="resources\images\img-200px.png">
 						</div>
 						<div class="col-3 sponsor-img">
-						<img src="resources\images\img-200px.png">
+							<img src="resources\images\img-200px.png">
 						</div>
 					</div>
+				</div>
+				<div class="row">
 					<div class="col-12 sponsor-container">
 						<div class="col-3 sponsor-img">
 							<img src="resources\images\img-200px.png">
 						</div>
 						<div class="col-3 sponsor-img">
-						<img src="resources\images\img-200px.png">
+							<img src="resources\images\img-200px.png">
 						</div>
 						<div class="col-3 sponsor-img">
-						<img src="resources\images\img-200px.png">
+							<img src="resources\images\img-200px.png">
 						</div>
 						<div class="col-3 sponsor-img">
-						<img src="resources\images\img-200px.png">
+							<img src="resources\images\img-200px.png">
 						</div>
 					</div>
 				</div>
 
-				<div class="row">
-					<br>
-					<br>
+					<div class="row">
+
+						<div class="col-12 content-heading">
+							<h1>Supporting Sponsors</h1>
+							<div class="line">
+							</div>
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-12 minor-sponsor-container">
+							<div class="col-2 sponsor-img">
+								<img src="resources\images\img-200px.png">
+							</div>
+							<div class="col-2 sponsor-img">
+								<img src="resources\images\img-200px.png">
+							</div>
+							<div class="col-2 sponsor-img">
+								<img src="resources\images\img-200px.png">
+							</div>
+							<div class="col-2 sponsor-img">
+								<img src="resources\images\img-200px.png">
+							</div>
+							<div class="col-2 sponsor-img">
+								<img src="resources\images\img-200px.png">
+							</div>
+							<div class="col-2 sponsor-img">
+								<img src="resources\images\img-200px.png">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 minor-sponsor-container">
+							<div class="col-2 sponsor-img">
+								<img src="resources\images\img-200px.png">
+							</div>
+							<div class="col-2 sponsor-img">
+								<img src="resources\images\img-200px.png">
+							</div>
+							<div class="col-2 sponsor-img">
+								<img src="resources\images\img-200px.png">
+							</div>
+							<div class="col-2 sponsor-img">
+								<img src="resources\images\img-200px.png">
+							</div>
+							<div class="col-2 sponsor-img">
+								<img src="resources\images\img-200px.png">
+							</div>
+							<div class="col-2 sponsor-img">
+								<img src="resources\images\img-200px.png">
+							</div>
+						</div>
+					</div>
 				</div>
 
 <!-----------------------------FOOTER------------------------------>

@@ -1,15 +1,15 @@
 /*Large Screens*/
 @media only screen and (min-width: 1000px) {
-    .sponsor-container{
+    .sponsor-container, .minor-sponsor-container{
     padding:0px 50px;
     }
 }
 
 /*Desktop*/
 @media only screen and (max-width: 1000px) {
-    .sponsor-container{
-        padding:0px 50px;
-        }
+    .sponsor-container, .minor-sponsor-container{
+    padding:0px 50px;
+    }
 }
 
 /*Mobile*/
@@ -23,13 +23,32 @@
         padding:0vw 10vw;
     
     }
+    .minor-sponsor-container {
+        padding:0vw 3vw;
+    
+    }
+    .minor-sponsor-container .sponsor-img{
+        width:30%;
+        margin:1.6%;
+    }
 }
 
 .content-heading {
-    color:#2699fb;
+    color:#e94e1b;
     padding:10px;
     padding-left:5%;
+    padding-right:5%;
     margin-bottom:10px;
+}
+
+.line{
+    display: inline-block;
+    content: "";
+    height: 3px;
+    background:#e94e1b;
+    width:100%;
+    margin-bottom:10px;
+    
 }
 
 /*------Event Information Page------*/
@@ -71,7 +90,8 @@
 }
 
 /*------Sponsors Page------*/
-.sponsor-container {
+
+.sponsor-container, .minor-sponsor-container {
     background-color: white;
     text-align:center;
 }

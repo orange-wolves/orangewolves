@@ -59,8 +59,8 @@
 	font-size:1.3em;
 	font-family:myriad-pro, sans-serif;
 	font-weight:bold;
-	padding-right:3vw;
-	padding-left:3vw;
+	margin-right:3vw;
+	margin-left:3vw;
 	text-decoration:none;
 	color:black;
 	text-transform:uppercase;
@@ -82,10 +82,7 @@ a.dropbtn {
 	color:black;
 	text-align:center;
 }
-.dropdown {
-	float:none;
-	position:relative;
-}
+
 .dropdown-content {
     display:none;
 	position:absolute;
