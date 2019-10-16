@@ -23,31 +23,23 @@
                 <!----------First column--------->
                 <div class="col-4 conMod">
                     <!----------1th block in left side, content discription--------->
-                    <div class="row ">
+                    <div class="row" id="brief">
                         <p id="left_top_title">BUS 1</p>
-                        <p class="left_top_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt.</p><br><br>
-                        <br>
-                        <br>
-                        
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
+                        <p class="left_top_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt.</p>
                     </div>
 
                     <!----------2th block in left side, display image1--------->
-                    <div class="row left_image center">
+                    <div class="row left_image">
                         <img src="../resources/images/image_545x380.png" alt="image">
                     </div>
                     
                     <!----------3th block in left side, display image2--------->
-                    <div class="row left_image center">
+                    <div class="row left_image">
                         <img src="../resources/images/image_545x380.png" alt="image">
                     </div>
 
                     <!----------4th block in left side, display image3--------->
-                    <div class="row left_image center">
+                    <div class="row left_image bottom">
                         <img src="../resources/images/image_545x380.png" alt="image">
                     </div>
                 </div>
@@ -62,25 +54,11 @@
                     <div class="row conLight right_text">
                             <!--Sub column of introduce-->
                             <div class="row col-12">
-                                <br>
-                                <p id="right_introduce_title">Introduce</p>
-                                <br>
+                                <h1>Introduce</h1>
                             </div>
                             <div id="right_sub_column_1" class="col-6">
-                                <p class="right_side_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at imperdiet velit. Quisque lobortis volutpat lorem a varius. Praesent gravida ac augue ac fermentum. Quisque cursus luctus tellus, a molestie ante rutrum facilisis. Mauris consequat, tortor maximus euismod convallis, sem ante fermentum lacus, ac sagittis nulla metus imperdiet elit. Morbi elementum, diam a sagittis volutpat, ligula ante interdum velit, at eleifend enim lectus vel diam. Donec aliquet a nisi vel condimentum. Suspendisse potenti.</p>
-                                <br>
-                                <br>
-                                <br>
-<<<<<<< HEAD
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br><br><br><br><br><br><br>
-=======
->>>>>>> bf3dd926d34efc34e21ed2db6105a65ae71491b1
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at imperdiet velit. Quisque lobortis volutpat lorem a varius. Praesent gravida ac augue ac fermentum. Quisque cursus luctus tellus, a molestie ante rutrum facilisis. Mauris consequat, tortor maximus euismod convallis, sem ante fermentum lacus, ac sagittis nulla metus imperdiet elit. Morbi elementum, diam a sagittis volutpat, ligula ante interdum velit, at eleifend enim lectus vel diam. Donec aliquet a nisi vel condimentum. Suspendisse potenti.</p>
+                                
                             </div>
 
                             <!--Sub column of introduce-->

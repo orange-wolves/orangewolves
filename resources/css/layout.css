@@ -109,21 +109,16 @@ body {
 
 .conLight{
     padding: 5px;
-    color: #2699fb;
-    background-color: #f1f8fe;
     border: .3em solid white;
 }
 
 .conMod{
     padding: 5px;
-    color: #2698fb;
-    background-color: #bce0ff;
     border: .3em solid white;
 } 
 
 .conDark{
     padding: 5px;
     color: #ffffff;
-    background-color: #2699fb;
     border: .3em solid white;
 }
