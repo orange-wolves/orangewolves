@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Bus 1</title>
+        <title>Bus 2</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no>
         <link rel="stylesheet" type="text/css" href="../resources/css/layout.css">
 		<link rel="stylesheet" type="text/css" href="../resources/css/header.css">
         <link rel="stylesheet" type="text/css" href="../resources/css/footer.css">
-        <link rel="stylesheet" type="text/css" href="../resources/css/bus1.css">
+        <link rel="stylesheet" type="text/css" href="../resources/css/bus.css">
     </head>
 
     <body>
@@ -27,7 +27,7 @@
                         <div id="busbrief">
                             <div id="busIcon"><img src="../resources/images/Bus.svg" alt="image"></div>
                             <div class="relative">
-                                <div id="busDescription">Bus 1</div>
+                                <div id="busDescription">Bus 2</div>
                             </div>
                         </div>
                     </div>
@@ -36,17 +36,17 @@
                     </div>
 
                     <!----------2th block in left side, display image1--------->
-                    <div class="image">
-                        <img src="../resources/images/image_545x380.png" alt="image">
-                        <img src="../resources/images/image_545x380.png" alt="image">
-                        <img src="../resources/images/image_545x380.png" alt="image">
+                    <div class="imageContainer">
+                        <img src="../resources/images/image_545x380.png" alt="image" class="image">
+                        <img src="../resources/images/image_545x380.png" alt="image" class="image">
+                        <img src="../resources/images/image_545x380.png" alt="image" class="image">
                     </div>
                 </div>
                 <!----------Second column--------->
                 <div class="col-8">
                     <!----------1th block in right side, display image1--------->
                     <div class="row">
-                            <img src="../resources/images/image_993x324.png" alt="image">
+                            <img src="../resources/images/image_993x324.png" alt="image" class="image">
                     </div>
                     
                     <!----------2th block in right side, ??introduce??--------->
@@ -66,7 +66,7 @@
 
                     <!----------3th block in right side, display image2--------->
                     <div class="row">
-                            <img src="../resources/images/image_993x449.png" alt="image">
+                            <img src="../resources/images/image_993x449.png" alt="image" class="image">
                     </div>
                 </div> 
             </div>
