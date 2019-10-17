@@ -1,11 +1,11 @@
 
-img{
-    max-width: 100%;
-    height: auto;
+.imageContainer{
+    padding: 2px;
 }
 
 .image{
-    padding: 2px;
+    max-width: 100%;
+    height: auto;
 }
 
 #busbrief{
@@ -49,10 +49,10 @@ img{
     #busIcon{
         text-align: right;
     }
-    .image{
+    .imageContainer{
         text-align: center;
     }
-    .image img{
+    .imageContainer img{
         max-width: 32%;
         margin: 0 0.5%;
         float: left;
