@@ -6,7 +6,9 @@ div.busPortal{
 }
 
 .busText{
-    color: #2698fb;
+    
+    font-size: 15px;
+    color: #fb9f26;
     border: .3em solid white;
     padding: 5px;
     background-color: #bce0ff;
@@ -14,7 +16,6 @@ div.busPortal{
 
 .busDescription {
     padding-top: 1px;
-    position: absolute;
     text-align: center;
     bottom: 0;
     left: 0;
@@ -30,15 +31,17 @@ div.busPortal{
 }
 
 .ImageContainer{
-    float: top;
+    
+    border-top: white; 
     width: 100%;
     height: 70%;
 }
 .busImage{
+    
     height: 100%;
 }
 .cols-container {
-    display: flex;
+    
     width: 100%;
   }
 .cols {
@@ -46,59 +49,36 @@ div.busPortal{
     padding: 16px;
 }
 
-.Orangedescription{height: 33.4em;}
+.center{
+    margin-left: auto;
+    margin-right: auto;
 
-.flex-container {
-    display: flex;
-    align-items: stretch;
 }
-
-.flex-container > div {
-    margin: 0px;
+div{
+    border : 1px solid black ;
 }
 
-.flex-center {
-        display: flex;
-        align-items: center;
-        
-}
-.flex-center.img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
+
+
+
+
 
 @media only screen and (max-width: 768px) {
     .busLink{
         height: 10em;
     }
 
-    .ImageContainer{
-        float: left;
-        width: 30%;
-        
-    }
+    
     .busImage{
         height: 100%;
         width: 100%;
     }
 
-    .busDescription {
-        position: static;
-        bottom: 0;
-        left: 0;
-        height: 100%;
-        overflow: hidden;
-        width: 70%;
-        height: 100%;
-    }
+    
 
-    .Orangedescription{height: 14em;}
+    
 
-    .flex-container {
-        display: table;
-        align-items: stretch;
-    }
-
+    
 
 }
