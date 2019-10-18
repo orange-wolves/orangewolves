@@ -26,10 +26,25 @@
 					
                     <div class="col-12">
                         <div class="row center">
+
+
 							<a href="bus-1"><div class="col-6 conLight busLink">
 								<div class="ImageContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
-								<div class="busDescription"><p><b>Gangstar Ray</b><br></p></div>
+								<div class="busDescription"><p><b class="link">Gangstar Ray</b></p></div>
+								
+								<div class="overlay">
+									<div class="effect1 s1"></div>
+									<div class="effect1 s2"></div>
+									<div class="effect1 s3"></div>
+									<div class="effect1 s4"></div>
+									
+								</div>
 							</div></a>
+						
+
+
+
+							
 							<a href="bus-2"><div class="col-6 conLight busLink ">
 								<div class="ImageContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
 								<div class="busDescription"><p><b>Destroyer Asim</b><br></p></div>
