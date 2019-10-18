@@ -89,6 +89,16 @@ h1 {
     font-weight: bold; 
 }
 
+h2 {
+    font-family: cardenio, sans-serif;
+    font-weight: bold; 
+}
+
+h3 {
+    font-family: cardenio, sans-serif;
+    font-weight: bold; 
+}
+
 a {
     font-family: myriad-pro, sans-serif;
     font-size: 10pt;

@@ -53,7 +53,7 @@
                     <div class="row conLight" id="busSummary">
                             <!--Sub column of introduce-->
                             <div class="row col-12">
-                                <h1>Introduce</h1>
+                                <h1>Summary</h1>
                             </div>
                             <div class="col-12">
                                 <p>Our bus takes audiences on a horticultural journey which explores our connection to places and environments. Starting from the quintessential Aussie backyard, journey through a range of landscapes:<br> cloudscapes and lush tropical spaces transform into a growing, hanging installation that recreates the sights, smells and sounds of the Australian bush.  The installations feature sustainable practices including repurposed and recycled materials, solar power and foam-free floral constructions.</p>
