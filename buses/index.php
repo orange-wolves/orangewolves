@@ -22,58 +22,61 @@
 
 <!-----------------------------CONTENT------------------------------>					
 				
-                <div class="row center">
-					
-                    <div class="col-12">
-                        <div class="row center">
-
-
-							<a href="bus-1"><div class="col-6 conLight busLink">
+                <div class="row">
+					<div class="col-3 conLight Orangedescription">
+						<p>Orange Wolves</p>
+						<br>
+						<br>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod ex porta metus blandit, a hendrerit nulla elementum. Quisque sed lacus vel neque posuere pharetra. Nullam tortor libero, sollicitudin vel lacinia ut, congue ut nunc. Praesent ut quam ut ligula venenatis convallis. <br><br>Nullam vel tellus nisi. Etiam suscipit bibendum molestie. Nullam eu placerat mauris, eu scelerisque nisi. Aenean ac elit sit amet erat semper posuere sed eget odio. Fusce eget auctor tortor. Suspendisse potenti. Praesent ullamcorper metus et sem venenatis, id volutpat tellus semper.</p>
+                    </div>
+                    <div class="col-9">
+                        <div class="row">
+							<a href="bus-1"><div class="col-4 conLight busLink">
 								<div class="ImageContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
-								<div class="busDescription"><p><b class="link">Gangstar Ray</b></p></div>
-								
-								<div class="overlay">
-									<div class="effect1 s1"></div>
-									<div class="effect1 s2"></div>
-									<div class="effect1 s3"></div>
-									<div class="effect1 s4"></div>
-									
-								</div>
+								<div class="busDescription"><p><b>Bus 1</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt.</p></div>
 							</div></a>
-						
-
-
-
-							
-							<a href="bus-2"><div class="col-6 conLight busLink ">
+							<a href="bus-2"><div class="col-4 conLight busLink ">
 								<div class="ImageContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
-								<div class="busDescription"><p><b>Destroyer Asim</b><br></p></div>
+								<div class="busDescription"><p><b>Bus 2</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt.</p></div>
 							</div></a>
-							<a href="bus-3"><div class="col-6 conLight busLink">
+							<a href="bus-3"><div class="col-4 conLight busLink">
 								<div class="ImageContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
-								<div class="busDescription"><p><b>Mr Doco Conor</b><br></p></div>
+								<div class="busDescription"><p><b>Bus 3</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt.</p></div>
 							</div></a>
-                        
-							<a href="bus-4"><div class="col-6 conLight busLink">
+                        </div>
+                        <div class="row">
+							<a href="bus-4"><div class="col-4 conLight busLink">
 								<div class="ImageContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
-								<div class="busDescription"><p><b>Boxer Ibby</b><br></p></div>
+								<div class="busDescription"><p><b>Bus 4</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt.</p></div>
 							</div></a>
-							<a href="bus-5"><div class="col-6 conLight busLink">
+							<a href="bus-5"><div class="col-4 conLight busLink">
 								<div class="ImageContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
-								<div class="busDescription"><p><b>Tawn Cat Grace</b><br></p></div>
+								<div class="busDescription"><p><b>Bus 5</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt.</p></div>
 							</div></a>
-							<a href="bus-6"><div class="col-6 conLight busLink">
+							<a href="bus-6"><div class="col-4 conLight busLink">
 								<div class="ImageContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
-								<div class="busDescription"><p><b>Gumbll Lachlan</b><br></p></div>
+								<div class="busDescription"><p><b>Bus 6</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt.</p></div>
 							</div></a>
                         </div>
                     </div>
                 </div><!--End Row-->
-                
+                <div class="row flex-container">
+                    <div class="col-6"  style="flex-grow: 1; border: .3em solid white;">
+						<?php include("../resources/videos/videoSlider.html"); ?>
+                    </div>
+
+					<div class="col-6 conMod flex-center" style="flex-grow: 1;">
+						<div style='padding: 0.5em;'>
+							<h3>Duis pharetra sit.</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a luctus enim. Proin aliquam ante et leo gravida vestibulum. Mauris sit amet dui vel nunc ullamcorper condimentum. Curabitur placerat sem vel magna imperdiet tempus. Pellentesque at dapibus justo. Vestibulum ullamcorper aliquet mollis. Phasellus vitae laoreet est. Morbi ut dolor iaculis, rutrum libero vitae, tristique mauris. Vestibulum eleifend sem a odio aliquet, id tempus felis tincidunt. Mauris ultricies, arcu nec consectetur feugiat, nunc metus feugiat diam, in dignissim turpis nisl et magna.</p>	
+						</div>
+					</div>
+				</div>
+			    
 
 <!-----------------------------FOOTER------------------------------>
 				
-<div class="row">
+				<div class="row">
 					<footer>
 						<?php include("../resources/layout/footer.html"); 
 						?>

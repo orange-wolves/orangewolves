@@ -51,7 +51,8 @@ dark orange - #e94e1b
     position: relative;
     display:block;
     height:8em;
-     
+    
+   
 }
 
 .iconsize{
@@ -90,12 +91,12 @@ dark orange - #e94e1b
   .footerimg
   {
     background-image: url("../images/grass-border.svg");
-    background-position: 0  20px;
+    background-position: 0  10px;
     background-size: contain;
     background-repeat: repeat-x;
     width:100%;
     min-width:300px;
-    height: 3em;
+    height: 2em;
     
 
   }
@@ -106,7 +107,7 @@ dark orange - #e94e1b
     bottom:0;
     left:0;
     width:100%;
-    height:8em;
+    height:7em;
     
 }
 
