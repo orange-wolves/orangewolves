@@ -28,6 +28,8 @@
 
 					<div class="col-12 content-heading">
 						<h1>Copyright</h1>
+						<div class="line">
+						</div>
 					</div>
 
 				</div>

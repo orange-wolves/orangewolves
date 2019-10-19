@@ -26,10 +26,11 @@
 				
 			<div class="wrapper">
 				<div class="row">
-					<div class="col-12 info-hero">
+					<div class="col-12">
 						<div class="content-heading">
 							<h1>Contact Us</h1>
-							Jumbotron or image slider.
+							<div class="line">
+							</div>
 						</div>
 					</div>
 				</div>

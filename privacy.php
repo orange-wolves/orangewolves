@@ -29,6 +29,8 @@
 
 					<div class="col-12 content-heading">
 						<h1>Privacy</h1>
+						<div class="line">
+						</div>
 					</div>
 
 				</div>

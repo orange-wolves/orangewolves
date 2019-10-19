@@ -29,8 +29,9 @@
 }
 
 #busIcon{
-    width: 50%;
+    width: 35%;
     float: left;
+    margin-left: 15%;
 }
 
 #busIcon img{
