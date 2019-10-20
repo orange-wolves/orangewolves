@@ -143,6 +143,7 @@ div.busPortal{
 @media only screen and (max-width: 768px) {
     .busLink{
         height: 13em;
+        width : 50%
     }
 
     
@@ -151,10 +152,18 @@ div.busPortal{
         width: 100%;
     }
 
-    
+}
+
+@media only screen and (max-width: 400px) {
+    .busLink{
+        height: 13em;
+        width : 100%
+    }
 
     
-
-    
+    .busImage{
+        height: 100%;
+        width: 100%;
+    }
 
 }
