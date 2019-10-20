@@ -89,7 +89,7 @@ dark orange - #e94e1b
 
   .footerimg
   {
-    background-image: url("../images/grass-border.svg");
+    background-image: url("../images/grass-border.png");
     background-position: 0  20px;
     background-size: contain;
     background-repeat: repeat-x;
