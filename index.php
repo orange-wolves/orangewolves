@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="resources/css/layout.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/header.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/footer.css">
-		<link rel="stylesheet" type="text/css" href="resources/css/indexLayout.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/pages.css">
 	</head>
 		
 	<body>
@@ -25,15 +25,15 @@
 <!-----------------------------CONTENT------------------------------>					
 				
 							<!------HERO------>	
-				<div class="row light-orange asdf">
+				<div class="row info-hero">
 				<h2><strong>FEAST YOUR EYES ON THIS!</strong></h2>
-					<div class="col-6 asdf">
+					<div class="col-6">
 						<p><b><I>Orange Wolves</I></b> is a multi-disciplinary immersive experience that encompasses music, media, arts, fashion, technology and design.</p>
 						<br>
 						<p>The event will be a celebration of creativity, technology and performance - providing the audience with a creative, transformational and immersive experience.</p>
 						<br>
 					</div>
-					<div class="col-6 asdf">
+					<div class="col-6">
 						<p>The plan is to use <b>6</b> retired Action buses that will be transformed into small cinemas, music venues, fashion parades, make spaces, and installation spaces - located in the CANBERRA CBD, for three days</p>
 						<br>
 						<p><b>26 - 28 November 2019</b><br></p>
@@ -43,12 +43,13 @@
 							<!------Information------>	
 
 					<!--Medium/Wide information boxes row 1 -->
-				<div class="row asdf">
-					<div class="col-6 imageContainer">
-						<img src="resources/images/image_545x380.png" alt="image" id="image1">
+				<div class="row">
+					<div class="col-6 info-container image-container">
+						<img src="resources/images/image_545x380.png" alt="image" id="HomePageImage">
 					</div>
 					<!--Requires a google API license agreement-->
-					<div class="col-6" id="googleMap" style="height:400px;">
+					<div class="col-6 info-container" style="height:auto;">
+						<div id="googleMap" style="height:400px;"></div>
 					</div>
 				</div>
 					<!--Medium/Small information boxes row 1 -->

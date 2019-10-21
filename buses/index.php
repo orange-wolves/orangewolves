@@ -47,7 +47,7 @@
 							
 							<a href="bus-2"><div class="col-6 conLight busLink ">
 								<div class="ImageContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
-								<div class="busDescription"><p><b class="link">Destroyer Asim</b><br></p></div>
+								<div class="busDescription"><p><b class="link">Destroyer Asim</b></p></div>
 
 								<div class="overlay">
 									<div class="effect1 s1"></div>
@@ -60,7 +60,7 @@
 
 							<a href="bus-3"><div class="col-6 conLight busLink">
 								<div class="ImageContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
-								<div class="busDescription"><p><b class="link">Mr Doco Conor</b><br></p></div>
+								<div class="busDescription"><p><b class="link">Mr Doco Conor</b></p></div>
 
 								<div class="overlay">
 									<div class="effect1 s1"></div>
@@ -73,7 +73,7 @@
                         
 							<a href="bus-4"><div class="col-6 conLight busLink">
 								<div class="ImageContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
-								<div class="busDescription"><p><b class="link">Boxer Ibby</b><br></p></div>
+								<div class="busDescription"><p><b class="link">Boxer Ibby</b></p></div>
 
 								<div class="overlay">
 									<div class="effect1 s1"></div>
@@ -86,7 +86,7 @@
 
 							<a href="bus-5"><div class="col-6 conLight busLink">
 								<div class="ImageContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
-								<div class="busDescription"><p><b class="link">Tawn Cat Grace</b><br></p></div>
+								<div class="busDescription"><p><b class="link">Tawn Cat Grace</b></p></div>
 
 								<div class="overlay">
 									<div class="effect1 s1"></div>
@@ -99,7 +99,7 @@
 
 							<a href="bus-6"><div class="col-6 conLight busLink">
 								<div class="ImageContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
-								<div class="busDescription"><p><b class="link">Gumbll Lachlan</b><br></p></div>
+								<div class="busDescription"><p><b class="link">Gumbll Lachlan</b></p></div>
 
 								<div class="overlay">
 									<div class="effect1 s1"></div>
@@ -112,7 +112,7 @@
 
 							<a href="bus-7"><div class="col-6 conLight busLink">
 								<div class="ImageContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
-								<div class="busDescription"><p><b class="link">Yurana</b><br></p></div>
+								<div class="busDescription"><p><b class="link">Yurana</b></p></div>
 
 								<div class="overlay">
 									<div class="effect1 s1"></div>
