@@ -3,10 +3,11 @@
     <head>
         <title>Bus 4</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no>
+        <link rel="icon" href="../resources/images/OrangeWolvesLogo.svg">
+        <link rel="stylesheet" type="text/css" href="../resources/css/pages.css">
         <link rel="stylesheet" type="text/css" href="../resources/css/layout.css">
 		<link rel="stylesheet" type="text/css" href="../resources/css/header.css">
         <link rel="stylesheet" type="text/css" href="../resources/css/footer.css">
-        <link rel="stylesheet" type="text/css" href="../resources/css/bus.css">
     </head>
 
     <body>
@@ -25,13 +26,13 @@
                     <!----------1th block in left side, content discription--------->
                     <div class="row">
                         <div id="busbrief">
-                            <div id="busIcon"><img src="../resources/images/Bus.svg" alt="image"></div>
-                            <div class="relative">
-                                <div id="busDescription">Bus 4</div>
+                            <div id="busIcon"><img src="../resources/images/Bus.svg" alt="Bus Icon" ></div>
+                            <div class="bus-relative">
+                                <div id="busDescription">Bus 2</div>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row info-container">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt.</p>
                     </div>
 

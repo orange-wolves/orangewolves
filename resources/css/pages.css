@@ -41,6 +41,12 @@
         max-width: 100%;
         height: auto;
     }
+
+    .imageContainer img{
+        max-width: 32%;
+        margin: 0 0.5%;
+        float: left;
+    }
 }
 
 .content-heading {
@@ -71,6 +77,10 @@
 .image{
     max-width: 100%;
     height: auto;
+}
+
+.imageContainer{
+    padding: 2px;
 }
 
 
@@ -174,3 +184,36 @@
     width: auto;
     max-width: 100%;
 }
+
+/*------ Bus Pages ------*/
+.bus-relative{
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+#busbrief{
+    color: #e57908;
+    font-family: cardenio, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    margin: auto;
+}
+
+#busDescription{
+    position: absolute;
+    top: 20px;
+    left: 5px;
+}
+
+#busIcon{
+    width: 35%;
+    float: left;
+    margin-left: 15%;
+    min-height: 2em;
+}
+
+#busIcon img{
+    max-height: 3em;
+}
+
