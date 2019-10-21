@@ -22,7 +22,7 @@
 <!----------------------------------Body------------------------------------------------------>            
             <div class="row">
                 <!----------First column--------->
-                <div class="col-4 conMod">
+                <div class="col-4">
                     <!----------1th block in left side, content discription--------->
                     <div class="row">
                         <div id="busbrief">
