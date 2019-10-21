@@ -74,6 +74,7 @@ dark orange - #e94e1b
 
     position: relative;
     text-align: center;
+    padding-right: 1em;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
