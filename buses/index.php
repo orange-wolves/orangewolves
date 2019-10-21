@@ -37,13 +37,8 @@
 									<div class="effect1 s2"></div>
 									<div class="effect1 s3"></div>
 									<div class="effect1 s4"></div>
-									
 								</div>
 							</div></a>
-						
-
-
-
 							
 							<a href="bus-2"><div class="col-6 conLight busPortalLink ">
 								<div class="BusPortalContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
@@ -54,7 +49,6 @@
 									<div class="effect1 s2"></div>
 									<div class="effect1 s3"></div>
 									<div class="effect1 s4"></div>
-									
 								</div>
 							</div></a>
 
@@ -67,7 +61,6 @@
 									<div class="effect1 s2"></div>
 									<div class="effect1 s3"></div>
 									<div class="effect1 s4"></div>
-									
 								</div>
 							</div></a>
                         
@@ -80,7 +73,6 @@
 									<div class="effect1 s2"></div>
 									<div class="effect1 s3"></div>
 									<div class="effect1 s4"></div>
-									
 								</div>
 							</div></a>
 
@@ -93,7 +85,6 @@
 									<div class="effect1 s2"></div>
 									<div class="effect1 s3"></div>
 									<div class="effect1 s4"></div>
-									
 								</div>
 							</div></a>
 
@@ -106,7 +97,6 @@
 									<div class="effect1 s2"></div>
 									<div class="effect1 s3"></div>
 									<div class="effect1 s4"></div>
-									
 								</div>
 							</div></a>
 
@@ -119,7 +109,6 @@
 									<div class="effect1 s2"></div>
 									<div class="effect1 s3"></div>
 									<div class="effect1 s4"></div>
-									
 								</div>
 							</div></a>
 
