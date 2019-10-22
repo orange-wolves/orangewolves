@@ -37,13 +37,13 @@
 				<div class="row">
 					<div class="col-12 sponsor-container">
 						<div class="col-3 sponsor-img">
-							<img src="resources\images\img-200px.png">
+							<img src="resources\images\CIT_logo_stacked_white_RTO.png">
 						</div>
 						<div class="col-3 sponsor-img">
 							<img src="resources\images\img-200px.png">
 						</div>
 						<div class="col-3 sponsor-img">
-							<img src="resources\images\img-200px.png">
+							<img src="resources\images\CapitalLinenServiceLogoColour.svg">
 						</div>
 						<div class="col-3 sponsor-img">
 							<img src="resources\images\img-200px.png">
