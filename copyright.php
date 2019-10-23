@@ -35,7 +35,12 @@
 				</div>
 				<div class="row">
 					<div class="col-12 info-container">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod ex porta metus blandit, a hendrerit nulla elementum. Quisque sed lacus vel neque posuere pharetra. Nullam tortor libero, sollicitudin vel lacinia ut, congue ut nunc. Praesent ut quam ut ligula venenatis convallis. Nullam vel tellus nisi.</p>
+						<p>The Copyright material on this site belongs to the appropriate owner.</p>
+						<br>
+						<p>You may not copy, adapt, publish, distribute or commercialise any material contained on this site without the appropriate owner’s permission.</p>
+						<br>
+						<p><b>Inquiries:</b></p>
+						<p>GPO Box 826 Canberra<br>ACT 2601<br>+61 2 6207 3188</p>
 					</div>
 				</div>
 			</div>
