@@ -38,7 +38,8 @@
 					<div class="col-6">
 						<p>The plan is to use <b>6</b> retired Action buses that will be transformed into small cinemas, music venues, fashion parades, make spaces, and installation spaces - located in the CANBERRA CBD, for three days</p>
 						<br>
-						<p><b>26 - 28 November 2019</b><br></p>
+						<p><b>CANBERRA - CITY WALK</b></p>
+						<p><b>26 - 28 November 2019</b><br></p><br>
 					</div>
 				</div>
 
@@ -46,10 +47,15 @@
 
 					<!--Medium/Wide information boxes row 1 -->
 				<div class="row">
-					<div class="col-6 info-container image-container">
-						<img src="resources/images/image_545x380.png" alt="image" id="HomePageImage">
+				</div>
+				<div class="row">
+					<div class="col-6 info-container image-container" style="height: 400px;">
+						<div>
+							<video controls width="100%" id="HomePageImage">
+								<source src="resources/videos/FEAST-YOUR-EYES.mp4" type="video/mp4" />
+							</video>
+						</div>
 					</div>
-					<!--Requires a google API license agreement-->
 					<div class="col-6 info-container" style="height:auto;">
 						<div id="OrangeWolvesEvent" style="width: auto; height: 400px;"></div>
 					</div>
@@ -168,5 +174,4 @@
 	L.marker([-35.279827, 149.132210]).addTo(mymap);
 </script>
 
-	<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 </html> 
