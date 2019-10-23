@@ -33,9 +33,20 @@
 }
 
 .center{
+    
     margin-left: auto;
     margin-right: auto;
+    
 }
+
+.contactbox{
+    width: 83.33%;
+}
+
+.contactline{
+    width: 91.66%;
+}
+
 
 
 /*------Event Information Page------*/
@@ -73,6 +84,15 @@
     height:400px;
     border:solid 2px white;
 }
+/*------our story Page------*/
+
+.indent{
+    padding-left: 40px;
+}
+
+.storypage{
+    
+height:35em}
 
 /*------Sponsors Page------*/
 
@@ -214,7 +234,7 @@ div.busPortal{
     }
 
 .busPortalLink:hover .link{
-    border-bottom: 8px solid red;
+    border-bottom: 8px solid #e94e1b;
     border-radius: 2px;               
 }
         
@@ -237,7 +257,7 @@ div.busPortal{
 }
 
 .link{
-    color: red;
+    color: #e94e1b;
     text-align: center;
     font-size:30px;
 }
@@ -289,6 +309,12 @@ div.busPortal{
 .center{
     margin-left: auto;
     margin-right: auto;
+}
+
+.text{
+    color: #e94e1b;
+    font-family: cardenio, sans-serif;
+    font-weight: bold;
 }
 
 /*Large Screens*/
@@ -350,6 +376,10 @@ div.busPortal{
         height: 100%;
         width: 100%;
     }
+
+    .storypage{
+    
+        height:auto;}
 }
 
 @media only screen and (max-width: 400px) {
