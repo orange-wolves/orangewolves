@@ -33,33 +33,38 @@
 					</div>
 				</div>
 				<div class="row">
-				<div class="col-9 info-container">
-					<p>Info Here</p>
-					<br><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod ex porta metus blandit, a hendrerit nulla elementum. Quisque sed lacus vel neque posuere pharetra. Nullam tortor libero, sollicitudin vel lacinia ut, congue ut nunc. Praesent ut quam ut ligula venenatis convallis. Nullam vel tellus nisi.</p>
+				<div class="col-9 info-container storypage">
+					<h1><b>Orangewolves ICT team</b></h1><br>
+					<p>This project was a great real world learning experience. <br>We are a small team of seven and most of us have never made a website or used html/Css before.</p>
+					<p>During this project we learnt how to use PHP, HTML, CSS and JavaScript and we created our website using Visual Studio Code.<br><br> We enjoyed working together as a team and We are thankfull for the opportunity to be a part of the Orangewolves development team</p>
+
+					<br><p><b>Our team of developers</b></p>
+					<br><b>
+					<ul class="indent">	
+						
+						<li>bad ray</li>
+						<li>asim </li>
+						<li>connor</li>
+						<li>enforcer</li>
+						<li>ibby</li>
+						<li>lachlan</li>
+						<li>other ray</li>
+					</ul>
+					
+					</b><br>
+					<p>Hope you like our website!</p>
+
+
+					<br><p></p>
 				</div>
-				<div class="col-3 link-container">
+				<div class="col-3 link-container storypage">
 					
 				</div>
 				</div>
-				<div class="row">
-					<div class="col-12">
-					<div class="col-5 info-container">
-						<p>More info</p>
-						<br>
-						<ul>
-							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-							<li>Nam facilisis sapien eu metus malesuada sagittis.</li>
-							<li>Pellentesque auctor augue et rutrum posuere.</li>
-							<li>Nullam sed magna ac neque tincidunt interdum.</li>
-							<li>Nulla at mauris volutpat, congue ex sit amet, elementum lacus.</li>
-							<li>Donec ut diam non massa fringilla faucibus vel et eros.</li>
-						</ul>
-					</div>
-				<div class="col-7 info-container">
-					
-				</div>
-</div>
-</div>
+									
+				
+
+
 </div>
 <!-----------------------------FOOTER------------------------------>
 				
