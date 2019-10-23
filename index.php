@@ -59,7 +59,7 @@
 				<div class="row">
 				</div>
 				<div class="row">
-					<div class="col-6 info-container image-container" style="height: 400px;">
+					<div class="col-6 info-container image-container blackback" style="height: 400px;">
 						<div>
 							<video controls width="100%" id="HomePageImage">
 								<source src="resources/videos/FEAST-YOUR-EYES.mp4" type="video/mp4" />
