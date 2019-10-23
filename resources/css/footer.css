@@ -108,7 +108,7 @@ dark orange - #e94e1b
     left:0;
     width:100%;
     height:8em;
-    
+    z-index: 1000;
 }
 
 .maxsize{

@@ -140,6 +140,10 @@
     max-width: 100%;
 }
 
+#OrangeWolvesEvent{
+    height: 50vh;
+}
+
 /*------ Bus Pages ------*/
 .bus-relative{
     position: relative;
