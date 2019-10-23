@@ -28,7 +28,7 @@
                     <div class="col-12">
                         <div class="row center">
 
-							<a href="bus-1"><div class="col-6 conLight busPortalLink">
+							<a href="bus-1.php"><div class="col-6 conLight busPortalLink">
 								<div class="BusPortalContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
 								<div class="busTitle"><p><b class="link text">Gangstar Ray</b></p></div>
 								
@@ -40,7 +40,7 @@
 								</div>
 							</div></a>
 							
-							<a href="bus-2"><div class="col-6 conLight busPortalLink ">
+							<a href="bus-2.php"><div class="col-6 conLight busPortalLink ">
 								<div class="BusPortalContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
 								<div class="busTitle"><p><b class="link text">Destroyer Asim</b></p></div>
 
@@ -52,7 +52,7 @@
 								</div>
 							</div></a>
 
-							<a href="bus-3"><div class="col-6 conLight busPortalLink">
+							<a href="bus-3.php"><div class="col-6 conLight busPortalLink">
 								<div class="BusPortalContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
 								<div class="busTitle"><p><b class="link text">Mr Doco Conor</b></p></div>
 
@@ -64,7 +64,7 @@
 								</div>
 							</div></a>
                         
-							<a href="bus-4"><div class="col-6 conLight busPortalLink">
+							<a href="bus-4.php"><div class="col-6 conLight busPortalLink">
 								<div class="BusPortalContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
 								<div class="busTitle"><p><b class="link text">Boxer Ibby</b></p></div>
 
@@ -76,7 +76,7 @@
 								</div>
 							</div></a>
 
-							<a href="bus-5"><div class="col-6 conLight busPortalLink">
+							<a href="bus-5.php"><div class="col-6 conLight busPortalLink">
 								<div class="BusPortalContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
 								<div class="busTitle"><p><b class="link text">Tawn Cat Grace</b></p></div>
 
@@ -88,7 +88,7 @@
 								</div>
 							</div></a>
 
-							<a href="bus-6"><div class="col-6 conLight busPortalLink">
+							<a href="bus-6.php"><div class="col-6 conLight busPortalLink">
 								<div class="BusPortalContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
 								<div class="busTitle"><p><b class="link text">Gumbll Lachlan</b></p></div>
 
@@ -100,7 +100,7 @@
 								</div>
 							</div></a>
 
-							<a href="bus-7"><div class="col-6 conLight busPortalLink">
+							<a href="Yurauna.php"><div class="col-6 conLight busPortalLink">
 								<div class="BusPortalContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
 								<div class="busTitle"><p><b class="link text">Yurana</b></p></div>
 
