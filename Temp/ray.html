@@ -58,8 +58,6 @@
     width: 100%;
 }
 
-
-
 .arrowd{
 position:absolute;
 right: 10%;
@@ -117,20 +115,21 @@ animation-iteration-count: infinite;
 }
 
 .up , .down, .downabit ,.upabit {
-    top:0;
     transition-property: top;
     transition-duration: 1s;
-    transition-delay: 0.1s
+    transition-delay: 0.1s;
+       
 }
 
 .cover{
-    height:100px;
+    
     transition-property: height;
     transition-duration: 1s;
-    transition-delay: 0.1s
+    transition-delay: 0.1s;
+    
 }
 .whitespace{
-
+    
     height:6vh;
     width:100%; 
     bottom:0; 
@@ -157,6 +156,7 @@ animation-iteration-count: infinite;
 .floatRight{
     text-align: right;
 }
+
 
 /*Mobile*/
 @media only screen and (max-width: 768px) {
@@ -308,11 +308,11 @@ animation-iteration-count: infinite;
                 
             } else {
                
-                $(".up").css({top: '0'}); 
-                $(".upabit").css({top: '0'});
-                $(".down").css({top: '0'});
-                $(".downabit").css({top: '0'});
-                $(".cover").css({height: '0'});
+                $(".up").css({top:'0vh'}); 
+                $(".upabit").css({top:'0vh'});
+                $(".down").css({top:'0vh'});
+                $(".downabit").css({top:'0vh'});
+                $(".cover").css({height:'0vh'});
                 $(".arrowd").css({display:'block'});
                 document.getElementById("vid1").autoplay = false; 
                
