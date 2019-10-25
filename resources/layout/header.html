@@ -6,6 +6,7 @@
 	</head>
 
   	<body>
+		<div id="content">
 		<div class="row">
 			<div class="col-12 logo" id="logo">
 				<a href="/orangewolves"><img src="\orangewolves\resources\images\OrangeWolvesLogo.svg" alt="Orange Wolves Logo"></a>
@@ -35,6 +36,7 @@
 				</ul>
 			</div>	
 		</div>
+	</div>
 		<script>
 		/*Dropdown*/
 		function dropdown() {
@@ -55,24 +57,27 @@
 			}
 		}
 		/*Sticky Navbar*/
+		window.addEventListener('resize', function(event){
+				window.onscroll = function() {myFunction()};
+			});
+			//window.onscroll = function() {myFunction()};
+
 			var navbar = document.getElementById("navbar");
 			var mobilenav = document.getElementById("mobilenav");
+			var content = document.getElementById("content");
 			var sticky = navbar.offsetTop;
 			var stickym = mobilenav.offsetTop;
 			function myFunction() {
 				if (window.pageYOffset >= sticky && window.pageYOffset >= stickym) {
 					navbar.classList.add("sticky");
 					mobilenav.classList.add("sticky");
-					logo.classList.add("headerspace");
-					
+					content.classList.add("headerspace");
 				} else {
 					navbar.classList.remove("sticky");
 					mobilenav.classList.remove("sticky");
-					logo.classList.remove("headerspace");
-					
+					content.classList.remove("headerspace");
 				}
 			}
-			window.onscroll = function() {myFunction()};
 		</script>
   	</body>
 </html>

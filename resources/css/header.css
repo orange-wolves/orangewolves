@@ -28,8 +28,9 @@
 	max-width:1000px;
 	z-index: 1000;
 }
-.sticky + .content {
-	padding-top: 60px;
+
+.headerspace{
+	padding-top:5%;
 }
 
 /*--Logo--*/
@@ -75,13 +76,13 @@
 /*--Mobile Nav--*/
 #mobilenav {
 	background-color:white;
-	padding:10px 0px;
+	padding:5px 0px;
 	padding-left:30px;
 	float:left;
 	z-index: 1500;
 }
 a.dropbtn {
-	font-size:2.8em;
+	font-size:2.5em;
 	color:black;
 	text-align:center;
 }
@@ -130,7 +131,4 @@ a.dropbtn {
 }
 .show{
 	display:block;
-}
-.headerspace{
-margin-top:55px;
 }
