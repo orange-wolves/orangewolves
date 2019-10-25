@@ -30,7 +30,7 @@
 
 							<a href="bus-1.php"><div class="col-6 conLight busPortalLink">
 								<div class="BusPortalContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
-								<div class="busTitle"><p><b class="link text">Gangstar Ray</b></p></div>
+								<div class="busTitle"><p><b class="link text">Florestry</b></p></div>
 								
 								<div class="overlay">
 									<div class="effect1 s1"></div>
@@ -42,7 +42,7 @@
 							
 							<a href="bus-2.php"><div class="col-6 conLight busPortalLink ">
 								<div class="BusPortalContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
-								<div class="busTitle"><p><b class="link text">Destroyer Asim</b></p></div>
+								<div class="busTitle"><p><b class="link text">Fashion</b></p></div>
 
 								<div class="overlay">
 									<div class="effect1 s1"></div>
@@ -78,7 +78,7 @@
 
 							<a href="bus-5.php"><div class="col-6 conLight busPortalLink">
 								<div class="BusPortalContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
-								<div class="busTitle"><p><b class="link text">Tawn Cat Grace</b></p></div>
+								<div class="busTitle"><p><b class="link text">Visual Arts</b></p></div>
 
 								<div class="overlay">
 									<div class="effect1 s1"></div>

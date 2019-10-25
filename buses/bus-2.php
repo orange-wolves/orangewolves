@@ -28,19 +28,19 @@
                         <div id="busbrief">
                             <div id="busIcon"><img src="../resources/images/Bus.svg" alt="Bus Icon" ></div>
                             <div class="bus-relative">
-                                <div id="busDescription">Bus 2</div>
+                                <div id="busDescription">Fashion</div>
                             </div>
                         </div>
                     </div>
                     <div class="row info-container">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt.</p>
+                    <p><b>Certificate III in Hairdressing</b><br><br><b>Diploma of Applied Fashion Design & Merchandising</b></p>
                     </div>
 
                     <!----------2th block in left side, display image1--------->
                     <div class="imageContainer">
-                        <img src="../resources/images/image_545x380.png" alt="image" class="image">
-                        <img src="../resources/images/image_545x380.png" alt="image" class="image">
-                        <img src="../resources/images/image_545x380.png" alt="image" class="image">
+                        <img src="../resources/images/bus2_img1.jpg" alt="image" class="image">
+                        <img src="../resources/images/bus2_img2.jpg" alt="image" class="image">
+                        <img src="../resources/images/bus2_img3.jpg" alt="image" class="image">
                     </div>
                 </div>
                 <!----------Second column--------->
@@ -54,14 +54,15 @@
                     <div class="row conLight" id="busSummary">
                             <!--Sub column of introduce-->
                             <div class="row col-12">
-                                <h1>Introduce</h1>
+                                <h1>Introduction</h1>
                             </div>
-                            <div class="col-6">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at imperdiet velit. Quisque lobortis volutpat lorem a varius. Praesent gravida ac augue ac fermentum. Quisque cursus luctus tellus, a molestie ante rutrum facilisis. Mauris consequat, tortor maximus euismod convallis, sem ante fermentum lacus, ac sagittis nulla metus imperdiet elit. Morbi elementum, diam a sagittis volutpat, ligula ante interdum velit, at eleifend enim lectus vel diam. Donec aliquet a nisi vel condimentum. Suspendisse potenti.</p>
-                            </div>
-                            <!--Sub column of introduce-->
-                            <div class="col-6">
-                                <p>Pellentesque porttitor condimentum massa quis ornare. Integer vestibulum ultrices arcu, eget dapibus enim auctor sed. In in mi posuere leo luctus sollicitudin. Sed facilisis, quam vel aliquet fringilla, eros ex tincidunt nibh, quis maximus mi mi quis nisi. Ut finibus nisi felis, nec vulputate tortor convallis quis. Nunc nec pharetra ex. Ut sit amet enim nulla. Cras pretium arcu velit, consequat bibendum turpis gravida vulputate. Pellentesque rutrum, massa nec bibendum interdum, orci leo rhoncus sapien, sit amet porta velit nisl nec magna. Proin id quam vel tortor molestie luctus et sit amet elit. Etiam in accumsan tortor, ac volutpat ligula.</p>
+                            <div class="col-12">
+                                <p>Fashion bus will have the collaboration of creativity throughout the bus, using sustainable products and resources. Hair and MakeUp team will create wigs made from recycled materials and provide information on some of the sustainable strategies underway in their industry. On the other hand fashion team has produced garments that are made from discarded bed sheets donated to CIT, they will also show examples of bio fabrics such as SCOBY “leather” and mushroom “leather”. Sustainability is the main focus for the interior of the bus, including paint and carpet.</p>
+                            <br>
+                            <h1>Fashion Parade</h1>
+                            
+                                <p>There will be collaboration between Fashion 2nd year students and Hairdressing/Make up: Students are working together to develop looks for a catwalk to showcase their skills. Fashion students have been asked to design a promotional and Ready to Wear range based on a concept developed in response to a design brief. This brief asks them, as a designer, to consider what makes them angry. What do they feel passionate about? What do they want to change in contemporary society? How could they voice their opinions using fashion? How can they make a difference? Students have looked at range of issues such as sustainability and rights to protest as a starting point for their designs. The Hair and MakeUp students are supporting the collections through collaboration and a shared vision through their styling of the models.</p>
+                            
                             </div>
                     </div>
 
