@@ -1,3 +1,84 @@
+/*Large Screens*/
+@media only screen and (min-width: 1000px) {
+	.sponsor-container, .minor-sponsor-container{
+	padding:0px 50px;
+	}
+}
+
+/*Desktop*/
+@media only screen and (max-width: 1000px) {
+	.sponsor-container, .minor-sponsor-container{
+	padding:0px 50px;
+	}
+}
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+	.bus-link{
+		width:33.3%;
+	}
+
+
+
+
+
+	.sponsor-img {
+			width:45%;
+			margin:0 2.5%;
+	}
+	.sponsor-container {
+			padding:0vw 10vw;
+	
+	}
+	.minor-sponsor-container {
+			padding:0vw 3vw;
+	
+	}
+	.minor-sponsor-container .sponsor-img{
+			width:30%;
+			margin:1.6%;
+	}
+	.image-container{
+			text-align: center;
+			height: auto;
+	}
+
+	#image{
+			max-width: 100%;
+			height: auto;
+	}
+
+	.imageContainer img{
+			max-width: 32%;
+			margin: 0 0.5%;
+			float: left;
+	}
+	.busPortalLink{
+			height: 13em;
+			width : 50%
+	}
+	.busImage{
+			height: 100%;
+			width: 100%;
+	}
+	.storypage{
+			height:auto;
+	}
+
+}
+
+@media only screen and (max-width: 400px) {
+	.busPortalLink{
+			height: 13em;
+			width : 100%
+	}
+	
+	.busImage{
+			height: 100%;
+			width: 100%;
+	}
+}
+
 .content-heading {
     padding:10px;
     padding-left:5%;
@@ -13,21 +94,12 @@
     width: 100%;
 }
 
-.line{
-    display: inline-block;
-    content: "";
-    height: 3px;
-    background:#e94e1b;
-    width:100%;
-    margin-bottom:10px;
-}
-
 .image{
     max-width: 100%;
     height: auto;
 }
 
-.imageContainer{
+.imageContainer{/*not needed?*/
     padding: 2px;
 }
 
@@ -36,27 +108,6 @@
     margin-right: auto;
 }
 
-.contactbox{
-    width: 83.33%;
-}
-
-.contactline{
-    width: 91.66%;
-}
-
-
-/*------Event Information Page------*/
-.info-hero {
-    background-color: #ffa927;
-    height:auto;
-    padding:5%;
-    border:solid 2px white;
-}
-
-.textbox{
-    padding-left:1.5%;
-    padding-right:1.5%;
-}
 
 .info-container {
     background-color:white;
@@ -127,53 +178,6 @@
     vertical-align: middle;
 }
 
-/*------ Home Page ------*/
-.blackback{
-    background-color: black;}
-
-.busLink{
-    float: left;
-    width:33.3%;
-    height:250px;
-    border: white solid 2px;
-    text-decoration: none;
-    color: black;
-}
-
-.busLinkHeader{
-    width:100%;
-    height:20%;
-    background-color: #e57908;
-    opacity: 0.8;
-}
-
-.busLinkHeader h3{
-    font-size: 8pt;
-    padding-left: 10px;
-    padding-top: 5px;
-}
-
-.busLinkHeader p{
-    font-size: 6pt;
-    padding-left: 10px;
-    padding-top: 5px;
-}
-
-.busLinkBody{
-    position: relative;
-    width:100%;
-    height:80%;
-    background-color: #f39200;
-    opacity: 0.5;
-}
-
-#HomePageImage{
-    padding-right: 2px;
-    height: 400px;
-    max-height: 400px;
-    width: auto;
-    max-width: 100%;
-}
 
 
 /*------ Bus Pages ------*/
@@ -329,18 +333,29 @@ div.busPortal{
     font-weight: bold;
 }
 
-/*Large Screens*/
-@media only screen and (min-width: 1000px) {
-    .sponsor-container, .minor-sponsor-container{
-    padding:0px 50px;
-    }
-}
 
-/*Desktop*/
-@media only screen and (max-width: 1000px) {
-    .sponsor-container, .minor-sponsor-container{
-    padding:0px 50px;
-    }
+/*------Page Elements------*/
+.info-hero {
+	background-color:#f39200;
+	height:auto;
+	padding:3%;
+	border:solid 2px white;
+}
+.info-hero p, .info-hero h1, .info-hero h2{
+	padding:0% 15px;
+}
+.line{
+	display: inline-block;
+	content: "";
+	height: 3px;
+	background:#e94e1b;
+	width:100%;
+	margin-bottom:10px;
+}
+.media-container{
+	background-color: black;
+	height:404px;
+	border:solid 2px white;
 }
 
 /*Mobile*/
@@ -397,15 +412,37 @@ div.busPortal{
         padding-left: 0px;
     }
 }
-
-@media only screen and (max-width: 400px) {
-    .busPortalLink{
-        height: 13em;
-        width : 100%
-    }
-    
-    .busImage{
-        height: 100%;
-        width: 100%;
-    }
+/*------ Home Page ------*/
+.homepage-media{
+	height: 400px;
+	max-height: 400px;
+	width: auto;
+	max-width: 100%;
 }
+.bus-link{
+	height:auto;
+	border: white solid 2px;
+}
+.bus-link:hover{
+	opacity:0.6;
+}
+.buslink-header{
+	background-color: #e94e1b;
+	color:white;
+	height:55px;
+	text-align:center;
+	position:relative;
+}
+.buslink-header h2{
+position: absolute;
+top: 50%;
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+width: 100%;
+padding-bottom:4px;
+}
+.buslink-body{
+	background-color:rgba(243, 146, 0, 0.6);
+	padding:20px 10px;
+}
+
