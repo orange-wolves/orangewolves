@@ -1,14 +1,14 @@
 /*Large Screens*/
 @media only screen and (min-width: 1000px) {
-	.sponsor-container, .minor-sponsor-container{
-	padding:0px 50px;
+	.sponsor-container, .minor-sponsor-container {
+		padding:0vw 5vw;
 	}
 }
 
 /*Desktop*/
 @media only screen and (max-width: 1000px) {
-	.sponsor-container, .minor-sponsor-container{
-	padding:0px 50px;
+	.sponsor-container, .minor-sponsor-container {
+		padding:0vw 5vw;
 	}
 }
 
@@ -17,27 +17,20 @@
 	.bus-link{
 		width:33.3%;
 	}
-
-
-
-
-
 	.sponsor-img {
-			width:45%;
-			margin:0 2.5%;
-	}
-	.sponsor-container {
-			padding:0vw 10vw;
-	
-	}
-	.minor-sponsor-container {
-			padding:0vw 3vw;
-	
+			width:50%;
 	}
 	.minor-sponsor-container .sponsor-img{
-			width:30%;
-			margin:1.6%;
+			width:33.3%;
+			padding:1.6%;
 	}
+	.sponsor-container, .minor-sponsor-container {
+		padding:0vw 10vw;
+	}
+
+
+
+
 	.image-container{
 			text-align: center;
 			height: auto;
@@ -116,20 +109,6 @@
     border:solid 2px white;
 }
 
-.link-container {
-    color:white;
-    background-color:#e94e1b;
-    padding:10px;
-    padding-top:70px;
-    height:250px;
-    border:solid 2px white;
-    text-align:center;
-}
-.link-container a:visited {
-    text-decoration:none;
-    color:white;
-}
-
 .map {
     background-color: #f1f8fe;
     height:400px;
@@ -144,28 +123,6 @@
 .storypage{
     
 height:35em}
-
-/*------Sponsors Page------*/
-
-.sponsor-container, .minor-sponsor-container {
-    background-color: white;
-    text-align:center;
-}
-
-.sponsor-img {
-    background-color: white;
-    margin-bottom:20px;
-    padding:0px 10px;
-}
-
-.sponsor-img img { /*border is removed once image is in place*/
-    max-width:100%;
-    height:auto;
-    background-color:#f1f8fe;
-    border:none;
-    vertical-align: middle;
-}
-
 
 
 /*------ Bus Pages ------*/
@@ -340,6 +297,23 @@ div.busPortal{
 	width:100%;
 	margin-bottom:10px;
 }
+.link-container {
+	color:white;
+	background-color:#e94e1b;
+	padding:10px;
+	padding-top:70px;
+	height:250px;
+	border:solid 2px white;
+	text-align:center;
+}
+.link-container a:visited {
+	text-decoration:none;
+	color:white;
+}
+.link-container a:hover {
+	text-decoration:none;
+	color:#f39200;
+}
 .media-container{
 	background-color: black;
 	height:404px;
@@ -367,16 +341,51 @@ div.busPortal{
 	text-align:center;
 	position:relative;
 }
-.buslink-header h2{
-position: absolute;
-top: 50%;
--ms-transform: translateY(-50%);
-transform: translateY(-50%);
-width: 100%;
-padding-bottom:4px;
+.buslink-header h3{
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 100%;
+	padding-bottom:4px;
 }
 .buslink-body{
 	background-color:rgba(243, 146, 0, 0.6);
 	padding:20px 10px;
 }
+
+/*------Sponsors Page------*/
+
+.sponsor-container, .minor-sponsor-container {
+	background-color: white;
+	text-align:center;
+	width:100%;
+
+}
+.sponsor-img {
+	background-color: white;
+	max-width:100%;
+	height:auto;
+	margin-bottom:20px;
+	padding:0px 10px;
+
+	height: 200px;
+  position: relative;
+}
+.sponsor-img img { /*border is removed once image is in place*/
+	border:none;
+	max-width:100%;
+	max-height:100%;
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.minor-sponsor-container .sponsor-img img { /*border is removed once image is in place*/
+	max-width:100%;
+	background-color:#ffffff;
+	border:none;
+}
+
 
