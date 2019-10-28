@@ -12,6 +12,7 @@
 
 	gtag('config', 'UA-150729305-1');
 	</script>
+	
 		<title>Orange Wolves Homepage</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no>
 		<link rel="stylesheet" type="text/css" href="resources/css/layout.css">
@@ -24,11 +25,11 @@
 		
 	<body>
 		<div class="webpage">	
-			<div class="pagecontent col-12">
+			<div class="col-12">
 
 <!-----------------------------HEADER------------------------------>
 				
-				<div class="row content">
+				<div class="row">
 					<header>
 						<?php include("resources/layout/header.html"); ?>
 					</header>
@@ -39,13 +40,13 @@
 							<!------HERO------>	
 				<div class="row info-hero">
 				<h2><strong>FEAST YOUR EYES ON THIS!</strong></h2>
-					<div class="col-6 textbox">
+					<div class="col-6">
 						<p><b><I>Orange Wolves</I></b> is a multi-disciplinary immersive experience that encompasses music, media, arts, fashion, technology and design.</p>
 						<br>
 						<p>The event will be a celebration of creativity, technology and performance - providing the audience with a creative, transformational and immersive experience.</p>
 						<br>
 					</div>
-					<div class="col-6 textbox">
+					<div class="col-6">
 						<p>The plan is to use <b>6</b> retired Action buses that will be transformed into small cinemas, music venues, fashion parades, make spaces, and installation spaces - located in the CANBERRA CBD, for three days</p>
 						<br>
 						<p><b>CANBERRA - CITY WALK</b></p>
@@ -57,103 +58,85 @@
 
 					<!--Medium/Wide information boxes row 1 -->
 				<div class="row">
-					<div class="col-6 info-container image-container blackback" style="height: 400px;">
-						<div>
-							<video controls width="100%" id="HomePageImage">
-								<source src="resources/videos/FEAST-YOUR-EYES.mp4" type="video/mp4" />
-							</video>
-						</div>
+					<div class="col-6 media-container">
+						<video controls width="100%" class="homepage-media">
+							<source src="resources/videos/FEAST-YOUR-EYES.mp4" type="video/mp4" />
+						</video>
 					</div>
-					<div class="col-6 info-container" style="height:auto;">
-						<div id="OrangeWolvesEvent" style="width: auto; height: 400px;"></div>
+					<div class="col-6 media-container">
+						<div class="homepage-media" id="orangewolves-map"></div>
 					</div>
 				</div>
 					<!--Medium/Small information boxes row 1 -->
 
 				<div class="row">
-					<div class="col-6">
+
+					<div class="col-2 bus-link">
 						<a href="buses/bus-1">
-							<div class="busLink">
-								<div class="busLinkHeader">
-									<h3>Bus 1</h3>
-									<p>Floristry & Landscape Construction</p>
-								</div>
-								<div class="busLinkBody">
-									<div class="vertical-center">
-										<img src="resources/images/Bus.svg" alt="image">
-									</div>
-								</div>
+							<div class="buslink-header">
+								<h2>Floristry<br>Landscaping</h2>
 							</div>
-						</a>
-						<a href="buses/bus-2">
-							<div class="busLink">
-								<div class="busLinkHeader">
-									<h3>Bus 2</h3>
-									<p>tortor</p>
-								</div>
-								<div class="busLinkBody">
-									<div class="vertical-center">
-										<img src="resources/images/Bus.svg" alt="image">
-									</div>
-								</div>
-							</div>
-						</a>
-						<a href="buses/bus-3">
-							<div class="busLink">
-								<div class="busLinkHeader">
-									<h3>Bus 3</h3>
-									<p>tortor</p>
-								</div>
-								<div class="busLinkBody">
-									<div class="vertical-center">
-										<img src="resources/images/Bus.svg" alt="image">
-									</div>
-								</div>
+							<div class="buslink-body">
+									<img src="resources/images/Bus.svg" alt="bus image">
 							</div>
 						</a>
 					</div>
 
-					<div class="col-6">
-						<a href="buses/bus-4">
-							<div class="busLink">
-								<div class="busLinkHeader">
-									<h3>Bus 4</h3>
-									<p>tortor</p>
-								</div>
-								<div class="busLinkBody">
-									<div class="vertical-center">
-										<img src="resources/images/Bus.svg" alt="image">
-									</div>
-								</div>
+					<div class="col-2 bus-link">
+						<a href="buses/bus-2">
+							<div class="buslink-header">
+								<h2>Fashion<br>Hair & Makeup</h2>
 							</div>
-						</a>
-						<a href="buses/bus-5">
-							<div class="busLink">
-								<div class="busLinkHeader">
-									<h3>Bus 5</h3>
-									<p>tortor</p>
-								</div>
-								<div class="busLinkBody">
-									<div class="vertical-center">
-										<img src="resources/images/Bus.svg" alt="image">
-									</div>
-								</div>
-							</div>
-						</a>
-						<a href="buses/bus-6">
-							<div class="busLink">
-								<div class="busLinkHeader">
-									<h3>Bus 6</h3>
-									<p>tortor</p>
-								</div>
-								<div class="busLinkBody">
-									<div class="vertical-center">
-										<img src="resources/images/Bus.svg" alt="image">
-									</div>
-								</div>
+							<div class="buslink-body">
+									<img src="resources/images/Bus.svg" alt="bus image">
 							</div>
 						</a>
 					</div>
+
+					<div class="col-2 bus-link">
+						<a href="buses/bus-3">
+								<div class="buslink-header">
+									<h2>Media</h2>
+								</div>
+								<div class="buslink-body">
+										<img src="resources/images/Bus.svg" alt="bus image">
+								</div>
+						</a>
+					</div>
+
+					<div class="col-2 bus-link">
+						<a href="buses/bus-4">
+							<div class="buslink-header">
+								<h2>Sound Production</h2>
+							</div>
+							<div class="buslink-body">
+								<img src="resources/images/Bus.svg" alt="bus image">
+							</div>
+						</a>
+					</div>
+
+					<div class="col-2 bus-link">
+						<a href="buses/bus-5">
+							<div class="buslink-header">
+								<h2>Visual Arts</h2>
+							</div>
+							<div class="buslink-body">
+								<img src="resources/images/Bus.svg" alt="image">
+							</div>
+						</a>
+					</div>
+
+					<div class="col-2 bus-link">
+						<a href="buses/bus-6">
+							<div class="buslink-header">
+								<h2>Graphic Design</h2>
+							</div>
+							<div class="buslink-body">
+								<img src="resources/images/Bus.svg" alt="image">
+							</div>
+						</a>
+					</div>
+
 				</div>
 
 <!-----------------------------FOOTER---------------------------->
@@ -170,7 +153,7 @@
 	</body>
 
 	<script>
-	var mymap = L.map('OrangeWolvesEvent').setView([-35.279827, 149.132210], 15);
+	var mymap = L.map('orangewolves-map').setView([-35.279827, 149.132210], 15);
 	
 	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoib3Jhbmdld29sdmVzIiwiYSI6ImNrMjJpbWpscTA2ZnIzZnBmczJjNmoxa2IifQ.g_RwduUVRTEDMvgCowI95Q', {
 	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -180,6 +163,7 @@
 	}).addTo(mymap);
 
 	L.marker([-35.279827, 149.132210]).addTo(mymap);
+	mymap.scrollWheelZoom.disable();
 </script>
 
 </html> 
