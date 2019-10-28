@@ -38,12 +38,12 @@
                         <div id="busbrief">
                             <div id="busIcon"><img src="../resources/images/Bus.svg" alt="Bus Icon" ></div>
                             <div class="bus-relative">
-                                <div id="busDescription">Bus 2</div>
+                                <div id="busDescription">Visual Arts</div>
                             </div>
                         </div>
                     </div>
                     <div class="row info-container">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt.</p>
+                        <p><b>Diploma of Visual Arts</b></p>
                     </div>
 
                     <!----------2th block in left side, display image1--------->
@@ -64,14 +64,11 @@
                     <div class="row conLight" id="busSummary">
                             <!--Sub column of introduce-->
                             <div class="row col-12">
-                                <h1>Introduce</h1>
+                                <h1>Introduction</h1>
                             </div>
-                            <div class="col-6">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at imperdiet velit. Quisque lobortis volutpat lorem a varius. Praesent gravida ac augue ac fermentum. Quisque cursus luctus tellus, a molestie ante rutrum facilisis. Mauris consequat, tortor maximus euismod convallis, sem ante fermentum lacus, ac sagittis nulla metus imperdiet elit. Morbi elementum, diam a sagittis volutpat, ligula ante interdum velit, at eleifend enim lectus vel diam. Donec aliquet a nisi vel condimentum. Suspendisse potenti.</p>
-                            </div>
-                            <!--Sub column of introduce-->
-                            <div class="col-6">
-                                <p>Pellentesque porttitor condimentum massa quis ornare. Integer vestibulum ultrices arcu, eget dapibus enim auctor sed. In in mi posuere leo luctus sollicitudin. Sed facilisis, quam vel aliquet fringilla, eros ex tincidunt nibh, quis maximus mi mi quis nisi. Ut finibus nisi felis, nec vulputate tortor convallis quis. Nunc nec pharetra ex. Ut sit amet enim nulla. Cras pretium arcu velit, consequat bibendum turpis gravida vulputate. Pellentesque rutrum, massa nec bibendum interdum, orci leo rhoncus sapien, sit amet porta velit nisl nec magna. Proin id quam vel tortor molestie luctus et sit amet elit. Etiam in accumsan tortor, ac volutpat ligula.</p>
+                            <div class="col-12">
+                                <p>CIT’s Visual Arts students are using Canberra’s emblematic Bogong Moth to explore contrasting notions of movement and stillness, sparkle and shelter, inside and outside. The exterior of the bus will be transformed into a shiny kinetic sculpture using thousands of discarded CDs. The surface will flutter in the breeze, and from afar viewers will see Bogong patterns across the bus, created by different surface treatments of the CDs and careful placement. The inside of the bus offers a sensory contrast as viewers enter a cave-like sanctuary, where Bogong sculptural forms and textures will provide calm and intriguing shelter from the bright lights of the outside. To realise this project students had to undertake a lot conceptual development, creative collaboration and extensive materials research and problem solving. Students tested out a range of creative approaches and generated innovative solutions to bring this ambitious project into reality.</p>
+                            
                             </div>
                     </div>
 

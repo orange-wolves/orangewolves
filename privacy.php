@@ -4,7 +4,7 @@
 	<head>
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150729305-1"></script>';
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150729305-1"></script>
 	<script>
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
@@ -38,7 +38,7 @@
 				<div class="row">
 
 					<div class="col-12 content-heading">
-						<h1>Privacy</h1>
+						<h1>Privacy Policy</h1>
 						<div class="line">
 						</div>
 					</div>
@@ -46,7 +46,14 @@
 				</div>
 				<div class="row">
 					<div class="col-12 info-container">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod ex porta metus blandit, a hendrerit nulla elementum. Quisque sed lacus vel neque posuere pharetra. Nullam tortor libero, sollicitudin vel lacinia ut, congue ut nunc. Praesent ut quam ut ligula venenatis convallis. Nullam vel tellus nisi.</p>
+						<p>When you browse this website information is collected by google analytics</p>
+						<p>The information that is collected is:</p>
+						<ul>
+							<li>The Page you are viewing</li>
+							<li>Broswer Name</li>
+							<li>Language Used</li>
+							<li>Region</li>
+						</ul>
 					</div>
 				</div>
 			</div>

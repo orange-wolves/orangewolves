@@ -20,7 +20,6 @@
     background:#e94e1b;
     width:100%;
     margin-bottom:10px;
-    
 }
 
 .image{
@@ -33,10 +32,8 @@
 }
 
 .center{
-    
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 .contactbox{
@@ -48,14 +45,17 @@
 }
 
 
-
 /*------Event Information Page------*/
 .info-hero {
     background-color: #ffa927;
     height:auto;
-    padding:30px;
-    padding-left:5%;
+    padding:5%;
     border:solid 2px white;
+}
+
+.textbox{
+    padding-left:1.5%;
+    padding-right:1.5%;
 }
 
 .info-container {
@@ -116,6 +116,9 @@ height:35em}
 }
 
 /*------ Home Page ------*/
+.blackback{
+    background-color: black;}
+
 .busLink{
     float: left;
     width:33.3%;

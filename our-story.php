@@ -4,7 +4,7 @@
 	<head>
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150729305-1"></script>';
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150729305-1"></script>
 	<script>
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
@@ -43,7 +43,29 @@
 					</div>
 				</div>
 				<div class="row">
+
+<?php
+				include('DB_our_story.php');
+				$sql = 'SELECT title ,description FROM storys';
+				//echo "$sql";
+				
+				echo"<div class=story>";
+				$results = mysqli_query($conn,$sql);
+				while ($row = mysqli_fetch_array($results))
+				{
+					echo"<h1>$row[0]</h1>";
+					echo"<p>$row[1]</p>";
+				}
+				echo"</div>"
+?>
+
+				
+
 				<div class="col-9 info-container storypage">
+
+				<?php include('teams.php')?>
+
+				
 					<h1><b>Orangewolves ICT team</b></h1><br>
 					<p>This project was a great real world learning experience. <br>We are a small team of seven and most of us have never made a website or used html/Css before.</p>
 					<p>During this project we learnt how to use PHP, HTML, CSS and JavaScript and we created our website using Visual Studio Code.<br><br> We enjoyed working together as a team and We are thankfull for the opportunity to be a part of the Orangewolves development team</p>
@@ -67,8 +89,24 @@
 
 					<br><p></p>
 				</div>
-				<div class="col-3 link-container storypage">
-					
+				<div class="col-3 indent storypage">
+				<ul class="removedots">	
+						<h1>orange wolves
+
+						<?php  echo"<a href=teams.php?id=\"T1\"><li>team1</li></a>";?>	
+						<li>team2</li>
+						<li>team3</li>
+						<li>team4</li>
+						<li>team5</li>
+						<li>team6</li>
+						<li>team7</li>
+						<li>team8</li>
+						<li>team9</li>
+						<li>team10</li>
+						<li>team11</li>
+						<li>team12</li>
+						</h1>
+					</ul>	
 				</div>
 				</div>
 									

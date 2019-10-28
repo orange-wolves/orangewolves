@@ -4,7 +4,7 @@
 	<head>
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150729305-1"></script>';
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150729305-1"></script>
 	<script>
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
@@ -39,17 +39,17 @@
 							<!------HERO------>	
 				<div class="row info-hero">
 				<h2><strong>FEAST YOUR EYES ON THIS!</strong></h2>
-					<div class="col-6">
+					<div class="col-6 textbox">
 						<p><b><I>Orange Wolves</I></b> is a multi-disciplinary immersive experience that encompasses music, media, arts, fashion, technology and design.</p>
 						<br>
 						<p>The event will be a celebration of creativity, technology and performance - providing the audience with a creative, transformational and immersive experience.</p>
 						<br>
 					</div>
-					<div class="col-6">
+					<div class="col-6 textbox">
 						<p>The plan is to use <b>6</b> retired Action buses that will be transformed into small cinemas, music venues, fashion parades, make spaces, and installation spaces - located in the CANBERRA CBD, for three days</p>
 						<br>
 						<p><b>CANBERRA - CITY WALK</b></p>
-						<p><b>26 - 28 November 2019</b><br></p><br>
+						<p><b>26 - 28 November 2019</b></p>
 					</div>
 				</div>
 
@@ -57,9 +57,7 @@
 
 					<!--Medium/Wide information boxes row 1 -->
 				<div class="row">
-				</div>
-				<div class="row">
-					<div class="col-6 info-container image-container" style="height: 400px;">
+					<div class="col-6 info-container image-container blackback" style="height: 400px;">
 						<div>
 							<video controls width="100%" id="HomePageImage">
 								<source src="resources/videos/FEAST-YOUR-EYES.mp4" type="video/mp4" />
