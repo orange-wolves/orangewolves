@@ -39,7 +39,7 @@
 				
 							<!------HERO------>	
 				<div class="row info-hero">
-				<h2><strong>FEAST YOUR EYES ON THIS!</strong></h2>
+				<h1>FEAST YOUR EYES ON THIS!</h1><br>
 					<div class="col-6">
 						<p><b><I>Orange Wolves</I></b> is a multi-disciplinary immersive experience that encompasses music, media, arts, fashion, technology and design.</p>
 						<br>
@@ -49,8 +49,8 @@
 					<div class="col-6">
 						<p>The plan is to use <b>6</b> retired Action buses that will be transformed into small cinemas, music venues, fashion parades, make spaces, and installation spaces - located in the CANBERRA CBD, for three days</p>
 						<br>
-						<p><b>CANBERRA - CITY WALK</b></p>
-						<p><b>26 - 28 November 2019</b></p>
+						<h2>CANBERRA - CITY WALK</h2>
+						<h2>26 - 28 November 2019</h2>
 					</div>
 				</div>
 

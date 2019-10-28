@@ -16,7 +16,6 @@
 @media only screen and (max-width: 768px) {
 	.bus-link{
 		width:33.3%;
-		height:auto;
 	}
 
 
@@ -327,11 +326,11 @@ div.busPortal{
 .info-hero {
 	background-color:#f39200;
 	height:auto;
-	padding:5%;
+	padding:3%;
 	border:solid 2px white;
 }
-.info-hero p {
-	padding-right:5%;
+.info-hero p, .info-hero h1, .info-hero h2{
+	padding:0% 15px;
 }
 .line{
 	display: inline-block;
