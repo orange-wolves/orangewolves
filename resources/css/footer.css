@@ -57,7 +57,7 @@ dark orange - #e94e1b
     position: absolute;
     display:inline-block;
     padding:1%;
-    top: 10%;
+    top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
      }
@@ -108,12 +108,12 @@ dark orange - #e94e1b
     max-width:600px;
     margin-left:auto;
     margin-right:auto;
-    padding-top:.5%;
+    
 }
 
 .footerspace{
     
-    margin-bottom:6em;
+    margin-bottom:7em;
     }
 
 
