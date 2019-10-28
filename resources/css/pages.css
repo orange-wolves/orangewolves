@@ -121,8 +121,20 @@
 }
 
 .storypage{
+    height:auto;
+    padding-top:0;
+    background-color:#e94e1b;
+    border:solid 2px white;
+    padding:0.7em;
     
-height:35em}
+        
+}
+
+.removedots{
+    list-style-type: none;}
+
+
+
 
 
 /*------ Bus Pages ------*/
@@ -320,6 +332,60 @@ div.busPortal{
 	border:solid 2px white;
 }
 
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+    .sponsor-img {
+        width:45%;
+        margin:0 2.5%;
+    }
+
+    .sponsor-container {
+        padding:0vw 10vw;
+    
+    }
+    .minor-sponsor-container {
+        padding:0vw 3vw;
+    
+    }
+    .minor-sponsor-container .sponsor-img{
+        width:30%;
+        margin:1.6%;
+    }
+
+    .image-container{
+        text-align: center;
+        height: auto;
+    }
+
+    #image{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .imageContainer img{
+        max-width: 32%;
+        margin: 0 0.5%;
+        float: left;
+    }
+
+    .busPortalLink{
+        height: 13em;
+        width : 50%
+    }
+    
+    .busImage{
+        height: 100%;
+        width: 100%;
+    }
+
+    .storypage{
+        text-align: center;
+        }
+
+    .indent-story {
+        padding-left: 0px;
+    }
+}
 /*------ Home Page ------*/
 .homepage-media{
 	height: 400px;
