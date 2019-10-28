@@ -91,8 +91,20 @@
 }
 
 .storypage{
+    height:auto;
+    padding-top:0;
+    background-color:#e94e1b;
+    border:solid 2px white;
+    padding:0.7em;
     
-height:35em}
+        
+}
+
+.removedots{
+    list-style-type: none;}
+
+
+
 
 /*------Sponsors Page------*/
 
@@ -378,8 +390,12 @@ div.busPortal{
     }
 
     .storypage{
-    
-        height:auto;}
+        text-align: center;
+        }
+
+    .indent-story {
+        padding-left: 0px;
+    }
 }
 
 @media only screen and (max-width: 400px) {
