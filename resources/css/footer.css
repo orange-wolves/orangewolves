@@ -14,17 +14,15 @@ dark orange - #e94e1b
     }
 
     .footerLeft{
-
         width:25%;
     }
     
 }
 
 .topbar{
-
     text-align: center;
-   
-}
+    padding-top:5px;
+  }
 
 .footerLeft *{
 
@@ -32,19 +30,13 @@ dark orange - #e94e1b
     text-align: center;
     color:#ffffff;
     height:1.2em;
-    
-    
 }
 
 .footerLeft{
 
     height:8em;
     padding:10px;
-        
-    
 }
-
-
 
 .iconscontaner{
 
