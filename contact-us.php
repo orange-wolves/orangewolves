@@ -48,10 +48,11 @@
 					<div class="col-10 link-container">
 					     If you have any enquiries, contact us on the given information.<br><br>
 						<p>General Enquiries <br> GPO Box 826 Canberra ACT 2601 <br> +61 2 6207 3188</p>
-						<u><h2><a href = "https://cit.edu.au"> https://cit.edu.au</a></h2></u>
+						<a href = "https://cit.edu.au"><u>www.cit.edu.au</u></a>
 					</div>
 					<div class="col-1 empty"></div>
 				</div>
+				<br><br>
 
 <!-----------------------------FOOTER------------------------------>
 				

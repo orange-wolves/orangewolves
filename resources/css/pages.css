@@ -1,3 +1,77 @@
+/*Large Screens*/
+@media only screen and (min-width: 1000px) {
+	.sponsor-container, .minor-sponsor-container {
+		padding:0vw 5vw;
+	}
+}
+
+/*Desktop*/
+@media only screen and (max-width: 1000px) {
+	.sponsor-container, .minor-sponsor-container {
+		padding:0vw 5vw;
+	}
+}
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+	.bus-link{
+		width:33.3%;
+	}
+	.sponsor-img {
+			width:50%;
+	}
+	.minor-sponsor-container .sponsor-img{
+			width:33.3%;
+			padding:1.6%;
+	}
+	.sponsor-container, .minor-sponsor-container {
+		padding:0vw 10vw;
+	}
+
+
+
+
+	.image-container{
+			text-align: center;
+			height: auto;
+	}
+
+	#image{
+			max-width: 100%;
+			height: auto;
+	}
+
+	.imageContainer img{
+			max-width: 32%;
+			margin: 0 0.5%;
+			float: left;
+	}
+	.busPortalLink{
+			height: 13em;
+			width : 50%
+	}
+	.busImage{
+			height: 100%;
+			width: 100%;
+	}
+	.storypage{
+			height:auto;
+	}
+
+}
+
+@media only screen and (max-width: 400px) {
+	.busPortalLink{
+			height: 13em;
+			width : 100%
+	}
+	
+	.busImage{
+			height: 100%;
+			width: 100%;
+	}
+}
+
 .content-heading {
     padding:10px;
     padding-left:5%;
@@ -13,21 +87,12 @@
     width: 100%;
 }
 
-.line{
-    display: inline-block;
-    content: "";
-    height: 3px;
-    background:#e94e1b;
-    width:100%;
-    margin-bottom:10px;
-}
-
 .image{
     max-width: 100%;
     height: auto;
 }
 
-.imageContainer{
+.imageContainer{/*not needed?*/
     padding: 2px;
 }
 
@@ -36,47 +101,12 @@
     margin-right: auto;
 }
 
-.contactbox{
-    width: 83.33%;
-}
-
-.contactline{
-    width: 91.66%;
-}
-
-
-/*------Event Information Page------*/
-.info-hero {
-    background-color: #ffa927;
-    height:auto;
-    padding:5%;
-    border:solid 2px white;
-}
-
-.textbox{
-    padding-left:1.5%;
-    padding-right:1.5%;
-}
 
 .info-container {
     background-color:white;
     padding:10px;
     height:auto;
     border:solid 2px white;
-}
-
-.link-container {
-    color:white;
-    background-color:#e94e1b;
-    padding:10px;
-    padding-top:70px;
-    height:250px;
-    border:solid 2px white;
-    text-align:center;
-}
-.link-container a:visited {
-    text-decoration:none;
-    color:white;
 }
 
 .map {
@@ -91,77 +121,20 @@
 }
 
 .storypage{
-    
-height:35em}
-
-/*------Sponsors Page------*/
-
-.sponsor-container, .minor-sponsor-container {
-    background-color: white;
-    text-align:center;
-}
-
-.sponsor-img {
-    background-color: white;
-    margin-bottom:20px;
-    padding:0px 10px;
-}
-
-.sponsor-img img { /*border is removed once image is in place*/
-    max-width:100%;
     height:auto;
-    background-color:#f1f8fe;
-    border:none;
-    vertical-align: middle;
+    padding-top:0;
+    background-color:#e94e1b;
+    border:solid 2px white;
+    padding:0.7em;
+    
+        
 }
 
-/*------ Home Page ------*/
-.blackback{
-    background-color: black;}
+.removedots{
+    list-style-type: none;}
 
-.busLink{
-    float: left;
-    width:33.3%;
-    height:250px;
-    border: white solid 2px;
-    text-decoration: none;
-    color: black;
-}
 
-.busLinkHeader{
-    width:100%;
-    height:20%;
-    background-color: #e57908;
-    opacity: 0.8;
-}
 
-.busLinkHeader h3{
-    font-size: 8pt;
-    padding-left: 10px;
-    padding-top: 5px;
-}
-
-.busLinkHeader p{
-    font-size: 6pt;
-    padding-left: 10px;
-    padding-top: 5px;
-}
-
-.busLinkBody{
-    position: relative;
-    width:100%;
-    height:80%;
-    background-color: #f39200;
-    opacity: 0.5;
-}
-
-#HomePageImage{
-    padding-right: 2px;
-    height: 400px;
-    max-height: 400px;
-    width: auto;
-    max-width: 100%;
-}
 
 
 /*------ Bus Pages ------*/
@@ -317,18 +290,46 @@ div.busPortal{
     font-weight: bold;
 }
 
-/*Large Screens*/
-@media only screen and (min-width: 1000px) {
-    .sponsor-container, .minor-sponsor-container{
-    padding:0px 50px;
-    }
-}
 
-/*Desktop*/
-@media only screen and (max-width: 1000px) {
-    .sponsor-container, .minor-sponsor-container{
-    padding:0px 50px;
-    }
+/*------Page Elements------*/
+.info-hero {
+	background-color:#f39200;
+	height:auto;
+	padding:3%;
+	border:solid 2px white;
+}
+.info-hero p, .info-hero h1, .info-hero h2{
+	padding:0% 15px;
+}
+.line{
+	display: inline-block;
+	content: "";
+	height: 3px;
+	background:#e94e1b;
+	width:100%;
+	margin-bottom:10px;
+}
+.link-container {
+	color:white;
+	background-color:#e94e1b;
+	padding:10px;
+	padding-top:70px;
+	height:250px;
+	border:solid 2px white;
+	text-align:center;
+}
+.link-container a:visited {
+	text-decoration:none;
+	color:white;
+}
+.link-container a:hover {
+	text-decoration:none;
+	color:#f39200;
+}
+.media-container{
+	background-color: black;
+	height:404px;
+	border:solid 2px white;
 }
 
 /*Mobile*/
@@ -378,18 +379,79 @@ div.busPortal{
     }
 
     .storypage{
-    
-        height:auto;}
+        text-align: center;
+        }
+
+    .indent-story {
+        padding-left: 0px;
+    }
+}
+/*------ Home Page ------*/
+.homepage-media{
+	height: 400px;
+	max-height: 400px;
+	width: auto;
+	max-width: 100%;
+}
+.bus-link{
+	height:auto;
+	border: white solid 2px;
+}
+.bus-link:hover{
+	opacity:0.6;
+}
+.buslink-header{
+	background-color: #e94e1b;
+	color:white;
+	height:55px;
+	text-align:center;
+	position:relative;
+}
+.buslink-header h3{
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 100%;
+	padding-bottom:4px;
+}
+.buslink-body{
+	background-color:rgba(243, 146, 0, 0.6);
+	padding:20px 10px;
 }
 
-@media only screen and (max-width: 400px) {
-    .busPortalLink{
-        height: 13em;
-        width : 100%
-    }
-    
-    .busImage{
-        height: 100%;
-        width: 100%;
-    }
+/*------Sponsors Page------*/
+
+.sponsor-container, .minor-sponsor-container {
+	background-color: white;
+	text-align:center;
+	width:100%;
+
 }
+.sponsor-img {
+	background-color: white;
+	max-width:100%;
+	height:auto;
+	margin-bottom:20px;
+	padding:0px 10px;
+
+	height: 200px;
+  position: relative;
+}
+.sponsor-img img { /*border is removed once image is in place*/
+	border:none;
+	max-width:100%;
+	max-height:100%;
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.minor-sponsor-container .sponsor-img img { /*border is removed once image is in place*/
+	max-width:100%;
+	background-color:#ffffff;
+	border:none;
+}
+
+
