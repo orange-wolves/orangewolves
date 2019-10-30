@@ -33,51 +33,65 @@
 
 <!-----------------------------CONTENT------------------------------>					
 				
-				<div class="col-12 content busportal-container">
-					<div class="row content">
+				<div class="col-12 content">
+
+					<div class="row content busportal-container">
+
 						<div class="col-4 bus-portal">
-							<a href="bus-1.php">
-							<img src="../resources/images/HorticultureBus.svg" alt="horticulture bus">
-							<h1>Horticulture</h1>
-							</a>
+							<div class="busportal-image">
+								<a href="bus-1.php">
+								<img src="../resources/images/HorticultureBus.svg" alt="horticulture bus">
+								<h1>Horticulture</h1>
+								</a>
+							</div>
 						</div>
 			
 						<div class="col-4 bus-portal">
-							<a href="bus-2.php">
-							<img src="../resources/images/FashionHairMakeupBus.svg" alt="fashion, hair & makeup bus">
-							<h1>Fashion, Hair & Makeup</h1>
-							</a>
+							<div class="busportal-image">
+								<a href="bus-2.php">
+								<img src="../resources/images/FashionHairMakeupBus.svg" alt="hair & beauty bus">
+								<h1>Hair and Beauty</h1>
+								</a>
+							</div>
 						</div>
 
 						<div class="col-4 bus-portal">
-							<a href="bus-3.php">
-							<img src="../resources/images/MediaBus.svg" alt="media bus">
-							<h1>Media</h1>
-							</a>
+							<div class="busportal-image">
+								<a href="bus-3.php">
+								<img src="../resources/images/MediaBus.svg" alt="media bus">
+								<h1>Media</h1>
+								</a>
+							</div>
 						</div>
 
 					</div>
-					<div class="row content">
+					<div class="content busportal-container">
 
 						<div class="col-4 bus-portal">
-							<a href="bus-4.php">
-							<img src="../resources/images/MusicBus.svg" alt="yurauna bus">
-							<h1>Yurauna</h1>
-							</a>
+							<div class="busportal-image">
+								<a href="bus-4.php">
+								<img src="../resources/images/MusicBus.svg" alt="yurauna bus">
+								<h1>Music</h1>
+								</a>
+							</div>
 						</div>
 
 						<div class="col-4 bus-portal">
-							<a href="bus-5.php">
-							<img src="../resources/images/VisualArtsBus.svg" alt="visual arts bus">
-							<h1>Visual Arts</h1>
-							</a>
+							<div class="busportal-image">
+								<a href="bus-5.php">
+								<img src="../resources/images/VisualArtsBus.svg" alt="visual arts bus">
+								<h1>Visual Arts</h1>
+								</a>
+							</div>
 						</div>
 
 						<div class="col-4 bus-portal">
-							<a href="bus-6.php">
-							<img src="../resources/images/GraphicDesignBus.svg" alt="design den bus">
-							<h1>Design Den</h1>
-							</a>
+							<div class="busportal-image">
+								<a href="bus-6.php">
+								<img src="../resources/images/GraphicDesignBus.svg" alt="design den bus">
+								<h1>Design Den</h1>
+								</a>
+							</div>
 						</div>
 
 					</div>

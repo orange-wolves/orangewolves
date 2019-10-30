@@ -77,7 +77,7 @@
 								<h3>Horticulture</h3>
 							</div>
 							<div class="buslink-body">
-								<img src="resources/images/HorticultureBus.svg" alt="bus image">
+								<img src="resources/images/HorticultureBus.svg" alt="horticulture bus">
 							</div>
 						</a>
 					</div>
@@ -85,10 +85,10 @@
 					<div class="col-2 bus-link">
 						<a href="buses/bus-2">
 							<div class="buslink-header">
-								<h3>Fashion<br>Hair & Makeup</h3>
+								<h3>Hair and Beauty</h3>
 							</div>
 							<div class="buslink-body">
-								<img src="resources/images/FashionHairMakeupBus.svg" alt="bus image">
+								<img src="resources/images/FashionHairMakeupBus.svg" alt="hair & beauty bus">
 							</div>
 						</a>
 					</div>
@@ -99,7 +99,7 @@
 								<h3>Media</h3>
 							</div>
 							<div class="buslink-body">
-								<img src="resources/images/MediaBus.svg" alt="bus image">
+								<img src="resources/images/MediaBus.svg" alt="media bus">
 							</div>
 						</a>
 					</div>
@@ -107,10 +107,10 @@
 					<div class="col-2 bus-link">
 						<a href="buses/bus-4">
 							<div class="buslink-header">
-								<h3>Yurauna</h3>
+								<h3>Music</h3>
 							</div>
 							<div class="buslink-body">
-								<img src="resources/images/MusicBus.svg" alt="bus image">
+								<img src="resources/images/MusicBus.svg" alt="music bus">
 							</div>
 						</a>
 					</div>
@@ -121,7 +121,7 @@
 								<h3>Visual Arts</h3>
 							</div>
 							<div class="buslink-body">
-								<img src="resources/images/VisualArtsBus.svg" alt="image">
+								<img src="resources/images/VisualArtsBus.svg" alt="visual arts bus">
 							</div>
 						</a>
 					</div>
@@ -132,7 +132,7 @@
 								<h3>Design Den</h3>
 							</div>
 							<div class="buslink-body">
-								<img src="resources/images/GraphicDesignBus.svg" alt="image">
+								<img src="resources/images/GraphicDesignBus.svg" alt="design den bus">
 							</div>
 						</a>
 					</div>
