@@ -9,6 +9,11 @@
 	.bus-link{
 		height:150px;
 	}
+
+	.dropdownn-content {
+        position: absolute;
+      
+      }
 }
 
 /*Desktop*/
@@ -21,7 +26,13 @@
 	}
 	.bus-link{
 		height:150px;
-	}
+    }
+    
+	.dropdownn-content {
+        position: absolute;
+      
+      }      
+
 }
 
 /*Mobile*/
@@ -45,7 +56,14 @@
 		width:100%;
 	}
 
+    .dropdownn-content {
+        position: relative;
+      
+      }
 
+    .info-hero{
+        position: relative;
+    }
 
 
 	.image-container{
@@ -122,7 +140,8 @@
 	background-color:white;
 	height:auto;
 	padding:3% 3% 3% 3%;
-	border-bottom: solid 30px #f39200;
+    border-bottom: solid 30px #f39200;
+    
 }
 .info-hero h1, .info-hero h2{
 	color:#e94e1b;
@@ -139,9 +158,8 @@
 .link-container {
 	color:white;
 	background-color:#e94e1b;
-	padding:10px;
-	padding-top:45px;
-	height:300px;
+	padding:70px 10px;
+	height:auto;
 	border:solid 2px white;
 	text-align:center;
 }
@@ -168,8 +186,13 @@
 	border-top:solid 2px white;
 }
 .bus-link{
-	border:black solid 1px;
+	height:225px;
+	border:1px solid black;
 }
+.bus-link:hover{
+	transform:scale(1.1, 1.1);
+	z-index:1000;
+	}
 .buslink-header{
 	background-color: #e94e1b;
 	color:white;
@@ -183,14 +206,19 @@
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 	width: 100%;
-	padding-bottom:4px;
+	
 }
 .buslink-body{
-	transition: transform .2s; /* Animation */
-	padding:10px;
+	height:170px;
+	padding-top:10px;
+	background-color: white;
 }
 .buslink-body:hover {
   transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.va{
+	padding-top:20px;
 }
 
 /*------Sponsors Page------*/
@@ -261,9 +289,33 @@
 	padding-right:5%;
 	margin-bottom:10px;
 }
+
+
 .indent{
     padding-left: 40px;
 }
+
+.storypage{
+    
+height:35em
+}
+
+
+
+
+.storypage{
+	height:auto;
+	padding-top:0;
+	background-color:#e94e1b;
+	border:solid 2px white;
+	padding:0.7em;	
+}
+.removedots{
+	list-style-type: none;
+}
+
+
+
 .dropbtnn {
   background-color:#e94e1b;
   color: white;
@@ -288,11 +340,11 @@
 /* Dropdown Content (Hidden by Default) */
 .dropdownn-content {
   display: none;
-  position: absolute;
   background-color: #f1f1f1;
   min-width: 312px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+ 
 }
 
 /* Links inside the dropdown */

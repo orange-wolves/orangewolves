@@ -36,6 +36,7 @@
 				<div class="wrapper">
 				<div class="row">
 					<div class="col-12 info-hero">
+						
 						<div class="col-9 content-heading">
 						
 						<h1>Our Story:</h1>
@@ -63,7 +64,8 @@
 						  <a href="our-story.php?team_name=T13"><h2>Yurauna</h2></a>
 								</div>
 							</div>
-				
+                        
+			
 				
 				</div>
 				
