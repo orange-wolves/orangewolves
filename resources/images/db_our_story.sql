@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `storys`
 --
-
+CREATE DATABASE `DB_our_story`;
 CREATE TABLE `storys` (
   `story_id` int(3) NOT NULL,
   `team_name` varchar(255) NOT NULL,

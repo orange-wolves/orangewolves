@@ -54,11 +54,14 @@
                     <div class="row conLight" id="busSummary">
                             <!--Sub column of introduce-->
                             <div class="row col-12">
-                                <h1>Introduction</h1>
-                            </div>
-                            <div class="col-12">
-                                <p>CIT’s Visual Arts students are using Canberra’s emblematic Bogong Moth to explore contrasting notions of movement and stillness, sparkle and shelter, inside and outside. The exterior of the bus will be transformed into a shiny kinetic sculpture using thousands of discarded CDs. The surface will flutter in the breeze, and from afar viewers will see Bogong patterns across the bus, created by different surface treatments of the CDs and careful placement. The inside of the bus offers a sensory contrast as viewers enter a cave-like sanctuary, where Bogong sculptural forms and textures will provide calm and intriguing shelter from the bright lights of the outside. To realise this project students had to undertake a lot conceptual development, creative collaboration and extensive materials research and problem solving. Students tested out a range of creative approaches and generated innovative solutions to bring this ambitious project into reality.</p>
-                            
+                                <h1>Visual Arts Bus - Description</h1>
+                                <p>CIT’s Visual Arts students are using Canberra’s emblematic Bogong Moth to explore contrasting notions of movement and stillness, sparkle and shelter, inside and outside.</p>
+                                <br>
+                                <p>The exterior of the bus will be transformed into a shiny kinetic sculpture using thousands of discarded CDs. The surface will flutter in the breeze, and from afar viewers will see Bogong patterns across the bus, created by different surface treatments of the CDs and careful placement.</p>
+                                <br>
+                                <p>The inside of the bus offers a sensory contrast as viewers enter a cave-like sanctuary, where Bogong sculptural forms and textures will provide calm and intriguing shelter from the bright lights of the outside.</p>
+                                <br>
+                                <p>To realise this project students had to undertake a lot conceptual development, creative collaboration and extensive materials research and problem solving. Students tested out a range of creative approaches and generated innovative solutions to bring this ambitious project into reality.</p>
                             </div>
                     </div>
 

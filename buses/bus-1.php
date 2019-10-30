@@ -37,27 +37,21 @@
                     </div>
 
                     <!----------2th block in left side, display image1--------->
-                    <div class="imageContainer">
-                        <img src="../resources/images/image_545x380.png" alt="image" class="image">
-                        <img src="../resources/images/image_545x380.png" alt="image" class="image">
-                        <img src="../resources/images/image_545x380.png" alt="image" class="image">
-                    </div>
                 </div>
                 <!----------Second column--------->
                 <div class="col-8">
                     <!----------1th block in right side, display image1--------->
-                    <div class="row">
-                            <img src="../resources/images/image_993x324.png" alt="image" class="image">
-                    </div>
                     
                     <!----------2th block in right side, ??introduce??--------->
                     <div class="row info-container">
                             <!--Sub column of introduce-->
                             <div class="row col-12">
-                                <h1>Summary</h1>
+                                <h1>Horticulture Bus - Description</h1>
                             </div>
                             <div class="col-12">
-                                <p>Our bus takes audiences on a horticultural journey which explores our connection to places and environments. Starting from the quintessential Aussie backyard, journey through a range of landscapes:<br> cloudscapes and lush tropical spaces transform into a growing, hanging installation that recreates the sights, smells and sounds of the Australian bush.  The installations feature sustainable practices including repurposed and recycled materials, solar power and foam-free floral constructions.</p>
+                                <p>Our bus takes audiences on a horticultural journey which explores our connection to places and environments. Starting from the quintessential Aussie backyard, journey through a range of landscapes:</p>
+                                <br>
+                                <p>cloudscapes and lush tropical spaces transform into a growing, hanging installation that recreates the sights, smells and sounds of the Australian bush.  The installations feature sustainable practices including repurposed and recycled materials, solar power and foam-free floral constructions.</p>
                             </div>
                     </div>
 
