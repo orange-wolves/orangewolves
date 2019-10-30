@@ -178,9 +178,8 @@
 .link-container {
 	color:white;
 	background-color:#e94e1b;
-	padding:10px;
-	padding-top:70px;
-	height:250px;
+	padding:70px 10px;
+	height:auto;
 	border:solid 2px white;
 	text-align:center;
 }
