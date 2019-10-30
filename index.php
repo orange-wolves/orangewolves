@@ -120,7 +120,7 @@
 							<div class="buslink-header">
 								<h3>Visual Arts</h3>
 							</div>
-							<div class="buslink-body">
+							<div class="buslink-body va">
 								<img src="resources/images/VisualArtsBus.svg" alt="visual arts bus">
 							</div>
 						</a>

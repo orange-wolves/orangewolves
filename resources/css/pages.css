@@ -195,8 +195,13 @@
 	border-top:solid 2px white;
 }
 .bus-link{
-	border:black solid 1px;
+	height:225px;
+	border:1px solid black;
 }
+.bus-link:hover{
+	transform:scale(1.1, 1.1);
+	z-index:1000;
+	}
 .buslink-header{
 	background-color: #e94e1b;
 	color:white;
@@ -210,16 +215,16 @@
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 	width: 100%;
-	padding-bottom:4px;
+	
 }
 .buslink-body{
-	transition: transform .2s; /* Animation */
-	padding:10px;
+	height:170px;
+	padding-top:10px;
+	background-color: white;
 }
 
-
-.buslink-body:hover {
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+.va{
+	padding-top:20px;
 }
 
 /*------Sponsors Page------*/
