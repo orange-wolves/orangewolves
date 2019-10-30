@@ -9,41 +9,46 @@ dark orange - #e94e1b
 /*Mobile*/
 @media only screen and (max-width: 768px) {
     
-    .topbar,.empty,.footerRight{
-        width:50%;
+    .footerRight{
+        width:100%;
     }
 
     .footerLeft{
-        width:25%;
+        display:none;
     }
-    
-}
-
-.topbar{
-    text-align: center;
-    padding-top:5px;
+    .footericon{
+      width:20%;
+    }
+    .footertext{
+      text-align: right;
+      width:80%;
+      padding-left:0;
+    }
   }
 
-.footerLeft *{
-
-    display:block; 
-    text-align: center;
-    color:#ffffff;
-    height:1.2em;
+.footernav li{
+  margin-right:-3px;
+  text-align: center;
+  width:25%;
+  display:inline-block; 
+  border-right:2px solid black;
 }
 
-.footerLeft{
-
-    height:8em;
-    padding:10px;
+/*footer links*/
+.footernav a{
+  color:#ffffff;
+}
+.footernav a:hover {
+  color:#e94e1b;
 }
 
-.iconscontaner{
+.footernav li:first-child{
+ border-left:2px solid black;
+ }
 
-    position: relative;
-    display:block;
-    height:8em;
-     
+.footerLeft ,.footerRight{
+  height:5em;
+  padding:1em;
 }
 
 .iconsize{
@@ -51,35 +56,15 @@ dark orange - #e94e1b
   height:30px;
   width:30px;
 }
-
-.social{
-
-    position: absolute;
-    display:inline-block;
-    padding:1%;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-     }
-
-  .undersocial{
-
-    position: relative;
-    text-align: center;
-    padding-right: 1em;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-  }
-
-  .footercolor{
-
-    background-color:#f39200;
-    color:#ffffff;
-
-  }
-
+/*vertical centers all content to same hight*/
+.vpad{
+  margin-top:0.7em;
+}
+.footercolor{
+  background-color:#f39200;
+  color:#ffffff;
+}
+/*grass above the footer*/
   .footerimg
   {
     background-image: url("../images/grass-border.png");
@@ -89,8 +74,6 @@ dark orange - #e94e1b
     width:100%;
     min-width:300px;
     height: 3em;
-    
-
   }
 
   .footersize{
@@ -104,21 +87,13 @@ dark orange - #e94e1b
 }
 
 .maxsize{
-
-    max-width:600px;
-    margin-left:auto;
-    margin-right:auto;
-    
+  max-width:1000px;
+  margin-left:auto;
+  margin-right:auto;
+  
 }
 
 .footerspace{
-    
-    margin-bottom:7em;
-    }
-
-
-  
-
-
-
+  margin-bottom:7em;
+}
 
