@@ -38,76 +38,58 @@
 					<div class="col-12 info-hero">
 						<div class="content-heading">
 							<h1>Our Story</h1>
-							Jumbotron or image slider.
 						</div>
 					</div>
 				</div>
 				<div class="row">
 
-<?php
+				<div class="col-3 indent storypage">
+				<h1>orange wolves</h1>
+				<ul class="removedots indent-story">	
+
+						<?php  echo"<a href=our-story.php?team_name=T1><li><h2>Fashion</h2></a></li>";
+						  echo"<a href=our-story.php?team_name=T3><li><h2>Graphic Design</h2></a></li>";
+						  echo"<a href=our-story.php?team_name=T4><li><h2>Hair</h2></a></li>";
+						  echo"<a href=our-story.php?team_name=T5><li><h2>Horticulture</h2></a></li>";
+						  echo"<a href=our-story.php?team_name=T6><li><h2>Information technology</h2></a></li>";
+						  echo"<a href=our-story.php?team_name=T7><li><h2>Interior Design</h2></a></li>";
+						  echo"<a href=our-story.php?team_name=T8><li><h2>Makeup</h2></a></li>";
+						  echo"<a href=our-story.php?team_name=T9><li><h2>Media</h2></a></li>";
+						  echo"<a href=our-story.php?team_name=T10><li><h2>Music</h2></a></li>";
+						  echo"<a href=our-story.php?team_name=T11><li><h2>Photography</h2></a></li>";
+						  echo"<a href=our-story.php?team_name=T12><li><h2>Visual Art</h2></a></li>";
+						  echo"<a href=our-story.php?team_name=T13><li><h2>Yurauna</h2></a></li>";
+						  ?>
+				
+					</ul>	
+				</div>
+				<div class="col-9 info-container ">
+<?php			
 				include('DB_our_story.php');
-				$sql = 'SELECT title ,description FROM storys';
+				if(empty($_GET['team_name']))
+				{
+					$team_name = 'T0';
+				}else{
+				$team_name = $_GET['team_name'];
+				}
+				//echo"$team_name";
+				$sql = "SELECT team_name ,title ,description FROM storys WHERE team_name ='$team_name'";
 				//echo "$sql";
 				
 				echo"<div class=story>";
 				$results = mysqli_query($conn,$sql);
 				while ($row = mysqli_fetch_array($results))
 				{
-					echo"<h1>$row[0]</h1>";
-					echo"<p>$row[1]</p>";
+					echo"<h1>$row[1]</h1>";
+					echo"<p>$row[2]</p>";
 				}
 				echo"</div>"
+
+
 ?>
-
+				</div>
 				
 
-				<div class="col-9 info-container storypage">
-
-				<?php include('teams.php')?>
-
-				
-					<h1><b>Orangewolves ICT team</b></h1><br>
-					<p>This project was a great real world learning experience. <br>We are a small team of seven and most of us have never made a website or used html/Css before.</p>
-					<p>During this project we learnt how to use PHP, HTML, CSS and JavaScript and we created our website using Visual Studio Code.<br><br> We enjoyed working together as a team and We are thankfull for the opportunity to be a part of the Orangewolves development team</p>
-
-					<br><p><b>Our team of developers</b></p>
-					<br><b>
-					<ul class="indent">	
-						
-						<li>bad ray</li>
-						<li>asim </li>
-						<li>connor</li>
-						<li>enforcer</li>
-						<li>ibby</li>
-						<li>lachlan</li>
-						<li>other ray</li>
-					</ul>
-					
-					</b><br>
-					<p>Hope you like our website!</p>
-
-
-					<br><p></p>
-				</div>
-				<div class="col-3 indent storypage">
-				<ul class="removedots">	
-						<h1>orange wolves
-
-						<?php  echo"<a href=teams.php?id=\"T1\"><li>team1</li></a>";?>	
-						<li>team2</li>
-						<li>team3</li>
-						<li>team4</li>
-						<li>team5</li>
-						<li>team6</li>
-						<li>team7</li>
-						<li>team8</li>
-						<li>team9</li>
-						<li>team10</li>
-						<li>team11</li>
-						<li>team12</li>
-						</h1>
-					</ul>	
-				</div>
 				</div>
 									
 				
