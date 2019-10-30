@@ -30,39 +30,20 @@
             </div>
 
 <!----------------------------------Body------------------------------------------------------>            
-            <div class="row">
-                <!----------First column--------->
-                <div class="col-4 conMod">
-                    <!----------1th block in left side, content discription--------->
-                    <div class="row" >
-                        <div id='busIcon'><img src="../resources/images/VisualArtsBus.svg" alt="Bus Icon" ></div>
-                    </div>
-                    <div class="row" >
-                        <p id="busbrief">Visual Arts</p>
-                    </div>
-                    <div class="row info-container">
-                        <p><b>Diploma of Visual Arts</b></p>
-                    </div>
+<div class="row content">
+							<div class="col-12">
 
-                    <!----------2th block in left side, display image1--------->
-                    <div class="imageContainer">
-                        <img src="../resources/images/image_545x380.png" alt="image" class="image">
-                        <img src="../resources/images/image_545x380.png" alt="image" class="image">
-                        <img src="../resources/images/image_545x380.png" alt="image" class="image">
-                    </div>
-                </div>
-                <!----------Second column--------->
-                <div class="col-8">
-                    <!----------1th block in right side, display image1--------->
-                    <div class="row">
-                            <img src="../resources/images/image_993x324.png" alt="image" class="image">
-                    </div>
-                    
-                    <!----------2th block in right side, ??introduce??--------->
-                    <div class="row conLight" id="busSummary">
-                            <!--Sub column of introduce-->
-                            <div class="row col-12">
-                                <h1>Visual Arts Bus - Description</h1>
+								<div class="col-4 businfo-header">
+									<div id='busIcon'>
+										<img src="../resources/images/VisualArtsBus.svg" alt="Visual Arts Bus" >
+									</div>
+									<h1>Visual Arts</h1>
+                                    <p><b>Diploma of Visual Arts</b></p>
+								</div>
+
+								<div class="col-8 businfo-content">
+                                <h1>Description</h1>
+
                                 <p>CIT’s Visual Arts students are using Canberra’s emblematic Bogong Moth to explore contrasting notions of movement and stillness, sparkle and shelter, inside and outside.</p>
                                 <br>
                                 <p>The exterior of the bus will be transformed into a shiny kinetic sculpture using thousands of discarded CDs. The surface will flutter in the breeze, and from afar viewers will see Bogong patterns across the bus, created by different surface treatments of the CDs and careful placement.</p>
@@ -70,14 +51,9 @@
                                 <p>The inside of the bus offers a sensory contrast as viewers enter a cave-like sanctuary, where Bogong sculptural forms and textures will provide calm and intriguing shelter from the bright lights of the outside.</p>
                                 <br>
                                 <p>To realise this project students had to undertake a lot conceptual development, creative collaboration and extensive materials research and problem solving. Students tested out a range of creative approaches and generated innovative solutions to bring this ambitious project into reality.</p>
-                            </div>
-                    </div>
+								</div>
 
-                    <!----------3th block in right side, display image2--------->
-                    <div class="row">
-                            <img src="../resources/images/image_993x449.png" alt="image" class="image">
-                    </div>
-                </div> 
+							</div>
             </div>
 <!----------------------------------Footer------------------------------------------------------>            
             <div class="row">

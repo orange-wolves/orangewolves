@@ -79,12 +79,6 @@
 	}
 }
 
-.content-heading {
-    padding:10px;
-    padding-left:5%;
-    padding-right:5%;
-    margin-bottom:10px;
-}
 
 .vertical-center {
     position: absolute;
@@ -93,6 +87,8 @@
     transform: translateY(-50%);
     width: 100%;
 }
+
+
 
 .image{
     max-width: 100%;
@@ -108,9 +104,6 @@
     margin-right: auto;
 }
 
-
-
-
 .map {
     background-color: #f1f8fe;
     height:400px;
@@ -124,23 +117,6 @@
     width: 50%;
     float: left;
 }
-
-#busbrief{
-    color: #e57908;
-    font-family: cardenio, sans-serif;
-    font-weight: bold;
-    font-size: 2em;
-    margin: auto;
-    text-align: center;
-}
-
-
-#busIcon{
-    transform: rotatey(180deg);
-    width:50%; 
-    margin: auto;
-}
-
 /*------Page Elements------*/
 .info-hero{
 	background-color:white;
@@ -164,8 +140,8 @@
 	color:white;
 	background-color:#e94e1b;
 	padding:10px;
-	padding-top:70px;
-	height:250px;
+	padding-top:45px;
+	height:300px;
 	border:solid 2px white;
 	text-align:center;
 }
@@ -176,9 +152,6 @@
 .link-container a:hover {
 	text-decoration:none;
 	color:#f39200;
-}
-.link-container *{
-	color:white;
 }
 .media-container{
 	background-color: black;
@@ -216,8 +189,6 @@
 	transition: transform .2s; /* Animation */
 	padding:10px;
 }
-
-
 .buslink-body:hover {
   transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
@@ -248,46 +219,58 @@
   transform: translate(-50%, -50%);
 }
 
+/*------Bus Pages------*/
+
+#busIcon{
+	transform: rotatey(180deg);
+	width:60%; 
+	margin: auto;
+}
+.businfo-header{
+	color: #e57908;
+	text-align: center;
+}
+.businfo-header p{
+	padding:3%;
+}
+.businfo-header img{
+	width:100%;
+}
+.businfo-content{
+	padding:2%;
+}
+.businfo-content h1,.businfo-content h2, .businfo-header h1{
+	color:#e94e1b;
+}
+.businfo-content img{
+	width:100%;
+}
+
+
 /*------Our Story Page------*/
 
 .info-container {
     background-color:white;
     padding:10px 8.3%;
     height:auto;
-    border:solid 2px white;
-	
+		border:solid 2px white;
 }
-
+.content-heading {
+	height:50px;
+	padding-left:5%;
+	padding-right:5%;
+	margin-bottom:10px;
+}
 .indent{
     padding-left: 40px;
 }
-
-.storypage{
-    
-height:35em}
-
-
-.storypage{
-	height:auto;
-	padding-top:0;
-	background-color:#e94e1b;
-	border:solid 2px white;
-	padding:0.7em;	
-}
-.removedots{
-	list-style-type: none;
-}
-
-
-
 .dropbtnn {
   background-color:#e94e1b;
   color: white;
-  padding: 16px;
-  font-size: 16px;
+  height:50px;
   border: none;
   cursor: pointer;
-width:100%;
+	width:100%;
 }
 
 /* Dropdown button on hover & focus */
@@ -307,7 +290,7 @@ width:100%;
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
+  min-width: 312px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
