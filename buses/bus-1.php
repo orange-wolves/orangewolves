@@ -34,13 +34,11 @@
                 <!----------First column--------->
                 <div class="col-4">
                     <!----------1th block in left side, content discription--------->
-                    <div class="row">
-                        <div id="busbrief">
-                            <div id="busIcon"><img src="../resources/images/HorticultureBus.svg" alt="Bus Icon" ></div>
-                            <div class="bus-relative">
-                                <div id="busDescription">Bus 1</div>
-                            </div>
-                        </div>
+                    <div class="row" >
+                        <div id='busIcon'><img src="../resources/images/HorticultureBus.svg" alt="Bus Icon" ></div>
+                    </div>
+                    <div class="row" >
+                        <p id="busbrief">Horticulture Bus</p>
                     </div>
                     <div class="row info-container">
                         <p><b>Certificate III Floristry</b> - (Interpret Floristry Design Briefs, Design Floristry Products)<br><b>Certificate III Landscape Construction</b> - (Erect Timber Structures, Plant Establishment, Implement a Paving Project)</p>

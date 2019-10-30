@@ -34,13 +34,11 @@
                 <!----------First column--------->
                 <div class="col-4 conMod">
                     <!----------1th block in left side, content discription--------->
-                    <div class="row">
-                        <div id="busbrief">
-                            <div id="busIcon"><img src="../resources/images/FashionHairMakeupBus.svg" alt="Bus Icon" ></div>
-                            <div class="bus-relative">
-                                <div id="busDescription">Fashion</div>
-                            </div>
-                        </div>
+                    <div class="row" >
+                        <div id='busIcon'><img src="../resources/images/FashionHairMakeupBus.svg" alt="Bus Icon" ></div>
+                    </div>
+                    <div class="row" >
+                        <p id="busbrief">Fashion, Hair & Makeup</p>
                     </div>
                     <div class="row info-container">
                     <p><b>Hairdressing</b> - stage 4/5 students (apprentice and commercial)</p>

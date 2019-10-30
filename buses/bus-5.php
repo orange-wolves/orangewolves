@@ -34,13 +34,11 @@
                 <!----------First column--------->
                 <div class="col-4 conMod">
                     <!----------1th block in left side, content discription--------->
-                    <div class="row">
-                        <div id="busbrief">
-                            <div id="busIcon"><img src="../resources/images/VisualArtsBus.svg" alt="Bus Icon" ></div>
-                            <div class="bus-relative">
-                                <div id="busDescription">Visual Arts</div>
-                            </div>
-                        </div>
+                    <div class="row" >
+                        <div id='busIcon'><img src="../resources/images/VisualArtsBus.svg" alt="Bus Icon" ></div>
+                    </div>
+                    <div class="row" >
+                        <p id="busbrief">Visual Arts</p>
                     </div>
                     <div class="row info-container">
                         <p><b>Diploma of Visual Arts</b></p>

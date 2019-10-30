@@ -40,6 +40,12 @@
 		padding:5% 10%;
 		width:50%;
 	}
+	
+	.dropdown-content {
+		width:100%;
+	}
+
+
 
 
 	.image-container{
@@ -103,27 +109,13 @@
 }
 
 
-.info-container {
-    background-color:white;
-    padding:10px;
-    height:auto;
-    border:solid 2px white;
-}
+
 
 .map {
     background-color: #f1f8fe;
     height:400px;
     border:solid 2px white;
 }
-/*------our story Page------*/
-
-.indent{
-    padding-left: 40px;
-}
-
-.storypage{
-    
-height:35em}
 
 
 /*------ Bus Pages ------*/
@@ -139,24 +131,14 @@ height:35em}
     font-weight: bold;
     font-size: 2em;
     margin: auto;
+    text-align: center;
 }
 
-#busDescription{
-    position: absolute;
-    top: 20px;
-    left: 5px;
-}
 
 #busIcon{
-    width: 35%;
-    float: left;
-    margin-left: 15%;
-    min-height: 2em;
     transform: rotatey(180deg);
-}
-
-#busIcon img{
-    max-height: 3em;
+    width:50%; 
+    margin: auto;
 }
 
 /*------Page Elements------*/
@@ -268,6 +250,23 @@ height:35em}
 
 /*------Our Story Page------*/
 
+.info-container {
+    background-color:white;
+    padding:10px 8.3%;
+    height:auto;
+    border:solid 2px white;
+	
+}
+
+.indent{
+    padding-left: 40px;
+}
+
+.storypage{
+    
+height:35em}
+
+
 .storypage{
 	height:auto;
 	padding-top:0;
@@ -278,6 +277,74 @@ height:35em}
 .removedots{
 	list-style-type: none;
 }
+
+
+
+.dropbtnn {
+  background-color:#e94e1b;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+width:100%;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtnn:hover, .dropbtnn:focus {
+  background-color:#e94e1b;
+  
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdownn {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdownn-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdownn-content a {
+ font-size:10px;
+	font-family:myriad-pro, sans-serif;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:black;
+	padding:10px 0px;
+	padding-right:60px;
+    display:block;
+	text-align:left;
+	text-decoration:none;
+	border-bottom:solid 2px #e94e1b;
+}
+
+/* Change color of dropdown links on hover */
+.dropdownn-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+label {
+	
+	 font-size:20px;
+	 font-family:myriad-pro, sans-serif;
+	font-weight:bold;
+	 color:#e94e1b;
+	
+}
+
+
+
 
 /*------Bus Portal------*/
 .busportal-container{
