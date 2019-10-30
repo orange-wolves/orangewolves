@@ -21,7 +21,14 @@
 	}
 	.bus-link{
 		height:150px;
-	}
+    }
+    
+    .dropdownn-content {
+        position: absolute;
+      
+      }
+       
+
 }
 
 /*Mobile*/
@@ -45,7 +52,14 @@
 		width:100%;
 	}
 
+    .dropdownn-content {
+        position: relative;
+      
+      }
 
+    .info-hero{
+        position: relative;
+    }
 
 
 	.image-container{
@@ -146,7 +160,8 @@
 	background-color:white;
 	height:auto;
 	padding:3% 3% 3% 3%;
-	border-bottom: solid 30px #f39200;
+    border-bottom: solid 30px #f39200;
+    
 }
 .info-hero h1, .info-hero h2{
 	color:#e94e1b;
@@ -255,8 +270,11 @@
     padding:10px 8.3%;
     height:auto;
     border:solid 2px white;
+  
 	
 }
+
+
 
 .indent{
     padding-left: 40px;
@@ -264,7 +282,10 @@
 
 .storypage{
     
-height:35em}
+height:35em
+}
+
+
 
 
 .storypage{
@@ -305,11 +326,11 @@ width:100%;
 /* Dropdown Content (Hidden by Default) */
 .dropdownn-content {
   display: none;
-  position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+ 
 }
 
 /* Links inside the dropdown */
