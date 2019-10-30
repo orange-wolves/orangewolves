@@ -36,14 +36,15 @@
                     <!----------1th block in left side, content discription--------->
                     <div class="row">
                         <div id="busbrief">
-                            <div id="busIcon"><img src="../resources/images/Bus.svg" alt="Bus Icon" ></div>
+                            <div id="busIcon"><img src="../resources/images/FashionHairMakeupBus.svg" alt="Bus Icon" ></div>
                             <div class="bus-relative">
                                 <div id="busDescription">Fashion</div>
                             </div>
                         </div>
                     </div>
                     <div class="row info-container">
-                    <p><b>Certificate III in Hairdressing</b><br><br><b>Diploma of Applied Fashion Design & Merchandising</b></p>
+                    <p><b>Hairdressing</b> - stage 4/5 students (apprentice and commercial)</p>
+                    <p><b>Fashion</b> - Diploma of Applied Fashion Design</p>
                     </div>
 
                     <!----------2th block in left side, display image1--------->

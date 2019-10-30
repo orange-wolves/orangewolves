@@ -37,45 +37,45 @@
 					<div class="row content">
 						<div class="col-4 bus-portal">
 							<a href="bus-1.php">
-							<img src="../resources/images/placeholder.svg" alt="horticulture bus">
+							<img src="../resources/images/HorticultureBus.svg" alt="horticulture bus">
 							<h1>Horticulture</h1>
 							</a>
 						</div>
 			
 						<div class="col-4 bus-portal">
 							<a href="bus-2.php">
-							<img src="../resources/images/placeholder.svg" alt="fashion, hair & makeup bus">
+							<img src="../resources/images/FashionHairMakeupBus.svg" alt="fashion, hair & makeup bus">
 							<h1>Fashion, Hair & Makeup</h1>
 							</a>
 						</div>
 
 						<div class="col-4 bus-portal">
 							<a href="bus-3.php">
-							<img src="../resources/images/placeholder.svg" alt="media bus">
+							<img src="../resources/images/MediaBus.svg" alt="media bus">
 							<h1>Media</h1>
 							</a>
 						</div>
 
 					</div>
-					<div class="row">
+					<div class="row content">
 
 						<div class="col-4 bus-portal">
 							<a href="bus-4.php">
-							<img src="../resources/images/placeholder.svg" alt="yurauna bus">
+							<img src="../resources/images/MusicBus.svg" alt="yurauna bus">
 							<h1>Yurauna</h1>
 							</a>
 						</div>
 
 						<div class="col-4 bus-portal">
 							<a href="bus-5.php">
-							<img src="../resources/images/placeholder.svg" alt="visual arts bus">
+							<img src="../resources/images/VisualArtsBus.svg" alt="visual arts bus">
 							<h1>Visual Arts</h1>
 							</a>
 						</div>
 
 						<div class="col-4 bus-portal">
 							<a href="bus-6.php">
-							<img src="../resources/images/placeholder.svg" alt="design den bus">
+							<img src="../resources/images/GraphicDesignBus.svg" alt="design den bus">
 							<h1>Design Den</h1>
 							</a>
 						</div>

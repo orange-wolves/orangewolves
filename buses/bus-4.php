@@ -36,7 +36,7 @@
                     <!----------1th block in left side, content discription--------->
                     <div class="row">
                         <div id="busbrief">
-                            <div id="busIcon"><img src="../resources/images/Bus.svg" alt="Bus Icon" ></div>
+                            <div id="busIcon"><img src="../resources/images/MusicBus.svg" alt="Bus Icon" ></div>
                             <div class="bus-relative">
                                 <div id="busDescription">Bus 2</div>
                             </div>

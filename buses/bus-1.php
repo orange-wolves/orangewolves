@@ -3,7 +3,7 @@
     <head>
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150729305-1"></script>';
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150729305-1"></script>
 	<script>
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
@@ -36,7 +36,7 @@
                     <!----------1th block in left side, content discription--------->
                     <div class="row">
                         <div id="busbrief">
-                            <div id="busIcon"><img src="../resources/images/Bus.svg" alt="Bus Icon" ></div>
+                            <div id="busIcon"><img src="../resources/images/HorticultureBus.svg" alt="Bus Icon" ></div>
                             <div class="bus-relative">
                                 <div id="busDescription">Bus 1</div>
                             </div>
