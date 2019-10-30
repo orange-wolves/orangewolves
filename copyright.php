@@ -26,7 +26,7 @@
 
 <!-----------------------------HEADER------------------------------>
 				
-				<div class="row content">
+				<div class="row">
 					<header>
 						<?php include("resources/layout/header.html"); ?>
 					</header>
@@ -49,8 +49,7 @@
 						<br>
 						<p>You may not copy, adapt, publish, distribute or commercialise any material contained on this site without the appropriate owner’s permission.</p>
 						<br>
-						<p><b>Inquiries:</b></p>
-						<p>GPO Box 826 Canberra<br>ACT 2601<br>+61 2 6207 3188</p>
+						<p>For inquiries into the owner of material please contact the Web Master at: <u>OrangeWolvesIT@hotmail.com</u></p>
 					</div>
 				</div>
 			</div>

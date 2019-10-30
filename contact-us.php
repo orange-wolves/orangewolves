@@ -27,7 +27,7 @@
 
 <!-----------------------------HEADER------------------------------>
 				
-				<div class="row content">
+				<div class="row">
 					<header>
 						<?php include("resources/layout/header.html"); ?>
 					</header>
@@ -47,9 +47,9 @@
 				<div class="col-1 empty"></div>
 					<div class="col-10 link-container">
 					     If you have any enquiries, contact us on the given information.<br><br>
-						<p>General Enquiries <br> GPO Box 826 Canberra ACT 2601 <br> +61 2 6207 3188</p>
+						<br>General Enquiries <br> GPO Box 826 Canberra ACT 2601 <br> +61 2 6207 3188<br>
 						<a href = "https://cit.edu.au"><u>www.cit.edu.au</u></a><br><br>
-						<p>WebMaster</p>
+						Web Master<br>
 						<u>orangewolvesIT@hotmail.com</u>
 					</div>
 					<div class="col-1 empty"></div>

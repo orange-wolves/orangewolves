@@ -26,7 +26,7 @@
 
 <!-----------------------------HEADER------------------------------>
 				
-				<div class="row content">
+				<div class="row">
 					<header>
 						<?php include("resources/layout/header.html"); ?>
 					</header>
@@ -36,7 +36,6 @@
 				
 <div class="wrapper">
 				<div class="row">
-
 					<div class="col-12 content-heading">
 						<h1>Privacy Policy</h1>
 						<div class="line">
@@ -46,11 +45,11 @@
 				</div>
 				<div class="row">
 					<div class="col-12 info-container">
-						<p>When you browse this website information is collected by google analytics</p>
+						<p>When you browse this website information is collected by google analytics</p><br>
 						<p>The information that is collected is:</p>
-						<ul>
+						<ul class="indent">
 							<li>The Page you are viewing</li>
-							<li>Broswer Name</li>
+							<li>Browser Name</li>
 							<li>Language Used</li>
 							<li>Region</li>
 						</ul>
