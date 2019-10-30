@@ -61,8 +61,7 @@
 		width:100%;
 	}
 
-   
-    .info-hero{
+	.info-hero{
         position: relative;
     }
 
@@ -285,17 +284,7 @@
 .indent{
     padding-left: 40px;
 }
-.storypage{
-    
-height:35em
-}
-.storypage{
-	height:auto;
-	padding-top:0;
-	background-color:#e94e1b;
-	border:solid 2px white;
-	padding:0.7em;	
-}
+
 .removedots{
 	list-style-type: none;
 }
@@ -324,7 +313,6 @@ height:35em
 	max-width: 1000px;
 	display: none;
 	background-color: #f1f1f1;
-	min-width: 312px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
  
