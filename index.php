@@ -14,7 +14,7 @@
 	</script>
 	
 		<title>Orange Wolves Homepage</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="resources/css/layout.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/header.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/footer.css">
@@ -69,47 +69,46 @@
 				</div>
 					<!--Medium/Small information boxes row 1 -->
 
-				<div class="row">
+				<div class="row buslink-container">
 
 					<div class="col-2 bus-link">
 						<a href="buses/bus-1">
-							<div class="buslink-header">
-								<h3>Horticulture</h3>
-							</div>
+						<h3>Horticulture</h3>
 							<div class="buslink-body">
+								
 								<img src="resources/images/HorticultureBus.svg" alt="horticulture bus">
+								
 							</div>
 						</a>
 					</div>
 
 					<div class="col-2 bus-link">
 						<a href="buses/bus-2">
-							<div class="buslink-header">
-								<h3>Hair and Beauty</h3>
-							</div>
+						<h3>Hair and Beauty</h3>
 							<div class="buslink-body">
+								
 								<img src="resources/images/FashionHairMakeupBus.svg" alt="hair & beauty bus">
+								
 							</div>
 						</a>
 					</div>
 
 					<div class="col-2 bus-link">
 						<a href="buses/bus-3">
-							<div class="buslink-header">
-								<h3>Media</h3>
-							</div>
+						<h3>Media</h3>
 							<div class="buslink-body">
+								
 								<img src="resources/images/MediaBus.svg" alt="media bus">
+								
 							</div>
 						</a>
 					</div>
 
 					<div class="col-2 bus-link">
 						<a href="buses/bus-4">
-							<div class="buslink-header">
-								<h3>Music</h3>
-							</div>
+						<h3>Music</h3>
 							<div class="buslink-body">
+								
 								<img src="resources/images/MusicBus.svg" alt="music bus">
 							</div>
 						</a>
@@ -117,10 +116,9 @@
 
 					<div class="col-2 bus-link">
 						<a href="buses/bus-5">
-							<div class="buslink-header">
-								<h3>Visual Arts</h3>
-							</div>
-							<div class="buslink-body va">
+						<h3>Visual Arts</h3>
+							<div class="buslink-body">
+								
 								<img src="resources/images/VisualArtsBus.svg" alt="visual arts bus">
 							</div>
 						</a>
@@ -128,12 +126,12 @@
 
 					<div class="col-2 bus-link">
 						<a href="buses/bus-6">
-							<div class="buslink-header">
-								<h3>Design Den</h3>
-							</div>
+						<h3>Design Den</h3>
 							<div class="buslink-body">
+								
 								<img src="resources/images/GraphicDesignBus.svg" alt="design den bus">
 							</div>
+							
 						</a>
 					</div>
 

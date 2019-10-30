@@ -34,7 +34,7 @@
 
 <!-----------------------------CONTENT------------------------------>					
 			<div class="wrapper">
-				<div class="row">
+				<div class="row content">
 
 					<div class="col-12 content-heading">
 						<h1>Copyright</h1>

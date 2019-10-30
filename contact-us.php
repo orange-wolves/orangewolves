@@ -35,7 +35,7 @@
 
 <!-----------------------------CONTENT------------------------------>					
 				
-				<div class="row">
+				<div class="row content">
 					<div class="col-12 content-heading">
 						<h1>Contact Us</h1>
 						<div class="line">

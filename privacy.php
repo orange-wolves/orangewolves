@@ -35,7 +35,7 @@
 <!-----------------------------CONTENT------------------------------>					
 				
 <div class="wrapper">
-				<div class="row">
+				<div class="row content">
 					<div class="col-12 content-heading">
 						<h1>Privacy Policy</h1>
 						<div class="line">

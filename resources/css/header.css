@@ -53,17 +53,20 @@
 }
 #navbar ul {
     list-style-type: none;
-    text-align:center;
+		text-align:center;
+		overflow:hidden;
+		white-space:nowrap;
 }
 #navbar li{
-    display: inline-block;
+		display: inline-block;
+		overflow:hidden;
+		white-space:nowrap;
+		width:20%;
 }
 #navbar a {
 	font-size:1.3em;
 	font-family:myriad-pro, sans-serif;
 	font-weight:bold;
-	margin-right:3vw;
-	margin-left:3vw;
 	text-decoration:none;
 	color:black;
 	text-transform:uppercase;
