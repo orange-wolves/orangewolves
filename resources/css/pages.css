@@ -28,7 +28,10 @@
 		height:150px;
     }
     
-           
+	.dropdownn-content {
+        position: absolute;
+      
+      }      
 
 }
 
