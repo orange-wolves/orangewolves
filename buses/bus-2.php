@@ -3,7 +3,7 @@
     <head>
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150729305-1"></script>';
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150729305-1"></script>
 	<script>
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
@@ -57,22 +57,31 @@
                 <div class="col-8">
                     <!----------1th block in right side, display image1--------->
                     <div class="row">
-                            <img src="../resources/images/image_993x324.png" alt="image" class="image">
+                        <div class="col-6"><img src="../resources/images/bus2_img2.jpg" alt="image" class="image"></div>
+                        <div class="col-6"><img src="../resources/images/bus2_img3.jpg" alt="image" class="image"></div>
                     </div>
                     
                     <!----------2th block in right side, ??introduce??--------->
                     <div class="row conLight" id="busSummary">
                             <!--Sub column of introduce-->
                             <div class="row col-12">
-                                <h1>Introduction</h1>
-                            </div>
-                            <div class="col-12">
-                                <p>Fashion bus will have the collaboration of creativity throughout the bus, using sustainable products and resources. Hair and MakeUp team will create wigs made from recycled materials and provide information on some of the sustainable strategies underway in their industry. On the other hand fashion team has produced garments that are made from discarded bed sheets donated to CIT, they will also show examples of bio fabrics such as SCOBY “leather” and mushroom “leather”. Sustainability is the main focus for the interior of the bus, including paint and carpet.</p>
-                            <br>
-                            <h1>Fashion Parade</h1>
-                            
-                                <p>There will be collaboration between Fashion 2nd year students and Hairdressing/Make up: Students are working together to develop looks for a catwalk to showcase their skills. Fashion students have been asked to design a promotional and Ready to Wear range based on a concept developed in response to a design brief. This brief asks them, as a designer, to consider what makes them angry. What do they feel passionate about? What do they want to change in contemporary society? How could they voice their opinions using fashion? How can they make a difference? Students have looked at range of issues such as sustainability and rights to protest as a starting point for their designs. The Hair and MakeUp students are supporting the collections through collaboration and a shared vision through their styling of the models.</p>
-                            
+                                <h1>Hair, Fashion & Makeup Bus - Description</h1>
+                                <p>Collaboration of creativity throughout the bus, using sustainable products and resources.</p>
+                                <br>
+                                <ul class='indent'>
+                                    <li>Hair and MU will create wigs made from recycled materials.</li>
+                                    <li>Hair and MU will provide information on some of the amazing and often unknown sustainable strategies underway in their industry.</li>
+                                    <li>Fashion has produced garments that are made from discarded bed sheets donated to CIT.</li>
+                                    <li>Fashion will show examples of bio fabrics such as SCOBY “leather” and mushroom “leather”.</li>
+                                    <li>Sustainability is the focus and this has also been addressed in the interior of the bus, including paint and carpet.</li>
+                                </ul>
+                                <br>
+                                <p>There will be information on both industries approaches to sustainability within the bus.</p>
+                                <br>
+                                <h2>Fashion Parade:</h2>
+                                <p>Collaboration between Fashion 2nd year students and Hairdressing/Make up: Students are working together to develop looks for a catwalk to showcase their skills.</p><br>
+                                <p>Fashion students have been asked to design a promotional and Ready to Wear range based on a concept developed in response to a design brief. This brief asks them, as a designer, to consider what makes them angry. What do they feel passionate about? What do they want to change in contemporary society? How could they voice their opinions using fashion? How can they make a difference? Students have looked at range of issues such as sustainability and rights to protest as a starting point for their designs.</p><br>
+                                <p>The hair and MU students are supporting the collections through collaboration and a shared vision through their styling of the models.</p>
                             </div>
                     </div>
 

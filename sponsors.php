@@ -46,33 +46,62 @@
 
 				<div class="row">
 					<div class="col-12 sponsor-container">
+						<!-- ACT City Renewal logo -->
 						<div class="col-3 sponsor-img">
-							<img src="resources\images\CIT_logo_stacked_white_RTO.png">
+							<a href="https://www.act.gov.au/cityrenewal/home">
+								<img src="resources\images\sponsors\ACTCRA_Inline_MONO_RGB.png" 
+									title="ACT City Renewal"
+									alt="ACTCRA Logo">
+							</a>
 						</div>
+						<!-- CIT logo -->
 						<div class="col-3 sponsor-img">
-							
+							<a href="https://cit.edu.au/">
+								<img src="resources\images\sponsors\cit_logo.png"
+									title="Canberra Institute of Technology"
+									alt="CIT Logo">
+							</a>
 						</div>
+						<!-- Capital Linen Service logo -->
 						<div class="col-3 sponsor-img">
-							<img src="resources\images\CapitalLinenServiceLogoColour.svg">
+							<a href="https://www.capitallinenservice.act.gov.au/">
+								<img src="resources\images\sponsors\CapitalLinenServiceLogoColour.svg"
+									title="Capital Linen Service"
+									alt="Capital Linen Service logo">
+							</a>
 						</div>
+						<!-- TC logo -->
 						<div class="col-3 sponsor-img">
-							
+							<a href="https://www.transport.act.gov.au/">
+								<img src="resources\images\sponsors\transport-canberra-logo.svg"
+									title="Transport Canberra"
+									alt="Transport Canberra Logo">
+							</a>
 						</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-12 sponsor-container">
 						<div class="col-3 sponsor-img">
-							<img src="resources\images\img-200px.png">
+							<!-- <img src="resources\images\img-200px.png"> -->
+						</div>
+						<!--  -->
+						<div class="col-3 sponsor-img">
+								<a href="https://srasolutions.com.au/">
+									<img src="resources\images\sponsors\SRA-Solutions_logo.png"
+										title="SRA Solutions"
+										alt="SRA Solutions Logo">
+								</a>
 						</div>
 						<div class="col-3 sponsor-img">
-							<img src="resources\images\img-200px.png">
+								<a href="https://www.impactwrap.com.au/">
+									<img src="resources\images\sponsors\IW Landscape Logo.jpg"
+										title="Impact Wrap"
+										alt="Impact Wrap Logo">
+								</a>
 						</div>
 						<div class="col-3 sponsor-img">
-							<img src="resources\images\img-200px.png">
-						</div>
-						<div class="col-3 sponsor-img">
-							<img src="resources\images\img-200px.png">
+							<!-- <img src="resources\images\img-200px.png"> -->
 						</div>
 					</div>
 				</div>

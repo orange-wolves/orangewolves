@@ -3,6 +3,9 @@
 	.sponsor-container {
 		padding:0vw 5vw;
 	}
+	.bus-portal {
+		padding:0% 2%;
+	}
 }
 
 /*Desktop*/
@@ -10,45 +13,39 @@
 	.sponsor-container {
 		padding:0vw 5vw;
 	}
+	.bus-portal {
+		padding:0% 2%;
+	}
 }
 
 /*Mobile*/
 @media only screen and (max-width: 768px) {
-	.bus-link{
-		width:33.3%;
-	}
 	.sponsor-img {
 			width:50%;
 	}
 	.sponsor-container {
 		padding:0vw 10vw;
 	}
-
-
+	.bus-link{
+		width:33.3%;
+	}
+	.bus-portal {
+		padding:5% 10%;
+	}
 
 
 	.image-container{
 			text-align: center;
 			height: auto;
 	}
-
 	#image{
 			max-width: 100%;
 			height: auto;
 	}
-
 	.imageContainer img{
 			max-width: 32%;
 			margin: 0 0.5%;
 			float: left;
-	}
-	.busPortalLink{
-			height: 13em;
-			width : 50%
-	}
-	.busImage{
-			height: 100%;
-			width: 100%;
 	}
 	.storypage{
 			height:auto;
@@ -154,127 +151,6 @@ height:35em}
     max-height: 3em;
 }
 
-/*------ Bus Portal ------*/
-div.busPortal{
-    border: .3em solid white;
-    padding: 5px;
-}
-
-.busText{
-    
-    font-size: 15px;
-    color: #fb9f26;
-    border: .3em solid white;
-    padding: 5px;
-    background-color: #bce0ff;
-}
-
-.busTitle {
-    padding-top: 1px;
-    text-align: center;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    width: 100%;
-    height: 30%;
-}
-
-.busPortalLink{
-    height: 20em;
-    position: relative;
-    text-align: center;
-}
-
-.busPortalLink:hover .overlay{
-    transition: .2s linear;
-    opacity: 1;
-    }
-
-.busPortalLink:hover .link{
-    border-bottom: 8px solid #e94e1b;
-    border-radius: 2px;               
-}
-        
-    
-.overlay{
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    overflow:hidden;
-}
-    
-@keyframes partical{
-    0%{opacity: 0; }
-    100%{opacity: 1; transform: translate(5px ,-5px);}
-}
-
-.link{
-    color: #e94e1b;
-    text-align: center;
-    font-size:30px;
-}
-
-.effect1{
-    position: relative;
-    width:10px;
-    height:10px;
-    opacity: 1;
-    background-color: #f39200;
-    border-radius: 50%;
-    border:1px solid black;
-    animation: partical 1s alternate  infinite;
-}
-
-.s1{
-    left:50%;
-    top:10%;
-    width:20px;
-    height:20px;
-}
-
-.s2{
-    left:70%;
-    top:10%;
-    width:15px;
-    height:15px;
-}
-
-.s3{
-    left:60%;
-    top:20%;
-}
-
-.s4{
-    left:40%;
-    top:20%;
-}
-
-.BusPortalContainer{
-    border-top: white; 
-    width: 100%;
-    height: 70%;
-}
-.busImage{
-    height: 100%;
-}
-
-.center{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.text{
-    color: #e94e1b;
-    font-family: cardenio, sans-serif;
-    font-weight: bold;
-}
-
-
 /*------Page Elements------*/
 .info-hero{
 	background-color:white;
@@ -311,6 +187,9 @@ div.busPortal{
 	text-decoration:none;
 	color:#f39200;
 }
+.link-container *{
+	color:white;
+}
 .media-container{
 	background-color: black;
 	height:404px;
@@ -329,9 +208,6 @@ div.busPortal{
 	height:auto;
 	border: white solid 2px;
 }
-.bus-link:hover{
-	opacity:0.6;
-}
 .buslink-header{
 	background-color: #e94e1b;
 	color:white;
@@ -349,16 +225,9 @@ div.busPortal{
 }
 .buslink-body{
 	padding:20px 10px;
+	transition: transform .2s; /* Animation */
 }
-
-
-.zoom {
-  
-  transition: transform .2s; /* Animation */
-  
-}
-
-.zoom:hover {
+.buslink-body:hover {
   transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
@@ -389,16 +258,33 @@ div.busPortal{
 }
 
 /*------Our Story Page------*/
+
 .storypage{
 	height:auto;
 	padding-top:0;
 	background-color:#e94e1b;
 	border:solid 2px white;
-	padding:0.7em;
-	
-			
+	padding:0.7em;	
 }
 .removedots{
-	list-style-type: none;}
+	list-style-type: none;
+}
 
-
+/*------Bus Portal------*/
+.busportal-container{
+	padding:0% 5%;
+}
+.bus-portal{
+	height:auto;
+	text-align: center;
+	transition: transform .2s; /* Animation */
+}
+.bus-portal h1{
+	color:#e94e1b;
+	padding-top: 1px;
+	text-align: center;
+}
+.bus-portal:hover {
+	transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+	overflow:visible;
+}

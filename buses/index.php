@@ -3,7 +3,7 @@
 	<head>
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150729305-1"></script>';
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150729305-1"></script>
 	<script>
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
@@ -25,7 +25,7 @@
 
 <!-----------------------------HEADER------------------------------>
 				
-				<div class="row content">
+				<div class="row">
 					<header>
 						<?php include("../resources/layout/header.html"); ?>
 					</header>
@@ -33,108 +33,65 @@
 
 <!-----------------------------CONTENT------------------------------>					
 				
-                <div class="row center">
-					
-                    <div class="col-12">
-                        <div class="row center">
+				<div class="col-12 content busportal-container">
+					<div class="row content">
+						<div class="col-4 bus-portal">
+							<a href="bus-1.php">
+							<img src="../resources/images/placeholder.svg" alt="horticulture bus">
+							<h1>Horticulture</h1>
+							</a>
+						</div>
+			
+						<div class="col-4 bus-portal">
+							<a href="bus-2.php">
+							<img src="../resources/images/placeholder.svg" alt="fashion, hair & makeup bus">
+							<h1>Fashion, Hair & Makeup</h1>
+							</a>
+						</div>
 
-							<a href="bus-1.php"><div class="col-6 conLight busPortalLink">
-								<div class="BusPortalContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
-								<div class="busTitle"><p><b class="link text">Florestry</b></p></div>
-								
-								<div class="overlay">
-									<div class="effect1 s1"></div>
-									<div class="effect1 s2"></div>
-									<div class="effect1 s3"></div>
-									<div class="effect1 s4"></div>
-								</div>
-							</div></a>
-							
-							<a href="bus-2.php"><div class="col-6 conLight busPortalLink ">
-								<div class="BusPortalContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
-								<div class="busTitle"><p><b class="link text">Fashion</b></p></div>
+						<div class="col-4 bus-portal">
+							<a href="bus-3.php">
+							<img src="../resources/images/placeholder.svg" alt="media bus">
+							<h1>Media</h1>
+							</a>
+						</div>
 
-								<div class="overlay">
-									<div class="effect1 s1"></div>
-									<div class="effect1 s2"></div>
-									<div class="effect1 s3"></div>
-									<div class="effect1 s4"></div>
-								</div>
-							</div></a>
+					</div>
+					<div class="row">
 
-							<a href="bus-3.php"><div class="col-6 conLight busPortalLink">
-								<div class="BusPortalContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
-								<div class="busTitle"><p><b class="link text">Mr Doco Conor</b></p></div>
+						<div class="col-4 bus-portal">
+							<a href="bus-4.php">
+							<img src="../resources/images/placeholder.svg" alt="yurauna bus">
+							<h1>Yurauna</h1>
+							</a>
+						</div>
 
-								<div class="overlay">
-									<div class="effect1 s1"></div>
-									<div class="effect1 s2"></div>
-									<div class="effect1 s3"></div>
-									<div class="effect1 s4"></div>
-								</div>
-							</div></a>
-                        
-							<a href="bus-4.php"><div class="col-6 conLight busPortalLink">
-								<div class="BusPortalContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
-								<div class="busTitle"><p><b class="link text">Boxer Ibby</b></p></div>
+						<div class="col-4 bus-portal">
+							<a href="bus-5.php">
+							<img src="../resources/images/placeholder.svg" alt="visual arts bus">
+							<h1>Visual Arts</h1>
+							</a>
+						</div>
 
-								<div class="overlay">
-									<div class="effect1 s1"></div>
-									<div class="effect1 s2"></div>
-									<div class="effect1 s3"></div>
-									<div class="effect1 s4"></div>
-								</div>
-							</div></a>
+						<div class="col-4 bus-portal">
+							<a href="bus-6.php">
+							<img src="../resources/images/placeholder.svg" alt="design den bus">
+							<h1>Design Den</h1>
+							</a>
+						</div>
 
-							<a href="bus-5.php"><div class="col-6 conLight busPortalLink">
-								<div class="BusPortalContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
-								<div class="busTitle"><p><b class="link text">Visual Arts</b></p></div>
-
-								<div class="overlay">
-									<div class="effect1 s1"></div>
-									<div class="effect1 s2"></div>
-									<div class="effect1 s3"></div>
-									<div class="effect1 s4"></div>
-								</div>
-							</div></a>
-
-							<a href="bus-6.php"><div class="col-6 conLight busPortalLink">
-								<div class="BusPortalContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
-								<div class="busTitle"><p><b class="link text">Gumbll Lachlan</b></p></div>
-
-								<div class="overlay">
-									<div class="effect1 s1"></div>
-									<div class="effect1 s2"></div>
-									<div class="effect1 s3"></div>
-									<div class="effect1 s4"></div>
-								</div>
-							</div></a>
-
-							<a href="Yurauna.php"><div class="col-6 conLight busPortalLink">
-								<div class="BusPortalContainer"><img class="busImage" src="../resources/images/placeholder.svg" alt="bus"></div>
-								<div class="busTitle"><p><b class="link text">Yurana</b></p></div>
-
-								<div class="overlay">
-									<div class="effect1 s1"></div>
-									<div class="effect1 s2"></div>
-									<div class="effect1 s3"></div>
-									<div class="effect1 s4"></div>
-								</div>
-							</div></a>
-
-                        </div>
-                    </div>
-                </div><!--End Row-->
+					</div>
+				</div>
                 
-
 <!-----------------------------FOOTER------------------------------>
 				
-<div class="row">
+				<div class="row content">
 					<footer>
 						<?php include("../resources/layout/footer.html"); 
 						?>
 					</footer>
 				</div>
+
 			</div>
 		</div>
 	</body>

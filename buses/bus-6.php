@@ -3,7 +3,7 @@
     <head>
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150729305-1"></script>';
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150729305-1"></script>
 	<script>
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
@@ -38,12 +38,12 @@
                         <div id="busbrief">
                             <div id="busIcon"><img src="../resources/images/Bus.svg" alt="Bus Icon" ></div>
                             <div class="bus-relative">
-                                <div id="busDescription">Bus 2</div>
+                                <div id="busDescription">Bus 6</div>
                             </div>
                         </div>
                     </div>
                     <div class="row info-container">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt.</p>
+                        <p><b>Advanced Diploma of Graphic Design</b></p>
                     </div>
 
                     <!----------2th block in left side, display image1--------->
@@ -64,14 +64,17 @@
                     <div class="row conLight" id="busSummary">
                             <!--Sub column of introduce-->
                             <div class="row col-12">
-                                <h1>Introduce</h1>
-                            </div>
-                            <div class="col-6">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at imperdiet velit. Quisque lobortis volutpat lorem a varius. Praesent gravida ac augue ac fermentum. Quisque cursus luctus tellus, a molestie ante rutrum facilisis. Mauris consequat, tortor maximus euismod convallis, sem ante fermentum lacus, ac sagittis nulla metus imperdiet elit. Morbi elementum, diam a sagittis volutpat, ligula ante interdum velit, at eleifend enim lectus vel diam. Donec aliquet a nisi vel condimentum. Suspendisse potenti.</p>
-                            </div>
-                            <!--Sub column of introduce-->
-                            <div class="col-6">
-                                <p>Pellentesque porttitor condimentum massa quis ornare. Integer vestibulum ultrices arcu, eget dapibus enim auctor sed. In in mi posuere leo luctus sollicitudin. Sed facilisis, quam vel aliquet fringilla, eros ex tincidunt nibh, quis maximus mi mi quis nisi. Ut finibus nisi felis, nec vulputate tortor convallis quis. Nunc nec pharetra ex. Ut sit amet enim nulla. Cras pretium arcu velit, consequat bibendum turpis gravida vulputate. Pellentesque rutrum, massa nec bibendum interdum, orci leo rhoncus sapien, sit amet porta velit nisl nec magna. Proin id quam vel tortor molestie luctus et sit amet elit. Etiam in accumsan tortor, ac volutpat ligula.</p>
+                                <h1>Design Den Bus - Description</h1>
+                                <p>The DESIGN DEN will feature students design work in a traditional and immersive context. The interior will be transformed into a dynamic exhibition space using elements of the ORANGE WOLVES visual identity which was created by the graphic design students. Mounted work, display screens (visible from the exterior and interior of the DESIGN DEN) and illuminated Augmented Reality ‘trigger’ images’.  The exterior of the bus will feature a large typographic piece branding our bus as the design den.</p>
+                                <br><p>The exhibition will feature:</p><br>
+                                <ul class="indent">
+                                    <li>a series of display boards - mounted internally along the left and right windows where each student display showcasing a range of design work in a traditional printed manner.</li>
+                                    <li>Motion graphics showreel - a series of motion graphics portfolio showreels set to music displayed on large screen monitors visible to public from interior and exterior.</li>
+                                    <li>Augmented Reality “triggers” - an exploration into dynamic sustainable interactive content as an additional and innovative way of experiencing student work. This platform allows for a broader range of content to be accessed via smart devices. The ‘Design Den’ will provide screens and signage explaining how the Augmented Reality component can be accessed.  Instructions would also be provided to obtain the app and use your own device.</li>
+                                </ul>
+                                <br><p>The Augmented Reality will be presented as a series of highly visible trigger objects that are  mounted both internally and externally to the bus. When a user interacts with the trigger on their iPad or phone you launch the interactive AR component of the exhibition and unlock an expanded range of the students work.</p>
+                                <br><p>The opportunity that the ORANGE WOLVES has provided the graphic design students has been a collaborative effort with the creation of the branding and visual identity of the event. Planning and strategies for the exhibition approach and each students individual effort in organising and presenting the finished work.</p>
+                                <br><p>The DESIGN DEN exhibition will be the culmination of two years full time study as part of the Advanced Diploma of Graphic Design. In addition to the students friends and families the exhibition will be viewed by the general public. An opening night will establish connection with  invited industry representatives.</p>
                             </div>
                     </div>
 
