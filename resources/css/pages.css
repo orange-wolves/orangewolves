@@ -1,13 +1,13 @@
 /*Large Screens*/
 @media only screen and (min-width: 1000px) {
-	.sponsor-container, .minor-sponsor-container {
+	.sponsor-container {
 		padding:0vw 5vw;
 	}
 }
 
 /*Desktop*/
 @media only screen and (max-width: 1000px) {
-	.sponsor-container, .minor-sponsor-container {
+	.sponsor-container {
 		padding:0vw 5vw;
 	}
 }
@@ -20,11 +20,7 @@
 	.sponsor-img {
 			width:50%;
 	}
-	.minor-sponsor-container .sponsor-img{
-			width:33.3%;
-			padding:1.6%;
-	}
-	.sponsor-container, .minor-sponsor-container {
+	.sponsor-container {
 		padding:0vw 10vw;
 	}
 
@@ -121,20 +117,8 @@
 }
 
 .storypage{
-    height:auto;
-    padding-top:0;
-    background-color:#e94e1b;
-    border:solid 2px white;
-    padding:0.7em;
     
-        
-}
-
-.removedots{
-    list-style-type: none;}
-
-
-
+height:35em}
 
 
 /*------ Bus Pages ------*/
@@ -292,22 +276,23 @@ div.busPortal{
 
 
 /*------Page Elements------*/
-.info-hero {
-	background-color:#f39200;
+.info-hero{
+	background-color:white;
 	height:auto;
-	padding:3%;
-	border:solid 2px white;
+	padding:3% 3% 3% 3%;
+	border-bottom: solid 30px #f39200;
+}
+.info-hero h1, .info-hero h2{
+	color:#e94e1b;
 }
 .info-hero p, .info-hero h1, .info-hero h2{
 	padding:0% 15px;
 }
 .line{
-	display: inline-block;
-	content: "";
 	height: 3px;
 	background:#e94e1b;
 	width:100%;
-	margin-bottom:10px;
+	margin-top:10px;
 }
 .link-container {
 	color:white;
@@ -332,66 +317,13 @@ div.busPortal{
 	border:solid 2px white;
 }
 
-/*Mobile*/
-@media only screen and (max-width: 768px) {
-    .sponsor-img {
-        width:45%;
-        margin:0 2.5%;
-    }
-
-    .sponsor-container {
-        padding:0vw 10vw;
-    
-    }
-    .minor-sponsor-container {
-        padding:0vw 3vw;
-    
-    }
-    .minor-sponsor-container .sponsor-img{
-        width:30%;
-        margin:1.6%;
-    }
-
-    .image-container{
-        text-align: center;
-        height: auto;
-    }
-
-    #image{
-        max-width: 100%;
-        height: auto;
-    }
-
-    .imageContainer img{
-        max-width: 32%;
-        margin: 0 0.5%;
-        float: left;
-    }
-
-    .busPortalLink{
-        height: 13em;
-        width : 50%
-    }
-    
-    .busImage{
-        height: 100%;
-        width: 100%;
-    }
-
-    .storypage{
-        text-align: center;
-        }
-
-    .indent-story {
-        padding-left: 0px;
-    }
-}
 /*------ Home Page ------*/
 .homepage-media{
 	height: 400px;
 	max-height: 400px;
 	width: auto;
 	max-width: 100%;
+	border-top:solid 2px white;
 }
 .bus-link{
 	height:auto;
@@ -416,17 +348,15 @@ div.busPortal{
 	padding-bottom:4px;
 }
 .buslink-body{
-	background-color:rgba(243, 146, 0, 0.6);
 	padding:20px 10px;
 }
 
 /*------Sponsors Page------*/
 
-.sponsor-container, .minor-sponsor-container {
+.sponsor-container{
 	background-color: white;
 	text-align:center;
 	width:100%;
-
 }
 .sponsor-img {
 	background-color: white;
@@ -434,7 +364,6 @@ div.busPortal{
 	height:auto;
 	margin-bottom:20px;
 	padding:0px 10px;
-
 	height: 200px;
   position: relative;
 }
@@ -448,10 +377,17 @@ div.busPortal{
   transform: translate(-50%, -50%);
 }
 
-.minor-sponsor-container .sponsor-img img { /*border is removed once image is in place*/
-	max-width:100%;
-	background-color:#ffffff;
-	border:none;
+/*------Our Story Page------*/
+.storypage{
+	height:auto;
+	padding-top:0;
+	background-color:#e94e1b;
+	border:solid 2px white;
+	padding:0.7em;
+	
+			
 }
+.removedots{
+	list-style-type: none;}
 
 
