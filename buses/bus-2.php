@@ -40,7 +40,6 @@
                         <h1>Hair and Beauty</h1>
                         <p><b>Hairdressing</b> - stage 4/5 students (apprentice and commercial)</p>
                         <p><b>Fashion</b> - Diploma of Applied Fashion Design</p>
-                        <img src="../resources/images/image_993x324.png" alt="image">
                     </div>
 
                     <div class="col-8 businfo-content">
@@ -67,6 +66,7 @@
                                     rights to protest as a starting point for their designs.</p><br>
                                 <p>The hair and MU students are supporting the collections through collaboration and a shared vision through their 
                                     styling of the models.</p>
+                                    <br>
                         <img src="../resources/images/bus2_img1.jpg" alt="image" class="image">
                         <img src="../resources/images/bus2_img2.jpg" alt="image" class="image">
                         <img src="../resources/images/bus2_img3.jpg" alt="image" class="image">
