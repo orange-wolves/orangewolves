@@ -9,6 +9,11 @@
 	.bus-link{
 		height:150px;
 	}
+
+	.dropdownn-content {
+        position: absolute;
+      
+      }
 }
 
 /*Desktop*/
@@ -23,11 +28,7 @@
 		height:150px;
     }
     
-    .dropdownn-content {
-        position: absolute;
-      
-      }
-       
+           
 
 }
 
