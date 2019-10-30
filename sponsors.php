@@ -45,13 +45,21 @@
 				</div>
 
 				<div class="row">
-					<div class="col-12 sponsor-container">
+					<div class="sponsor-container">
 						<!-- ACT City Renewal logo -->
 						<div class="col-3 sponsor-img">
 							<a href="https://www.act.gov.au/cityrenewal/home">
 								<img src="resources\images\sponsors\ACTCRA_Inline_MONO_RGB.png" 
 									title="ACT City Renewal"
 									alt="ACTCRA Logo">
+							</a>
+						</div>
+						<!-- TC logo -->
+						<div class="col-3 sponsor-img">
+							<a href="https://www.transport.act.gov.au/">
+								<img src="resources\images\sponsors\transport-canberra-logo.png"
+									title="Transport Canberra"
+									alt="Transport Canberra Logo">
 							</a>
 						</div>
 						<!-- CIT logo -->
@@ -65,27 +73,15 @@
 						<!-- Capital Linen Service logo -->
 						<div class="col-3 sponsor-img">
 							<a href="https://www.capitallinenservice.act.gov.au/">
-								<img src="resources\images\sponsors\CapitalLinenServiceLogoColour.svg"
+								<img src="resources\images\sponsors\CapitalLinenServiceLogoColour.png"
 									title="Capital Linen Service"
 									alt="Capital Linen Service logo">
-							</a>
-						</div>
-						<!-- TC logo -->
-						<div class="col-3 sponsor-img">
-							<a href="https://www.transport.act.gov.au/">
-								<img src="resources\images\sponsors\transport-canberra-logo.svg"
-									title="Transport Canberra"
-									alt="Transport Canberra Logo">
 							</a>
 						</div>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-12 sponsor-container">
-						<div class="col-3 sponsor-img">
-							<!-- <img src="resources\images\img-200px.png"> -->
-						</div>
-						<!--  -->
+					<div class="sponsor-container">
 						<div class="col-3 sponsor-img">
 								<a href="https://srasolutions.com.au/">
 									<img src="resources\images\sponsors\SRA-Solutions_logo.png"
@@ -99,9 +95,6 @@
 										title="Impact Wrap"
 										alt="Impact Wrap Logo">
 								</a>
-						</div>
-						<div class="col-3 sponsor-img">
-							<!-- <img src="resources\images\img-200px.png"> -->
 						</div>
 					</div>
 				</div>
