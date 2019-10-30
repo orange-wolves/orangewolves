@@ -99,7 +99,7 @@
                 
 <!-----------------------------FOOTER------------------------------>
 				
-				<div class="row">
+				<div class="row content">
 					<footer>
 						<?php include("../resources/layout/footer.html"); 
 						?>
