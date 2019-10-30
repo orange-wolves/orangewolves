@@ -31,7 +31,7 @@ dark orange - #e94e1b
   text-align: center;
   width:25%;
   display:inline-block; 
-  border-right:2px solid black;
+  border-right:2px solid#ffffff;
 }
 
 /*footer links*/
@@ -43,7 +43,7 @@ dark orange - #e94e1b
 }
 
 .footernav li:first-child{
- border-left:2px solid black;
+ border-left:2px solid #ffffff;
  }
 
 .footerLeft ,.footerRight{
