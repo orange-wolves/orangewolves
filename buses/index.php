@@ -70,7 +70,7 @@
 						<div class="col-4 bus-portal">
 							<div class="busportal-image">
 								<a href="bus-4.php">
-								<img src="../resources/images/MusicBus.svg" alt="yurauna bus">
+								<img src="../resources/images/MusicBus.svg" alt="music bus">
 								<h1>Music</h1>
 								</a>
 							</div>
@@ -99,7 +99,7 @@
                 
 <!-----------------------------FOOTER------------------------------>
 				
-				<div class="row content">
+				<div class="row">
 					<footer>
 						<?php include("../resources/layout/footer.html"); 
 						?>

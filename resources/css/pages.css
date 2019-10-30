@@ -6,6 +6,9 @@
 	.bus-portal {
 		padding:0% 2%;
 	}
+	.bus-link{
+		height:150px;
+	}
 }
 
 /*Desktop*/
@@ -15,6 +18,9 @@
 	}
 	.bus-portal {
 		padding:0% 2%;
+	}
+	.bus-link{
+		height:150px;
 	}
 }
 
@@ -28,6 +34,7 @@
 	}
 	.bus-link{
 		width:33.3%;
+		height:270px;
 	}
 	.bus-portal {
 		padding:5% 10%;
@@ -206,8 +213,7 @@ height:35em}
 	border-top:solid 2px white;
 }
 .bus-link{
-	height:auto;
-	border: white solid 2px;
+	border:black solid 1px;
 }
 .buslink-header{
 	background-color: #e94e1b;
@@ -225,9 +231,11 @@ height:35em}
 	padding-bottom:4px;
 }
 .buslink-body{
-	padding:20px 10px;
 	transition: transform .2s; /* Animation */
+	padding:10px;
 }
+
+
 .buslink-body:hover {
   transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
@@ -274,12 +282,11 @@ height:35em}
 /*------Bus Portal------*/
 .busportal-container{
 	padding:0% 5%;
-	height:280px;
+	height:300px;
 }
 .bus-portal{
 	text-align: center;
 	transition: transform .2s; /* Animation */
-	border:solid 1px black;
 	position: relative;
 	height:300px;
 }
