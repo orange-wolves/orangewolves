@@ -36,34 +36,69 @@
 				<div class="wrapper">
 				<div class="row">
 					<div class="col-12 info-hero">
-						<div class="content-heading">
-							<h1>Our Story</h1>
+						<div class="col-9 content-heading">
+						
+						<h1>Our Story:</h1>
+						</div>
+						
+						
+						
+						<div class="col-3">
+				<div class="dropdown"name="dropdown">
+									<button onclick="myFunctionStory()" class="dropbtnn">Team Stories
+									 <i class="fa fa-caret-down"></i></button>
+									<i class="down"></i>
+								<div id="myDropdownn" class="dropdownn-content">
+								<a href="our-story.php?team_name=T1"><h2>Fashion</h2></a>
+								<a href="our-story.php?team_name=T3"><h2>Graphic Design</h2></a>
+								<a href="our-story.php?team_name=T4"><h2>Hair</h2></a>
+								<a href="our-story.php?team_name=T5"><h2>Horticulture</h2></a>
+								<a href="our-story.php?team_name=T6"><h2>Information technology</h2></a>
+								<a href="our-story.php?team_name=T7"><h2>Interior Design</h2></a>
+								<a href="our-story.php?team_name=T8"><h2>Makeup</h2></a>
+								<a href="our-story.php?team_name=T9"><h2>Media</h2></a>
+								<a href="our-story.php?team_name=T10"><h2>Music</h2></a>
+								<a href="our-story.php?team_name=T11"><h2>Photography</h2></a>
+								<a href="our-story.php?team_name=T12"><h2>Visual Art</h2></a>
+						  <a href="our-story.php?team_name=T13"><h2>Yurauna</h2></a>
+								</div>
+							</div>
+				
+				
+				</div>
+				
+							
+							
+							
+				<script>
+						function myFunctionStory() {
+							document.getElementById("myDropdownn").classList.toggle("show");
+						}
+
+						// Close the dropdown menu if the user clicks outside of it
+				window.onclick = function(event) 
+					{
+					if (!event.target.matches('.dropbtnn')) 
+					{
+						var dropdowns = document.getElementsByClassName("dropdownn-content");
+						var i;
+						for (i = 0; i < dropdowns.length; i++) 
+						{
+							var openDropdown = dropdowns[i];
+							if (openDropdown.classList.contains('show')) 
+							{
+								openDropdown.classList.remove('show');
+							}
+						}
+					}
+				}
+				</script>
 						</div>
 					</div>
 				</div>
 				<div class="row">
-
-				<div class="col-3 indent storypage">
-				<h1>orange wolves</h1>
-				<ul class="removedots indent-story">	
-
-						<?php  echo"<a href=our-story.php?team_name=T1><li><h2>Fashion</h2></a></li>";
-						  echo"<a href=our-story.php?team_name=T3><li><h2>Graphic Design</h2></a></li>";
-						  echo"<a href=our-story.php?team_name=T4><li><h2>Hair</h2></a></li>";
-						  echo"<a href=our-story.php?team_name=T5><li><h2>Horticulture</h2></a></li>";
-						  echo"<a href=our-story.php?team_name=T6><li><h2>Information technology</h2></a></li>";
-						  echo"<a href=our-story.php?team_name=T7><li><h2>Interior Design</h2></a></li>";
-						  echo"<a href=our-story.php?team_name=T8><li><h2>Makeup</h2></a></li>";
-						  echo"<a href=our-story.php?team_name=T9><li><h2>Media</h2></a></li>";
-						  echo"<a href=our-story.php?team_name=T10><li><h2>Music</h2></a></li>";
-						  echo"<a href=our-story.php?team_name=T11><li><h2>Photography</h2></a></li>";
-						  echo"<a href=our-story.php?team_name=T12><li><h2>Visual Art</h2></a></li>";
-						  echo"<a href=our-story.php?team_name=T13><li><h2>Yurauna</h2></a></li>";
-						  ?>
-				
-					</ul>	
-				</div>
-				<div class="col-9 info-container ">
+								
+				<div class="col-12 info-container ">
 <?php			
 				include('DB_our_story.php');
 				if(empty($_GET['team_name']))
@@ -89,9 +124,8 @@
 ?>
 				</div>
 				
-
 				</div>
-									
+								
 				
 
 
