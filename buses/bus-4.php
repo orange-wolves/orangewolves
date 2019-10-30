@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150729305-1"></script>';
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-150729305-1');
+	</script>
         <title>Bus 4</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no>
         <link rel="icon" href="../resources/images/OrangeWolvesLogo.svg">
