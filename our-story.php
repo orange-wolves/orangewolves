@@ -39,36 +39,39 @@
 						
 						<div class="col-9 content-heading">
 						
-						<h1>Our Story:</h1>
+						<?php echo "<h1>Our Story:</h1>" ?>
 						</div>
 						
 						
 						
 						<div class="col-3">
-				<div class="dropdown"name="dropdown">
+							<div class="dropdown"name="dropdown">
 									<button onclick="myFunctionStory()" class="dropbtnn">Team Stories
 									 <i class="fa fa-caret-down"></i></button>
 									<i class="down"></i>
-								<div id="myDropdownn" class="dropdownn-content">
-								<a href="our-story.php?team_name=T1"><h2>Fashion</h2></a>
-								<a href="our-story.php?team_name=T3"><h2>Graphic Design</h2></a>
-								<a href="our-story.php?team_name=T4"><h2>Hair</h2></a>
-								<a href="our-story.php?team_name=T5"><h2>Horticulture</h2></a>
-								<a href="our-story.php?team_name=T6"><h2>Information technology</h2></a>
-								<a href="our-story.php?team_name=T7"><h2>Interior Design</h2></a>
-								<a href="our-story.php?team_name=T8"><h2>Makeup</h2></a>
-								<a href="our-story.php?team_name=T9"><h2>Media</h2></a>
-								<a href="our-story.php?team_name=T10"><h2>Music</h2></a>
-								<a href="our-story.php?team_name=T11"><h2>Photography</h2></a>
-								<a href="our-story.php?team_name=T12"><h2>Visual Art</h2></a>
-						  <a href="our-story.php?team_name=T13"><h2>Yurauna</h2></a>
-								</div>
+								
 							</div>
-                        
-			
+                		</div>
 				
-				</div>
-				
+
+						<div id="myDropdownn" class="dropdownn-content col-12">
+										<div class="col-6">
+											<a href="our-story.php?team_name=T1"><h2>Fashion</h2></a>
+											<a href="our-story.php?team_name=T3"><h2>Graphic Design</h2></a>
+											<a href="our-story.php?team_name=T4"><h2>Hair</h2></a>
+											<a href="our-story.php?team_name=T5"><h2>Horticulture</h2></a>
+											<a href="our-story.php?team_name=T6"><h2>Information technology</h2></a>
+											<a href="our-story.php?team_name=T7"><h2>Interior Design</h2></a>
+										</div>
+										<div class="col-6">
+											<a href="our-story.php?team_name=T8"><h2>Makeup</h2></a>
+											<a href="our-story.php?team_name=T9"><h2>Media</h2></a>
+											<a href="our-story.php?team_name=T10"><h2>Music</h2></a>
+											<a href="our-story.php?team_name=T11"><h2>Photography</h2></a>
+											<a href="our-story.php?team_name=T12"><h2>Visual Art</h2></a>
+											<a href="our-story.php?team_name=T13"><h2>Yurauna</h2></a>
+										</div>
+						</div>
 							
 							
 							
@@ -95,38 +98,39 @@
 					}
 				}
 				</script>
+
 						</div>
 					</div>
 				</div>
+
+
+				<!---divs around the dynamic content --->
 				<div class="row">
-								
-				<div class="col-12 info-container ">
-<?php			
-				include('DB_our_story.php');
-				if(empty($_GET['team_name']))
-				{
-					$team_name = 'T0';
-				}else{
-				$team_name = $_GET['team_name'];
-				}
-				//echo"$team_name";
-				$sql = "SELECT team_name ,title ,description FROM storys WHERE team_name ='$team_name'";
-				//echo "$sql";
-				
-				echo"<div class=story>";
-				$results = mysqli_query($conn,$sql);
-				while ($row = mysqli_fetch_array($results))
-				{
-					echo"<h1>$row[1]</h1>";
-					echo"<p>$row[2]</p>";
-				}
-				echo"</div>"
-
-
-?>
+					<div class="col-12 info-container ">
+						<?php			
+						include('DB_our_story.php');
+						if(empty($_GET['team_name']))
+						{
+							$team_name = 'T0';
+						}else{
+						$team_name = $_GET['team_name'];
+						}
+						//echo"$team_name";
+						$sql = "SELECT team_name ,title ,description FROM storys WHERE team_name ='$team_name'";
+						//echo "$sql";
+						
+						echo"<div class=story>";
+						$results = mysqli_query($conn,$sql);
+						while ($row = mysqli_fetch_array($results))
+						{
+							echo"<h1>$row[1]</h1>";
+							echo"<p>$row[2]</p>";
+						}
+						echo"</div>"
+						?>
+					</div>
 				</div>
-				
-				</div>
+				<!---divs around the dynamic content --->
 								
 				
 
