@@ -13,7 +13,7 @@
 	</script>
 		<title>Orange Wolves Bus Portal</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no>
-		<link rel="icon" href="../resources/images/OrangeWolvesLogo.svg">
+		<link rel="icon" href="../resources/images/OrangeWolvesFavIcon.png">
 		<link rel="stylesheet" type="text/css" href="../resources/css/layout.css">
 		<link rel="stylesheet" type="text/css" href="../resources/css/header.css">
 		<link rel="stylesheet" type="text/css" href="../resources/css/footer.css">
