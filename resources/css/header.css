@@ -30,7 +30,7 @@
 }
 
 .headerspace{
-	padding-top:5%;
+	margin-top:3em;
 }
 
 /*--Logo--*/
@@ -82,6 +82,7 @@
 	padding:5px 0px;
 	float:left;
 	z-index: 1500;
+	height:58px;
 }
 a.dropbtn {
 	font-size:2.5em;
@@ -90,7 +91,7 @@ a.dropbtn {
 	padding-left:30px;
 }
 .dropdown-content {
-    display:none;
+  display:none;
 	position:absolute;
 	background-color: #f39200;
 	margin-top:10px;
@@ -98,8 +99,8 @@ a.dropbtn {
 }
 .dropdown-content img{
 	position:absolute;
-	top:-18px;
-	left:6px;
+	top:-14px;
+	left:-5px;
 	width:15%;
 	height:15%;
 	z-index:-1;

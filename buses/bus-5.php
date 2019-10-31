@@ -34,7 +34,7 @@
 							<div class="col-12">
 
 								<div class="col-4 businfo-header">
-									<div id='busIcon'>
+									<div id='busicon-flip'>
 										<img src="../resources/images/VisualArtsBus.svg" alt="Visual Arts Bus" >
 									</div>
 									<h1>Visual Arts</h1>

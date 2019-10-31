@@ -39,7 +39,7 @@
 
 						<div class="col-4 bus-portal">
 							<div class="busportal-image">
-								<a href="bus-1.php">
+								<a href="bus-1">
 								<img src="../resources/images/HorticultureBus.svg" alt="horticulture bus">
 								<h1>Horticulture</h1>
 								</a>
@@ -48,16 +48,16 @@
 			
 						<div class="col-4 bus-portal">
 							<div class="busportal-image">
-								<a href="bus-2.php">
+								<a href="bus-2">
 								<img src="../resources/images/FashionHairMakeupBus.svg" alt="hair & beauty bus">
-								<h1>Hair and Beauty</h1>
+								<h1>Fashion, Hair & Beauty</h1>
 								</a>
 							</div>
 						</div>
 
 						<div class="col-4 bus-portal">
 							<div class="busportal-image">
-								<a href="bus-3.php">
+								<a href="bus-3">
 								<img src="../resources/images/MediaBus.svg" alt="media bus">
 								<h1>Night Ride</h1>
 								</a>
@@ -69,7 +69,7 @@
 
 						<div class="col-4 bus-portal">
 							<div class="busportal-image">
-								<a href="bus-4.php">
+								<a href="bus-4">
 								<img src="../resources/images/MusicBus.svg" alt="music bus">
 								<h1>Music</h1>
 								</a>
@@ -78,7 +78,7 @@
 
 						<div class="col-4 bus-portal">
 							<div class="busportal-image">
-								<a href="bus-5.php">
+								<a href="bus-5">
 								<img src="../resources/images/VisualArtsBus.svg" alt="visual arts bus">
 								<h1>Visual Arts</h1>
 								</a>
@@ -87,7 +87,7 @@
 
 						<div class="col-4 bus-portal">
 							<div class="busportal-image">
-								<a href="bus-6.php">
+								<a href="bus-6">
 								<img src="../resources/images/GraphicDesignBus.svg" alt="design den bus">
 								<h1>Design Den</h1>
 								</a>

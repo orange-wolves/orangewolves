@@ -39,7 +39,7 @@
 <!-----------------------------CONTENT------------------------------>					
 				
 							<!------HERO------>	
-				<div class="row info-hero">
+				<div class="row info-hero content">
 				<h1>FEAST YOUR EYES ON THIS!</h1><br>
 					<div class="col-6">
 						<p><b><I>Orange Wolves</I></b> is a multi-disciplinary immersive experience that encompasses music, media, arts, fashion, technology and design.</p>
@@ -86,7 +86,7 @@
 
 					<div class="col-2 bus-link">
 						<a href="buses/bus-2">
-						<h3>Hair and Beauty</h3>
+						<h3>Fashion, Hair & Beauty</h3>
 							<div class="buslink-body">
 								
 								<img src="resources/images/FashionHairMakeupBus.svg" alt="hair & beauty bus">

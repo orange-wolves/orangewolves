@@ -34,7 +34,7 @@
 							<div class="col-12">
 
 								<div class="col-4 businfo-header">
-									<div id='busIcon'>
+									<div id='busicon'>
 										<img src="../resources/images/MediaBus.svg" alt="Media Bus" >
 									</div>
 									<h1>Night Ride</h1>

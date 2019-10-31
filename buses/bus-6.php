@@ -35,7 +35,7 @@
 							<div class="col-12">
 
 								<div class="col-4 businfo-header">
-									<div id='busIcon'>
+									<div id='busicon'>
 										<img src="../resources/images/GraphicDesignBus.svg" alt="Design Den Bus" >
 									</div>
 									<h1>Design Den</h1>

@@ -34,10 +34,10 @@
                 <div class="col-12">
 
                     <div class="col-4 businfo-header">
-                        <div id='busIcon'>
-                            <img src="../resources/images/FashionHairMakeupBus.svg" alt="Hair and Beauty Bus" >
+                        <div id='busicon'>
+                            <img src="../resources/images/FashionHairMakeupBus.svg" alt="Fashion, Hair and Beauty Bus" >
                         </div>
-                        <h1>Hair and Beauty</h1>
+                        <h1>Fashion, Hair and Beauty</h1>
                         <p><b>Hairdressing</b> - stage 4/5 students (apprentice and commercial)</p>
                         <p><b>Fashion</b> - Diploma of Applied Fashion Design</p><br>
                         <div>
@@ -49,7 +49,7 @@
                     </div>
 
                     <div class="col-8 businfo-content">
-                        <h1>Hair, Makeup & Fashion</h1>
+                        <h1>Fashion, Hair & Beauty</h1>
                                 <p>A collaboration of creativity throughout the bus, using sustainable products and resources.</p>
                                 <br>
                                 <ul class='indent'>

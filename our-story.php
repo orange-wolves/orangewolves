@@ -40,7 +40,7 @@
 						
 						<div class="col-8 content-heading">
 						
-						<?php echo "<h1>Our Story</h1>" ?>
+						<h1>Our Story</h1>
 						</div>
 						
 						
