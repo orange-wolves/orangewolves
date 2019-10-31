@@ -97,7 +97,7 @@
 
 					<div class="col-2 bus-link">
 						<a href="buses/bus-3">
-						<h3>media & Sound</h3>
+						<h3>Night Ride</h3>
 							<div class="buslink-body">
 								
 								<img src="resources/images/MediaBus.svg" alt="media & Sound">

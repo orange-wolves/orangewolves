@@ -42,7 +42,7 @@
 								</div>
 
 								<div class="col-8 businfo-content">
-                                <h1>Description</h1>
+                                <h1>Visual Arts</h1>
 
                                 <p>CIT’s Visual Arts students are using Canberra’s emblematic Bogong Moth to explore contrasting notions of movement and stillness, sparkle and shelter, inside and outside.</p>
                                 <br>

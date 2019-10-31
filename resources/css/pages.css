@@ -146,7 +146,7 @@
 	background-color:white;
 	height:auto;
 	padding:3% 3% 3% 3%;
-    border-bottom: solid 30px #f39200;
+  border-bottom: solid 10px #f39200;
     
 }
 .info-hero h1, .info-hero h2{
@@ -248,8 +248,12 @@
 
 /*------Bus Pages------*/
 
-#busIcon{
+#busicon-flip{
 	transform: rotatey(180deg);
+	width:60%; 
+	margin: auto;
+}
+#busicon{
 	width:60%; 
 	margin: auto;
 }
@@ -271,6 +275,28 @@
 }
 .businfo-content img{
 	width:100%;
+	padding:0% 10%;
+}
+.businfo-content b{
+	color:#e57908;
+}
+.businfo-content ul{
+	list-style: none;
+	line-height:200%;
+}
+.businfo-content li:before{
+	content:'';
+  display: inline-block; /* Needed to add space between the bullet and the text */ 
+	height: 25px;
+  width: 25px;
+	background-image: url("/orangewolves/resources/images/PawOrange.svg");
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin-left: -2em; /* Also needed for space (tweak if needed) */
+	padding-right:5px;
+}
+.busimage{
+	padding:0% 5%;
 }
 
 /*------Our Story Page------*/
@@ -285,7 +311,7 @@
 	height:50px;
 	padding-left:5%;
 	padding-right:5%;
-	margin-bottom:10px;
+	padding-top:7px;
 }
 .indent{
     padding-left: 40px;
@@ -301,16 +327,18 @@
   border: none;
   cursor: pointer;
 	width:100%;
+	font-size:16px;
+	font-weight:bold;
 }
 /* Dropdown button on hover & focus */
 .dropbtnn:hover, .dropbtnn:focus {
-  background-color:#e94e1b;
+  background-color:#f39200;
   
 }
 /* The container <div> - needed to position the dropdown content */
 .dropdownn {
   position: relative;
-  display: inline-block;
+	display: inline-block;
   }
 /* Dropdown Content (Hidden by Default) */
 .dropdownn-content {
@@ -353,7 +381,6 @@ label {
 .team-info img{
 	max-width:100%;
 }
-
 
 /*------Bus Portal------*/
 .busportal-container{

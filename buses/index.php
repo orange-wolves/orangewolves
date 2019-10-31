@@ -59,7 +59,7 @@
 							<div class="busportal-image">
 								<a href="bus-3.php">
 								<img src="../resources/images/MediaBus.svg" alt="media bus">
-								<h1>Media and Sound</h1>
+								<h1>Night Ride</h1>
 								</a>
 							</div>
 						</div>

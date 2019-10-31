@@ -42,8 +42,10 @@
 								</div>
 
 								<div class="col-8 businfo-content">
-                                    <h1>Description</h1>
-                                    <p>CIT's Media and Sound departments have joined their creative forces to create a bus ride -- with a difference. An MC welcomes you aboard, curious passengers are picked up and secrets abound. And how many bus trips have you taken that drive deep underwater and blast off into space? 'Night Ride' is an entertaining audio/visual experience with immersive picture and surround sound.</p>
+									<h1>Media and Sound</h1>
+									<p>CIT's Media and Sound departments have joined their creative forces to create a bus ride -- with a difference.<br><br>
+									An MC welcomes you aboard, curious passengers are picked up and secrets abound. And how many bus trips have you taken that drive deep underwater and blast off into space?<br><br>
+									<b>'Night Ride'</b> is an entertaining audio/visual experience with immersive picture and surround sound.</p>
 								</div>
 
 							</div>

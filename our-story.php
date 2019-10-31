@@ -38,16 +38,16 @@
 				<div class="row">
 					<div class="col-12 info-hero">
 						
-						<div class="col-9 content-heading">
+						<div class="col-8 content-heading">
 						
-						<?php echo "<h1>Our Story:</h1>" ?>
+						<?php echo "<h1>Our Story</h1>" ?>
 						</div>
 						
 						
 						
-						<div class="col-3">
+						<div class="col-4">
 							<div class="dropdown"name="dropdown">
-									<button onclick="myFunctionStory()" class="dropbtnn">Team Stories
+									<button onclick="myFunctionStory()" class="dropbtnn">Choose a Team Story
 									 <i class="fa fa-caret-down"></i></button>
 									<i class="down"></i>
 								
