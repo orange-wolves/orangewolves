@@ -40,6 +40,11 @@
                         <h1>Hair and Beauty</h1>
                         <p><b>Hairdressing</b> - stage 4/5 students (apprentice and commercial)</p>
                         <p><b>Fashion</b> - Diploma of Applied Fashion Design</p>
+                        <div>
+                            <h1>Fashion Parade – November 26 at 7 pm</h1>
+                            <br>
+                            <h3>Music by DJ Silverbeatz</h3>
+                        </div>
                     </div>
 
                     <div class="col-8 businfo-content">
@@ -57,13 +62,18 @@
                                 <p>There will be information on both industries approaches to sustainability within the bus.</p>
                                 <br>
                                 <h2>Fashion Parade:</h2>
-                                <p>Collaboration between Fashion 2nd year students and Hairdressing/Make up: Students are working together to develop 
-                                    looks for a catwalk to showcase their skills.</p>
+                                <p>On the 26 of November at 7pm Collaboration between Fashion 2nd year students and Hairdressing/Make up: Students are working together to develop 
+                                    looks for a catwalk to showcase their skills.</p><br>
                                 <p>Fashion students have been asked to design a promotional and Ready to Wear range based on a concept developed in 
-                                    response to a design brief. This brief asks them, as a designer, to consider what makes them angry. What do they 
-                                    feel passionate about? What do they want to change in contemporary society? How could they voice their opinions 
-                                    using fashion? How can they make a difference? Students have looked at range of issues such as sustainability and 
-                                    rights to protest as a starting point for their designs.</p><br>
+                                    response to a design brief. This brief asks them, as a designer, to consider:<br>
+                                    <ul class="indent">
+                                        <li>What do they feel passionate about?</li>
+                                        <li>What makes them angry?</li>
+                                        <li>What do they want to change in contemporary society?</li>
+                                        <li>How could they voice their opinions using fashion?</li>
+                                        <li>How can they make a difference?</li>
+                                    </ul><br>
+                                    Students have looked at range of issues such as sustainability and rights to protest as a starting point for their designs.</p><br>
                                 <p>The hair and MU students are supporting the collections through collaboration and a shared vision through their 
                                     styling of the models.</p>
                                     <br>

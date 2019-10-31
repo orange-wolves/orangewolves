@@ -96,6 +96,20 @@
 										alt="Impact Wrap Logo">
 								</a>
 						</div>
+						<div class="col-3 sponsor-img">
+								<a href="https://sustainablesalons.org/">
+									<img src="resources\images\sponsors\Sustainable-Salons-Logo-Horizontal-Colour-Digital.jpg"
+										title="Sustainable Salons"
+										alt="Sustainable Salons Logo">
+								</a>
+						</div>
+						<div class="col-3 sponsor-img">
+								<a href="https://www.delorenzo.com.au/">
+									<img src="resources\images\sponsors\de-lorenzo.jpg"
+										title="De Lorenzo"
+										alt="De Lorenzo Logo">
+								</a>
+						</div>
 					</div>
 				</div>
 

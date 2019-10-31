@@ -63,9 +63,8 @@
 
 	.info-hero{
         position: relative;
-    }
-
-
+	}
+	
 	.image-container{
 			text-align: center;
 			height: auto;
@@ -95,8 +94,15 @@
 			height: 100%;
 			width: 100%;
 	}
-}
 
+	.team-info img{
+		max-height: 60vh;
+		max-width: 80vw;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
 
 .vertical-center {
     position: absolute;
@@ -344,6 +350,11 @@ label {
 	
 }
 
+.team-info img{
+	max-width:100%;
+}
+
+
 /*------Bus Portal------*/
 .busportal-container{
 	padding:0% 5%;
@@ -372,3 +383,4 @@ label {
 .busportal-image img{
 	max-height:200px;
 }
+

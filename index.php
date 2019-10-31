@@ -53,6 +53,7 @@
 						<h2>26 - 28 November 2019</h2>
 					</div>
 				</div>
+				<div class="info-hero" style="text-align: center;"><h2>Fashion Parade – November 26 at 7 pm <h2></div>
 
 							<!------Information------>	
 
@@ -95,10 +96,10 @@
 
 					<div class="col-2 bus-link">
 						<a href="buses/bus-3">
-						<h3>Media</h3>
+						<h3>media & Sound</h3>
 							<div class="buslink-body">
 								
-								<img src="resources/images/MediaBus.svg" alt="media bus">
+								<img src="resources/images/MediaBus.svg" alt="media & Sound">
 								
 							</div>
 						</a>

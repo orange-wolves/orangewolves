@@ -124,7 +124,7 @@
 						while ($row = mysqli_fetch_array($results))
 						{
 							echo"<h1>$row[1]</h1>";
-							echo"<p>$row[2]</p>";
+							echo"$row[2]";
 						}
 						echo"</div>"
 						?>

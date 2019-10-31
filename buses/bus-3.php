@@ -37,12 +37,13 @@
 									<div id='busIcon'>
 										<img src="../resources/images/MediaBus.svg" alt="Media Bus" >
 									</div>
-									<h1>Media</h1>
-										<p>Coming Soon</p>
+									<h1>Night Ride</h1>
+										<p>Media and Sound</p>
 								</div>
 
 								<div class="col-8 businfo-content">
-<h1>Coming Soon</h1>
+                                    <h1>Description</h1>
+                                    <p>CIT's Media and Sound departments have joined their creative forces to create a bus ride -- with a difference. An MC welcomes you aboard, curious passengers are picked up and secrets abound. And how many bus trips have you taken that drive deep underwater and blast off into space? 'Night Ride' is an entertaining audio/visual experience with immersive picture and surround sound.</p>
 								</div>
 
 							</div>
