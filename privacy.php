@@ -46,13 +46,13 @@
 				</div>
 				<div class="row">
 					<div class="col-12 info-container">
-						<p>When you browse this website information is collected by google analytics</p><br>
-						<p>The information that is collected is:</p>
+						<br>
+						<p>We collect the following information when you browse this website:</p><br>
 						<ul class="indent">
-							<li>The Page you are viewing</li>
+							<li>Pages Viewed</li>
 							<li>Browser Name</li>
 							<li>Language Used</li>
-							<li>Region</li>
+							<li>Location</li>
 						</ul>
 					</div>
 				</div>

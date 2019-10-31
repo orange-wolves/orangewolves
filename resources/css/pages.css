@@ -286,18 +286,19 @@
 }
 .businfo-content ul{
 	list-style: none;
-	line-height:200%;
+	line-height:150%;
 }
 .businfo-content li:before{
 	content:'';
   display: inline-block; /* Needed to add space between the bullet and the text */ 
-	height: 25px;
-  width: 25px;
+	height: 20px;
+  width: 20px;
 	background-image: url("/orangewolves/resources/images/PawOrange.svg");
 	background-repeat: no-repeat;
-	background-position: left center;
+	
 	margin-left: -2em; /* Also needed for space (tweak if needed) */
 	padding-right:5px;
+	margin-top:5px;
 }
 .busimage{
 	padding:0% 5%;

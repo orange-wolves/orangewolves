@@ -46,11 +46,12 @@
 				</div>
 				<div class="row">
 					<div class="col-12 info-container">
-						<p>The Copyright material on this site belongs to the appropriate owner.</p>
 						<br>
-						<p>You may not copy, adapt, publish, distribute or commercialise any material contained on this site without the appropriate owner’s permission.</p>
+						<p>The content on this site belongs its appropriate owner.</p>
 						<br>
-						<p>For inquiries into the owner of material please contact the Web Master at: <u>OrangeWolvesIT@hotmail.com</u></p>
+						<p>You may not copy, adapt, publish, distribute or commercialise any material contained on this site without permission.</p>
+						<br>
+						<p>For inquiries please contact us at: <br><u>OrangeWolvesIT@hotmail.com</u></p>
 					</div>
 				</div>
 			</div>
