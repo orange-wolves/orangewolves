@@ -72,11 +72,11 @@
 							</a>
 						</div>
 					<div class="col-3 sponsor-img">
-							<a href="https://www.capitallinenservice.act.gov.au/">
-								<img src="resources\images\sponsors\CapitalLinenServiceLogoColour.png"
-									title="Capital Linen Service"
-									alt="Capital Linen Service logo">
-							</a>
+							<a href="https://www.citsa.com.au/">
+									<img src="resources\images\sponsors\CITSA_Logo_2012-03_JPEG.jpg"
+										title="Impact Wrap"
+										alt="Impact Wrap Logo">
+								</a>
 						</div>
 					</div>
 				</div>
@@ -113,6 +113,28 @@
 					</div>
 				</div>
 				<div class="row">
+					<div class="sponsor-container">
+						<div class="col-3 sponsor-img">
+						<a href="https://www.capitallinenservice.act.gov.au/">
+								<img src="resources\images\sponsors\CapitalLinenServiceLogoColour.png"
+									title="Capital Linen Service"
+									alt="Capital Linen Service logo">
+							</a>
+						</div>
+						<div class="col-3 ">
+
+								</a>
+						</div>
+						<div class="col-3 ">
+								
+								</a>
+						</div>
+						<div class="col-3 ">
+							
+								</a>
+						</div>
+					</div>
+				</div>
 						<div class="empty col-2"></div>
 					<!-- Information Technology Diploma Project logo -->
 					<div class="col-8">
@@ -123,7 +145,6 @@
 							</a>
 						</div>
 						<div class="empty col-2"></div>
-				</div>
 
 <!-----------------------------FOOTER------------------------------>
 				
