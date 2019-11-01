@@ -71,12 +71,11 @@
 									alt="CIT Logo">
 							</a>
 						</div>
-						<!-- Information Technology Diploma Project logo -->
-						<div class="col-3 sponsor-img">
-							<a href=#"https://www.ITDP.com.au">
-								<img src="resources\images\sponsors\ITDP.jpg"
-									title="Information Technology Diploma Project"
-									alt="Information Technology Diploma Project logo">
+					<div class="col-3 sponsor-img">
+							<a href="https://www.capitallinenservice.act.gov.au/">
+								<img src="resources\images\sponsors\CapitalLinenServiceLogoColour.png"
+									title="Capital Linen Service"
+									alt="Capital Linen Service logo">
 							</a>
 						</div>
 					</div>
@@ -114,15 +113,16 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="sponsor-container">
-					<div class="col-3 sponsor-img">
-							<a href="https://www.capitallinenservice.act.gov.au/">
-								<img src="resources\images\sponsors\CapitalLinenServiceLogoColour.png"
-									title="Capital Linen Service"
-									alt="Capital Linen Service logo">
+						<div class="empty col-2"></div>
+					<!-- Information Technology Diploma Project logo -->
+					<div class="col-8">
+							<a href=#"https://www.ITDP.com.au">
+								<img src="resources\images\sponsors\ITDP.jpg" width="100%"
+									title="Information Technology Diploma Project"
+									alt="Information Technology Diploma Project logo">
 							</a>
 						</div>
-					</div>
+						<div class="empty col-2"></div>
 				</div>
 
 <!-----------------------------FOOTER------------------------------>
