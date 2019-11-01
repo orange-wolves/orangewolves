@@ -74,7 +74,7 @@
 				<div class="row buslink-container">
 
 					<div class="col-2 bus-link">
-						<a href="buses/bus-1">
+						<a href="buses/bus-1.php">
 						<h3>Horticulture</h3>
 							<div class="buslink-body">
 								
@@ -85,7 +85,7 @@
 					</div>
 
 					<div class="col-2 bus-link">
-						<a href="buses/bus-2">
+						<a href="buses/bus-2.php">
 						<h3>Fashion, Hair & Beauty</h3>
 							<div class="buslink-body">
 								
@@ -96,7 +96,7 @@
 					</div>
 
 					<div class="col-2 bus-link">
-						<a href="buses/bus-3">
+						<a href="buses/bus-3.php">
 						<h3>Night Ride</h3>
 							<div class="buslink-body">
 								
@@ -107,7 +107,7 @@
 					</div>
 
 					<div class="col-2 bus-link">
-						<a href="buses/bus-4">
+						<a href="buses/bus-4.php">
 						<h3>Music</h3>
 							<div class="buslink-body">
 								
@@ -117,7 +117,7 @@
 					</div>
 
 					<div class="col-2 bus-link">
-						<a href="buses/bus-5">
+						<a href="buses/bus-5.php">
 						<h3>Visual Arts</h3>
 							<div class="buslink-body">
 								
@@ -127,7 +127,7 @@
 					</div>
 
 					<div class="col-2 bus-link">
-						<a href="buses/bus-6">
+						<a href="buses/bus-6.php">
 						<h3>Design Den</h3>
 							<div class="buslink-body">
 								
