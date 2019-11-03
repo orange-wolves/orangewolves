@@ -105,12 +105,7 @@ a {
     text-decoration: none;
     color:#333333;
 }
-a:hover {
-    font-family: myriad-pro, sans-serif;
-    font-weight: regular; 
-    text-decoration: none;
-    color:#e57908;
-}
+
 
 p {
     color:#333333;

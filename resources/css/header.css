@@ -90,6 +90,12 @@ a.dropbtn {
 	text-align:center;
 	padding-left:30px;
 }
+a.dropbtn:hover {
+	font-size:2.5em;
+	color:black;
+	text-align:center;
+	padding-left:30px;
+}
 .dropdown-content {
   display:none;
 	position:absolute;
