@@ -51,7 +51,7 @@
 						<br>
 						<p>You may not copy, adapt, publish, distribute or commercialise any material contained on this site without permission.</p>
 						<br>
-						<p>For inquiries please contact us at: <br><u>OrangeWolvesIT@hotmail.com</u></p>
+						<p>For inquiries please contact us at: <br><u>info@orangewolves.com.au</u></p>
 					</div>
 				</div>
 			</div>

@@ -51,7 +51,7 @@
 						<br>General Enquiries <br> GPO Box 826 Canberra ACT 2601 <br> +61 2 6207 3188<br>
 						<a href = "https://cit.edu.au"><u>www.cit.edu.au</u></a><br><br>
 						Web Master<br>
-						<u>orangewolvesIT@hotmail.com</u>
+						<u>info@orangewolves.com.au</u>
 					</div>
 					<div class="col-1 empty"></div>
 				</div>

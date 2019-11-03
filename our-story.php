@@ -39,8 +39,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no>
 		<link rel="icon" href="resources/images/OrangeWolvesFavIcon.png">
 		<link rel="stylesheet" type="text/css" href="resources/css/layout.css">
-		<link rel="stylesheet" type="text/css" href="resources/css/header.css">
-		<link rel="stylesheet" type="text/css" href="resources/css/footer.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/pages.css">
 	</head>
 		
@@ -100,32 +98,26 @@
 				<!---divs around the dynamic content --->
 				<div class="row">
 					<div class="col-12 info-container ">
-						<?php			
-						include('DB_our_story.php');
-						if(empty($_GET['team_name']))
-						{
-							$team_name = 'T0';
-						}else{
-						$team_name = $_GET['team_name'];
-						}
-						//echo"$team_name";
-						$sql = "SELECT team_name ,title ,description FROM storys WHERE team_name ='$team_name'";
-						//echo "$sql";
-						
-						echo"<div class=story>";
-						$results = mysqli_query($conn,$sql);
-						while ($row = mysqli_fetch_array($results))
-						{
-							echo"<h1>$row[1]</h1>";
-							echo"$row[2]";
-						}
-						echo"</div>"
-						?>
+					<div class="row">
+    <div class="col-3 team-info"><img src="resources/images/Fashion-SABINA.JPG" alt="Sabina Delaney"></div>
+    <div class="col-9 businfo-content"><p>Sabina Delaney is one of the graduating fashion students.<br><br>
+    Partaking in musical theatre throughout high school sparked a passion for sewing.<br><br>
+    After several years of ill-fitting garments and unfinished seams (the horror!), she finally decided to take a more professional approach.<br><br>
+    Through her time at CIT, she has developed a keen interest in patternmaking.<br><br>
+    Sabina's graduating collection has a strong focus on sustainability, using end-of-roll fabrics and fibres made from waste from the food industry, such as banana leaves and orange peels.<br><br>
+    The collection was inspired by her love of handcrafts, focusing on embroidery and screen printing. Handcrafts are seeing a resurgence, as many people are shifting away from fast fashion and appreciate the connection that comes with creating something by hand.</p>
+		</div>
+		<div class="row">
+		<div class="col-3 team-info"><img src="resources/images/Fashion-AMELIA.JPG" alt="Amelia Margi-Bull"></div>
+				<div class="col-9 businfo-content"><p>Amelia Margi-Bull<br><br>
+		My final design focuses on the movement of the neck and arms in the human body, and how human movement can be communicated via a sustainably sourced garment. The final design explores innovative ways on how to manipulate arm and neck movement through restriction and exaggeration of the garments shape and silhouette. When in the initial phase of market research I struggled to find garments which used exaggerated or restrictive silhouettes casually; each garment was highly promotional and used as statement pieces. This lead onto designing two pieces which were still trend based but which were also versatile and innovative; giving the customer styling freedom. All accessories and fabric are sustainably sourced and planet conscious. 
+		</p></div>
+		</div>
 					</div>
 				</div>
 				<!---divs around the dynamic content --->
 								
-				
+		
 
 
 </div>
