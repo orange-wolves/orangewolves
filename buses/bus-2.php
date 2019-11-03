@@ -41,16 +41,23 @@
                         <p><b>Hairdressing</b> - stage 4/5 students (apprentice and commercial)</p>
                         <p><b>Fashion</b> - Diploma of Applied Fashion Design</p><br>
                         <div>
-                            <h2>Fashion Parade – November 26 at 7 pm</h2>
+                            <h1>Fashion Parade – November 26 at 7 pm</h1>
                             <br>
+                            <h2>Special thanks to our sponsors:</h2>
+                            <p>Capital Linen Service<br>
+                            Delorenzo<br>
+                            Interface Carpeting<br>
+                            Sustainable Salons Australia</p><br><br>
                             <h3>Music by DJ Silverbeatz</h3><br>
+
                             <img src="../resources/images/bus2_img1.jpg" alt="hair and beauty image" class="busimage">
                         </div>
                     </div>
 
                     <div class="col-8 businfo-content">
                         <h1>Fashion, Hair & Beauty</h1>
-                                <p>A collaboration of creativity throughout the bus, using sustainable products and resources.</p>
+                                <p>Fashion, Hair and Beauty have combined their efforts in Bus #2 to show case the environmental possibilities in our industries.</p><br>
+                                <p>The fashion industry is one of the biggest polluters in the world, by repurposing, re-inventing, and rejuvenating, we can help change this.</p>
                                 <br>
                                 <ul class='indent'>
                                     <li>Hair and Makeup will create wigs made from recycled materials.</li>
