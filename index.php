@@ -17,8 +17,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="icon" href="resources/images/OrangeWolvesFavIcon.png">
 		<link rel="stylesheet" type="text/css" href="resources/css/layout.css">
-		<link rel="stylesheet" type="text/css" href="resources/css/header.css">
-		<link rel="stylesheet" type="text/css" href="resources/css/footer.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/pages.css">
 		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
 		<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
@@ -54,14 +52,14 @@
 						<h2>26 - 28 November 2019</h2>
 					</div>
 				</div>
-				<div class="info-hero" style="text-align: center;"><h2>Fashion Parade – November 26 at 7 pm <h2></div>
+				<div class="info-hero" style="text-align: center;"><h2>Fashion Parade – November 26 at 7 pm </h2></div>
 
 							<!------Information------>	
 
 					<!--Medium/Wide information boxes row 1 -->
 				<div class="row">
 					<div class="col-6 media-container">
-						<video controls width="100%" class="homepage-media">
+						<video controls class="homepage-media">
 							<source src="resources/videos/FEAST-YOUR-EYES.mp4" type="video/mp4" />
 						</video>
 					</div>
