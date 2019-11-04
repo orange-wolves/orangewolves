@@ -16,8 +16,6 @@
         <link rel="icon" href="../resources/images/OrangeWolvesFavIcon.png">
         <link rel="stylesheet" type="text/css" href="../resources/css/pages.css">
         <link rel="stylesheet" type="text/css" href="../resources/css/layout.css">
-		<link rel="stylesheet" type="text/css" href="../resources/css/header.css">
-        <link rel="stylesheet" type="text/css" href="../resources/css/footer.css">
     </head>
 
     <body>
@@ -50,6 +48,8 @@
                             Sustainable Salons Australia</p><br><br>
                             <h3>Music by DJ Silverbeatz</h3><br>
 
+                            <img src="..\resources\images\fashion-Audrey Miller visual diary.jpg" alt="fashion Audrey Miller visual diary" class="busimage">
+<br>
                             <img src="../resources/images/bus2_img1.jpg" alt="hair and beauty image" class="busimage">
                         </div>
                     </div>
@@ -82,15 +82,21 @@
                                         <li>How can they make a difference?</li>
                                     </ul><br>
                                     Students have looked at range of issues such as sustainability and rights to protest as a starting point for their designs.</p><br>
-                                <p>The hair and MU students are supporting the collections through collaboration and a shared vision through their 
+                                <p>The hair and makeup students are supporting the collections through collaboration and a shared vision through their 
                                     styling of the models.</p>
                                     <br>
                                     <div class="row col-6">
+                                    <img src="..\resources\images\fashion-halfscale white shirts.jpg" alt="fashion white shirts" class="busimage">
+                                    </div>
+                                    <div class="col-6">
+                                    <img src="..\resources\images\fashion-Audrey Miller toile review.jpg" alt="fashion Audrey Miller toile" class="busimage">
+                                    </div>
+                                    <div class="row col-6">
                                     <img src="../resources/images/bus2_img3.jpg" alt="hair and beauty image" class="busimage">
-</div>
-<div class="col-6">
-                        <img src="../resources/images/bus2_img2.jpg" alt="hair and beauty image" class="busimage">
-</div>
+                                    </div>
+                                    <div class="col-6">
+                                    <img src="../resources/images/bus2_img2.jpg" alt="hair and beauty image" class="busimage">
+                                    </div>
                        
                     </div>
 

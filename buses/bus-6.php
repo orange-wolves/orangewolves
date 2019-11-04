@@ -16,8 +16,6 @@
         <link rel="icon" href="../resources/images/OrangeWolvesFavIcon.png">
         <link rel="stylesheet" type="text/css" href="../resources/css/pages.css">
         <link rel="stylesheet" type="text/css" href="../resources/css/layout.css">
-		<link rel="stylesheet" type="text/css" href="../resources/css/header.css">
-        <link rel="stylesheet" type="text/css" href="../resources/css/footer.css">
     </head>
 
     <body>
@@ -39,16 +37,21 @@
 										<img src="../resources/images/GraphicDesignBus.svg" alt="Design Den Bus" >
 									</div>
 									<h1>Design Den</h1>
-                                    <p><b>Advanced Diploma of Graphic Design</b></p>
-								</div>
+                                    <p><b>Advanced Diploma of Graphic Design</b></p><br>
+                                    <img src="../resources/images/design-progress.jpg" alt="graphic design progress image" class="busimage">
+                                    <br>
+                                    <img src="../resources/images/design-insidebus.jpg" alt="graphic design inside bus image" class="busimage">
+                                </div>
+                                
 
 								<div class="col-8 businfo-content">
                                 <h1>Graphic Design</h1>
                                 <p>The <b>'Design Den'</b> will feature students design work in a traditional and immersive context. <br><br>
                                 The interior will be transformed into a dynamic exhibition space using elements of the <b>Orange Wolves</b> visual identity which was created by the graphic design students. 
                                 Mounted work, display screens (visible from the exterior and interior of the 'Design Den') and illuminated Augmented Reality ‘trigger’ images’.  <br>
-                                The exterior of the bus will feature a large typographic piece branding our bus as the 'Design Den'.</p>
-                                <br><p>The exhibition will feature:</p>
+                                The exterior of the bus will feature a large typographic piece branding our bus as the 'Design Den'.</p><br>
+                                <img src="../resources/images/design-Orange-Wolves-Bus.jpg" alt="graphic design image" class="busimage">
+                               <br><br><p>The exhibition will feature:</p>
                                 <ul class="indent">
                                     <li><b>Display Boards</b> - mounted internally along the left and right windows where each student display showcasing a range of design work in a traditional printed manner.</li>
                                     <br><li><b>Motion Graphics Showreel</b> - a series of motion graphics portfolio showreels set to music displayed on large screen monitors visible to public from interior and exterior.</li>
@@ -58,8 +61,13 @@
                                 <br><p>The opportunity that the <b>Orange Wolves</b> has provided the graphic design students has been a collaborative effort with the creation of the branding and visual identity of the event. Planning and strategies for the exhibition approach and each students individual effort in organising and presenting the finished work.</p>
                                 <br><p>The <b>Design Den</b> exhibition will be the culmination of two years full time study as part of the Advanced Diploma of Graphic Design. 
                                 In addition to the students friends and families, the exhibition will be viewed by the general public. An opening night will establish connection with invited industry representatives.</p>
-               
-								</div>
+                                <div class="col-12">
+                                    <img src="../resources/images/design-bus.jpg" alt="graphic design concept image" class="busimage">
+                                </div>
+                                <div class="col-12">
+                                    <img src="../resources/images/design-OW-Concept.jpg" alt="graphic design concept image" class="busimage">
+                                </div>
+                            </div>
 							</div>
             </div>
 

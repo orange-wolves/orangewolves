@@ -47,7 +47,7 @@
 					<div class="sponsor-container">
 						<!-- ACT City Renewal logo -->
 						<div class="col-3 sponsor-img">
-							<a href="https://www.act.gov.au/cityrenewal/home">
+							<a href="https://www.act.gov.au/cityrenewal/home" target="_blank">
 								<img src="resources\images\sponsors\ACTCRA_Inline_MONO_RGB.png" 
 									title="ACT City Renewal"
 									alt="ACTCRA Logo">
@@ -55,7 +55,7 @@
 						</div>
 						<!-- TC logo -->
 						<div class="col-3 sponsor-img">
-							<a href="https://www.transport.act.gov.au/">
+							<a href="https://www.transport.act.gov.au/"target="_blank">
 								<img src="resources\images\sponsors\transport-canberra-logo.png"
 									title="Transport Canberra"
 									alt="Transport Canberra Logo">
@@ -63,14 +63,14 @@
 						</div>
 						<!-- CIT logo -->
 						<div class="col-3 sponsor-img">
-							<a href="https://cit.edu.au/">
+							<a href="https://cit.edu.au/"target="_blank">
 								<img src="resources\images\sponsors\cit_logo.png"
 									title="Canberra Institute of Technology"
 									alt="CIT Logo">
 							</a>
 						</div>
 					<div class="col-3 sponsor-img">
-							<a href="https://www.citsa.com.au/">
+							<a href="https://www.citsa.com.au/"target="_blank">
 									<img src="resources\images\sponsors\CITSA_Logo_2012-03_JPEG.jpg"
 										title="Impact Wrap"
 										alt="Impact Wrap Logo">
@@ -81,28 +81,28 @@
 				<div class="row">
 					<div class="sponsor-container">
 						<div class="col-3 sponsor-img">
-								<a href="https://srasolutions.com.au/">
+								<a href="https://srasolutions.com.au/"target="_blank">
 									<img src="resources\images\sponsors\SRA-Solutions_logo.png"
 										title="SRA Solutions"
 										alt="SRA Solutions Logo">
 								</a>
 						</div>
 						<div class="col-3 sponsor-img">
-								<a href="https://www.impactwrap.com.au/">
+								<a href="https://www.impactwrap.com.au/"target="_blank">
 									<img src="resources\images\sponsors\IW Landscape Logo.jpg"
 										title="Impact Wrap"
 										alt="Impact Wrap Logo">
 								</a>
 						</div>
 						<div class="col-3 sponsor-img">
-								<a href="https://sustainablesalons.org/">
+								<a href="https://sustainablesalons.org/"target="_blank">
 									<img src="resources\images\sponsors\Sustainable-Salons-Logo-Horizontal-Colour-Digital.jpg"
 										title="Sustainable Salons"
 										alt="Sustainable Salons Logo">
 								</a>
 						</div>
 						<div class="col-3 sponsor-img">
-								<a href="https://www.delorenzo.com.au/">
+								<a href="https://www.delorenzo.com.au/"target="_blank">
 									<img src="resources\images\sponsors\de-lorenzo.jpg"
 										title="De Lorenzo"
 										alt="De Lorenzo Logo">
@@ -113,7 +113,7 @@
 				<div class="row">
 					<div class="sponsor-container">
 						<div class="col-3 sponsor-img">
-						<a href="https://www.capitallinenservice.act.gov.au/">
+						<a href="https://www.capitallinenservice.act.gov.au/"target="_blank">
 								<img src="resources\images\sponsors\CapitalLinenServiceLogoColour.png"
 									title="Capital Linen Service"
 									alt="Capital Linen Service logo">
@@ -136,7 +136,7 @@
 						<div class="empty col-2"></div>
 					<!-- Information Technology Diploma Project logo -->
 					<div class="col-8">
-							<a href=#"https://www.ITDP.com.au">
+							<a href=#"https://www.ITDP.com.au"target="_blank">
 								<img src="resources\images\sponsors\ITDP.jpg" width="100%"
 									title="Information Technology Diploma Project"
 									alt="Information Technology Diploma Project logo">
