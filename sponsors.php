@@ -136,11 +136,9 @@
 						<div class="empty col-2"></div>
 					<!-- Information Technology Diploma Project logo -->
 					<div class="col-8">
-							<a href=#"https://www.ITDP.com.au"target="_blank">
 								<img src="resources\images\sponsors\ITDP.jpg" width="100%"
 									title="Information Technology Diploma Project"
 									alt="Information Technology Diploma Project logo">
-							</a>
 						</div>
 						<div class="empty col-2"></div>
 
