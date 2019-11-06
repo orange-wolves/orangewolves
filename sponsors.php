@@ -72,8 +72,8 @@
 					<div class="col-3 sponsor-img">
 							<a href="https://www.citsa.com.au/"target="_blank">
 									<img src="resources\images\sponsors\CITSA_Logo_2012-03_JPEG.jpg"
-										title="Impact Wrap"
-										alt="Impact Wrap Logo">
+										title="CITSA"
+										alt="CITSA Logo">
 								</a>
 						</div>
 					</div>
