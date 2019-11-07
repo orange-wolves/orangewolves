@@ -72,6 +72,10 @@
                                 <h1>Fashion Parade</h1><b>- 26 of November at 7pm</b>
                                 <p><br>A collaboration between Fashion 2nd year students and Hairdressing/Make up Students, working together to develop 
                                     looks for a catwalk to showcase their skills.</p><br>
+								<b>Hair and Makeup:</b>
+								<p>Hairdressing students are experiencing a real life opportunity to collaborate with other departments and complete a session styling event. Through collaboration and research the students are also gaining new skills. Communication has been key to maintain a timeline of planning and development.</p>
+								<br>
+								<b>Fashion:</b>
                                 <p>Fashion students have been asked to design a promotional and 'Ready to Wear' range based on a concept developed in 
                                     response to a design brief. This brief asks them, as a designer, to consider:<br><br>
                                     <ul class="indent">
