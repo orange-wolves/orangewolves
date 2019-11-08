@@ -12,12 +12,7 @@
 	gtag('config', 'UA-150729305-1');
 	</script>
         <title>Bus 1</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no>
-        <link rel="icon" href="../resources/images/OrangeWolvesFavIcon.png">
-        <link rel="stylesheet" type="text/css" href="../resources/css/pages.css">
-        <link rel="stylesheet" type="text/css" href="../resources/css/layout.css">
-		<link rel="stylesheet" type="text/css" href="../resources/css/header.css">
-        <link rel="stylesheet" type="text/css" href="../resources/css/footer.css">
+		<?php include("../resources/layout/style.html");?>
     </head>
 
     <body>
@@ -34,16 +29,16 @@
 							<div class="col-12">
 
 								<div class="col-4 businfo-header">
-									<div id='busicon-flip'>
-										<img src="../resources/images/HorticultureBus.svg" alt="Horticulture Bus" >
+									<div id="busicon-flip">
+										<img src="../resources/images/HorticultureBus.svg" alt="Floristry and Landscaping">
 									</div>
-									<h1>Horticulture</h1>
+									<h1>Floristry and Landscaping</h1>
 									<p><b>Certificate III Floristry</b> - (Interpret Floristry Design Briefs, Design Floristry Products)<br><br><b>Certificate III Landscape Construction</b>
 									 - (Erect Timber Structures, Plant Establishment, Implement a Paving Project)</p>
 								</div>
 
 								<div class="col-8 businfo-content">
-									<h1>Floristry & Landscaping</h1>
+									<h1>Floristry &amp; Landscaping</h1>
 									<p>Our bus takes audiences on a horticultural journey which explores our connection to places and environments.
 										Starting from the quintessential Aussie backyard, journey through a range of landscapes...</p><br>
                   <p>Cloudscapes and lush tropical spaces transform into a growing, hanging installation that recreates the sights, 

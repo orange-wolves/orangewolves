@@ -14,10 +14,7 @@
 	</script>
 	
 		<title>Orange Wolves Homepage</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="icon" href="resources/images/OrangeWolvesFavIcon.png">
-		<link rel="stylesheet" type="text/css" href="resources/css/layout.css">
-		<link rel="stylesheet" type="text/css" href="resources/css/pages.css">
+		<?php include("resources/layout/style.html");?>
 		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
 		<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
 	</head>
@@ -73,40 +70,42 @@
 
 					<div class="col-2 bus-link">
 						<a href="buses/bus-1.php">
-						<h3>Horticulture</h3>
-							<div class="buslink-body">
-								
-								<img src="resources/images/HorticultureBus.svg" alt="horticulture bus">
-								
-							</div>
+						<div class="bus-link-header-long">
+							<h3>Floristry &<br> Landscaping</h3>
+						</div>
+						<div class="buslink-body">
+							<img src="resources/images/HorticultureBus.svg" alt="Floristry and Landscaping bus">
+						</div>
 						</a>
 					</div>
-
-					<div class="col-2 bus-link">
+					
+						<div class="col-2 bus-link">
 						<a href="buses/bus-2.php">
-						<h3>Fashion, Hair & Beauty</h3>
-							<div class="buslink-body">
-								
-								<img src="resources/images/FashionHairMakeupBus.svg" alt="hair & beauty bus">
-								
-							</div>
+						<div class="bus-link-header-long">
+							<h3>Fashion, Hair <br>& Beauty</h3>
+						</div>
+						<div class="buslink-body">	
+							<img src="resources/images/FashionHairMakeupBus.svg" alt="hair & beauty bus">
+						</div>
 						</a>
 					</div>
-
+					
 					<div class="col-2 bus-link">
-						<a href="buses/bus-3.php">
-						<h3>Night Ride</h3>
-							<div class="buslink-body">
-								
-								<img src="resources/images/MediaBus.svg" alt="media & Sound">
-								
-							</div>
+						<a href="buses/bus-1.php">
+						<div class="bus-link-header">
+							<h3>Night Ride<h3>
+						</div>
+						<div class="buslink-body">
+							<img src="resources/images/MediaBus.svg" alt="media & Sound">
+						</div>
 						</a>
 					</div>
 
 					<div class="col-2 bus-link">
 						<a href="buses/bus-4.php">
-						<h3>Music</h3>
+						<div class="bus-link-header">
+							<h3>Music<h3>
+						</div>
 							<div class="buslink-body">
 								
 								<img src="resources/images/MusicBus.svg" alt="music bus">
@@ -116,7 +115,9 @@
 
 					<div class="col-2 bus-link">
 						<a href="buses/bus-5.php">
-						<h3>Visual Arts</h3>
+						<div class="bus-link-header">
+							<h3>Visual Arts<h3>
+						</div>
 							<div class="buslink-body">
 								
 								<img src="resources/images/VisualArtsBus.svg" alt="visual arts bus">
@@ -126,7 +127,9 @@
 
 					<div class="col-2 bus-link">
 						<a href="buses/bus-6.php">
-						<h3>Design Den</h3>
+						<div class="bus-link-header">
+							<h3>Design Den<h3>
+						</div>
 							<div class="buslink-body">
 								
 								<img src="resources/images/GraphicDesignBus.svg" alt="design den bus">
