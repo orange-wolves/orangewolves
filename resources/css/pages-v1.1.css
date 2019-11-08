@@ -81,7 +81,13 @@
 	}
 }
 
+/*Mobile smaller break point*/
 @media only screen and (max-width: 400px) {
+
+	.bus-link{
+		width:100%;
+	}
+
 	.busPortalLink{
 			height: 13em;
 			width : 100%
