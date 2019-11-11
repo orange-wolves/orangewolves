@@ -130,7 +130,7 @@ body {
 /*------Header--------*/
 .sticky {
 	position: fixed;
-	top: 0px;
+	top: 0em;
 	max-width:1000px;
 	z-index: 1000;
 }
