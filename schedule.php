@@ -40,9 +40,10 @@
 			$today=date('Y-m-d');
 			
 	
-			require '/resources/php/dbConnectOrangeWolves.php';
+			require 'resources/php/dbConnectOrangeWolves.php';
 			$sql= "SELECT * FROM events";
 			$result = mysqli_query($conn, $sql) or die("Error Events information - ".mysqli_error($conn));
+			
 			?>
 		
 		
@@ -80,7 +81,7 @@
 	
 	 date_default_timezone_set('Australia/Canberra');
 	$today=date('Y-m-d');
-	 $time = date("G:i");
+	  $time = date("H:i:s");
 	
         require '/resources/php/dbConnectOrangeWolves.php';
         $sql= "SELECT * FROM events";
@@ -102,26 +103,69 @@
 						
 							
 							<?php
-							while ($row = mysqli_fetch_array($result))
-						   {
+				while ($row = mysqli_fetch_array($result))
+				 {
 							  
-							  if ($row['date'] =="2019-11-15") 
-								{
+					 if ($row['date'] =="2019-11-15") 
+						{
+							
+							if($today==$row['date'])
 								
+							{
+              
+				
 								echo"<div class='row'>";
-								echo"<div class='col-6'>";
-								 echo "$row[name]";
+								echo"<div class='col-12 eventname' style=\"background-color:green;\">";
+																
+								 echo " <h2>$row[name]</h2>";
+								 echo date("g:i a", strtotime($row['startTime'])); 
+								 echo "-";
+								 echo date("g:i a", strtotime($row['endTime']));
+											
 								echo"</div>";
-								echo"<div class='col-6'>";
-								 echo "$row[description]";
-								echo"</div>";
-								
-								echo"</div>";
-								
+								if(($time>=$row['startTime']) && ($time<=$row['endTime'])  )
+								{
+								echo"<div class=\"col-12 eventinfo-$row[eventID] event-$row[eventID]\"  style=\"border:3px solid yellow;\">";
 								}
+								else  
+								echo"<div class=\"col-12 eventinfo-$row[eventID] event-$row[eventID]\" '>";
+								echo "$row[description]";
+								
+							
+								
+								echo"</div>";
+								
+								
+								echo"</div>";
+				
+								
+				
+				
+			
+							}
+							elseif($today==$today)
+							{
+				
+				
+								echo"<div class='row'>";
+								echo"<div class='col-12 eventname'>";
+								echo "$row[name]";
+								echo"</div>";
+								echo"<div class='col-12 eventdiscription'>";
+								echo "$row[description]";
+								echo"</div>";
+								echo"</div>";
+				
+				
+			   
+							}
+              
+				
+								
+						}
 							  
 								
-							} ?>
+				} ?>
 			
 		   
 		
@@ -155,27 +199,70 @@
 					<div class="row "> <!--- table rows with event and discrip--->
 						
 							
-							<?php
-							while ($row = mysqli_fetch_array($result))
-						   {
+											<?php
+				while ($row = mysqli_fetch_array($result))
+				 {
 							  
-							  if ($row['date'] =="2019-11-16") 
-								{
+					 if ($row['date'] =="2019-11-16") 
+						{
+							
+							if($today==$row['date'])
 								
+							{
+              
+				
 								echo"<div class='row'>";
-								echo"<div class='col-6'>";
-								 echo "$row[name]";
+								echo"<div class='col-12 eventname' style=\"background-color:green;\">";
+																
+								 echo " <h2>$row[name]</h2>";
+								 echo date("g:i a", strtotime($row['startTime'])); 
+								 echo "-";
+								 echo date("g:i a", strtotime($row['endTime']));
+											
 								echo"</div>";
-								echo"<div class='col-6'>";
-								 echo "$row[description]";
-								echo"</div>";
-								
-								echo"</div>";
-								
+								if(($time>=$row['startTime']) && ($time<=$row['endTime'])  )
+								{
+								echo"<div class=\"col-12 eventinfo-$row[eventID] event-$row[eventID]\"  style=\"border:3px solid yellow;\">";
 								}
+								else  
+								echo"<div class=\"col-12 eventinfo-$row[eventID] event-$row[eventID]\" '>";
+								echo "$row[description]";
+								
+							
+								
+								echo"</div>";
+								
+								
+								echo"</div>";
+				
+								
+				
+				
+			
+							}
+							elseif($today==$today)
+							{
+				
+				
+								echo"<div class='row'>";
+								echo"<div class='col-12 eventname'>";
+								echo "$row[name]";
+								echo"</div>";
+								echo"<div class='col-12 eventdiscription'>";
+								echo "$row[description]";
+								echo"</div>";
+								echo"</div>";
+				
+				
+			   
+							}
+              
+				
+								
+						}
 							  
 								
-							} ?>
+				} ?>
 			
 		   
 		
@@ -208,27 +295,70 @@
 					<div class="row "> <!--- table rows with event and discrip--->
 						
 							
-							<?php
-							while ($row = mysqli_fetch_array($result))
-						   {
+										<?php
+				while ($row = mysqli_fetch_array($result))
+				 {
 							  
-							  if ($row['date'] =="2019-11-17") 
-								{
+					 if ($row['date'] =="2019-11-17") 
+						{
+							
+							if($today==$row['date'])
 								
+							{
+              
+				
 								echo"<div class='row'>";
-								echo"<div class='col-6'>";
-								 echo "$row[name]";
+								echo"<div class='col-12 eventname' style=\"background-color:green;\">";
+																
+								 echo " <h2>$row[name]</h2>";
+								 echo date("g:i a", strtotime($row['startTime'])); 
+								 echo "-";
+								 echo date("g:i a", strtotime($row['endTime']));
+											
 								echo"</div>";
-								echo"<div class='col-6'>";
-								 echo "$row[description]";
-								echo"</div>";
-								
-								echo"</div>";
-								
+								if(($time>=$row['startTime']) && ($time<=$row['endTime'])  )
+								{
+								echo"<div class=\"col-12 eventinfo-$row[eventID] event-$row[eventID]\"  style=\"border:3px solid yellow;\">";
 								}
+								else  
+								echo"<div class=\"col-12 eventinfo-$row[eventID] event-$row[eventID]\" '>";
+								echo "$row[description]";
+								
+							
+								
+								echo"</div>";
+								
+								
+								echo"</div>";
+				
+								
+				
+				
+			
+							}
+							elseif($today==$today)
+							{
+				
+				
+								echo"<div class='row'>";
+								echo"<div class='col-12 eventname'>";
+								echo "$row[name]";
+								echo"</div>";
+								echo"<div class='col-12 eventdiscription'>";
+								echo "$row[description]";
+								echo"</div>";
+								echo"</div>";
+				
+				
+			   
+							}
+              
+				
+								
+						}
 							  
 								
-							} ?>
+				} ?>
 			
 		   
 		

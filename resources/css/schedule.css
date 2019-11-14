@@ -17,5 +17,24 @@ font-size: 300%;
 }
 
 
-.test{border: 1px solid blue;}
-div{border:1px solid black;}
+
+.eventname{
+	
+	text-align:center;
+	border:1px solid black;
+	
+}
+.eventdiscription{
+	
+	text-align:center;
+	padding:20px;
+	
+}
+
+
+[class*="eventinfo-"] {
+    display:none;
+	
+}
+
+
