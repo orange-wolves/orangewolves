@@ -83,7 +83,7 @@
 	$today=date('Y-m-d');
 	  $time = date("H:i:s");
 	
-        require '/resources/php/dbConnectOrangeWolves.php';
+        require 'resources/php/dbConnectOrangeWolves.php';
         $sql= "SELECT * FROM events";
         $result = mysqli_query($conn, $sql) or die("Error Events information - ".mysqli_error($conn));
 		?>
@@ -184,7 +184,7 @@
 	$today=date('Y-m-d');
 	
 	
-        require '/resources/php/dbConnectOrangeWolves.php';
+        require 'resources/php/dbConnectOrangeWolves.php';
         $sql= "SELECT * FROM events";
         $result = mysqli_query($conn, $sql) or die("Error Events information - ".mysqli_error($conn));
 		?>
@@ -279,7 +279,7 @@
 	$today=date('Y-m-d');
 	
 	
-        require '/resources/php/dbConnectOrangeWolves.php';
+        require 'resources/php/dbConnectOrangeWolves.php';
         $sql= "SELECT * FROM events";
         $result = mysqli_query($conn, $sql) or die("Error Events information - ".mysqli_error($conn));
 		?>
