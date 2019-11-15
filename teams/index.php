@@ -23,91 +23,111 @@
 
 <!-----------------------------CONTENT------------------------------>					
 				
-				<div class="row">
-            <div class="col-3 leftbar">
-                  <h1>Teams</h1>
-            </div>
-              
-            <div class="col-9 teamup" >
-                  <h2>teamup</h2>
-            </div>
-
-            <div class="col-1 teamleft" >
-                  <h2>teamleft</h2>
-            </div>
-      
+		<div class="wrapper contain">	
             
             
-                <div class="col-9 teamblock">
-                    <div class="col-9 team" >
-                        <h2>team1</h2>
-                    </div>
+            <div class="row ">
 
-                    <div class="col-9 team">
-                        <h2>team1</h2>
-                    </div>
+                <div class="col-3 leftbar wrapper">
+                    <h1>Teams</h1>
+                </div>
+                             
+                <div class="col-9 teamblock ">
+                    
+                    <div class="row">
+                        <div class="col-3 team " >
 
-                    <div class="col-9 team">
-                        <h2>team1</h2>
-                    </div>
-                            
-                    <div class="col-9 team">
-                        <h2>team1</h2>
-                    </div>
-                            
-                    <div class="col-9 team">
-                        <h2>team1</h2>
-                    </div>
-                            
-                    <div class="col-9 team">
-                        <h2>team1</h2>
-                    </div>
-                            
-                      <div class="col-9 team">
-                        <h2>team1</h2>
-                    </div>
-                   
+                        <a href="building-design"><div class="link"><h2>Building Design</h2></div></a>
+                                                        
+                        </div>
+
+                        <div class="col-3 team " >
+
+                        <a href="fashion"><div class="link"><h2>Fashion</h2></div></a>
+                                                        
+                        </div>
+
+                        <div class="col-3 team " >
+
+                        <a href="graphic-design"><div class="link"><h2>Graphic design</h2></div></a>
+                                                        
+                        </div>
+                                
+                        <div class="col-3 team " >
+
+                        <a href="hair-makeup"><div class="link"><h2>Hair + Makeup</h2></div></a>
+                                                        
+                        </div>
+                    </div>   
+
+                    <div class="row">
+                        <div class="col-3 team " >
+
+                        <a href="interior-design"><div class="link"><h2>Interior design</h2></div></a>
+                                                        
+                        </div>
+
+                        <div class="col-3 team " >
+
+                        <a href="it"><div class="link"><h2>IT</h2></div></a>
+                                                        
+                        </div>
+
+                        <div class="col-3 team " >
+
+                        <a href="media"><div class="link"><h2>Media</h2></div></a>
+                                                        
+                        </div>
+                                
+                        <div class="col-3 team " >
+
+                        <a href="music"><div class="link"><h2>Music</h2></div></a>
+                                                        
+                        </div>
+                    </div>  
+
+                    <div class="row">
+                        <div class="col-3 team" >
+
+                        <a href="photography">
+                            <div class="link">
+
+                                <div class="toptext"><h2>Photography</h2></div>
+                               <!-- <div class="imgslot"><img class="imgfit" src="/orangewolves/resources/images/twitter.png" alt="twitter"></img></div> -->
+
+                            </div>
+                        </a>
+                                                        
+                        </div>
+
+                        <div class="col-3 team " >
+
+                        <a href="sound-production"><div class="link"><h2>Sound production</h2></div></a>
+
+                                                                         
+                        </div>
+
+                        <div class="col-3 team " >
+
+                        <a href="visual-arts"><div class="link"><h2>Visual art</h2></div></a>
+                                                        
+                        </div>
+                                
+                        <div class="col-3 team " >
+
+                       
+                                                        
+                        </div>
+                    </div>  
+                    
+                               
                 </div>
 
-                <div class="col-1 teamright" >
-                        <h2>teamright</h2>
-                </div>
+            </div>
 
+           
 
-                <div class="col-9 teamdown" >
-                        <h2>teamdown</h2>
-                </div>
-
-        </div>          
-      
-        <div class="row">
-                  
-          <div class="block col-6">
-            <h1>video</h1>
-          </div>
-
-          <div class="block col-6">
-          <h1>some text </h1>
-          </div>
-        </div>
-        
-
-                        
-                 
-       
-
-        <div class="row">
-                    <a href="building-design">Building Design</a><br>
-                    <a href="fashion">Fashion</a><br>
-                    <a href="graphic-design">Graphic Design</a><br>
-                    <a href="hair-makeup">Hair + Makeup</a><br>
-                    <a href="interior-design">Interior Design</a><br>
-                    <a href="it">IT</a><br>
-                    <a href="media">Media</a><br>
-                    <a href="music">Music</a><br>
-                    <a href="photography">Photography</a><br>
-                    <a href="sound-production">Sound Production</a><br>
-          </div>
+</div>      
 
 <!-----------------------------FOOTER------------------------------>
 				

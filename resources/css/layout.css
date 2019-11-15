@@ -69,6 +69,10 @@
     margin-bottom:5em;
 }
 
+.wrapper {
+    border:solid 2px white;
+}
+
 @font-face { /* Created by Nils Cordes http://nilscordes.com */
     font-family: cardenio;
     src: url('cardenio-modern-std.ttf');

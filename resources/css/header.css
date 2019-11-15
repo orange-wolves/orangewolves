@@ -18,11 +18,11 @@
 /*Mobile*/
 @media only screen and (max-width: 768px) {
 	.searchbar {
-        width:60%;
+		width:55%;
     }
 
     .mobilenav {
-        width:10%;
+		width:15%;
     }
 
     .icon{

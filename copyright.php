@@ -7,6 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="resources/css/layout.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/header.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/footer.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/pages.css">
 	</head>
 		
 	<body>
@@ -22,13 +23,20 @@
 				</div>
 
 <!-----------------------------CONTENT------------------------------>					
-				
+			<div class="wrapper">
 				<div class="row">
-					<h1>Copyright</h1>
 
-
+					<div class="col-12 content-heading">
+						<h1>Copyright</h1>
+					</div>
 
 				</div>
+				<div class="row">
+					<div class="col-12 info-container">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod ex porta metus blandit, a hendrerit nulla elementum. Quisque sed lacus vel neque posuere pharetra. Nullam tortor libero, sollicitudin vel lacinia ut, congue ut nunc. Praesent ut quam ut ligula venenatis convallis. Nullam vel tellus nisi.</p>
+					</div>
+				</div>
+			</div>
 
 <!-----------------------------FOOTER------------------------------>
 				
