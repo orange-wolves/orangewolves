@@ -43,9 +43,11 @@
 						<br>
 						<p>The event will be a celebration of creativity, technology and performance - providing the audience with a creative, transformational and immersive experience.</p>
 						<br>
+						<p>The Orange Wolves event was only made possible thanks to the support of the ACT Government from the City Renewal Authority's City Grants Program.</p>
+						<br>
 					</div>
 					<div class="col-6">
-						<p>The plan is to use <b>6</b> retired Action buses that will be transformed into small cinemas, music venues, fashion parades, make spaces, and installation spaces - located in the CANBERRA CBD, for three days</p>
+						<p>The plan is to use <b>6</b> retired Action buses that will be transformed into small cinemas, music venues, fashion parades, make spaces, and installation spaces - located in the CANBERRA CBD, for three days.</p>
 						<br>
 						<h2>CANBERRA - CITY WALK</h2>
 						<h2>26 - 28 November 2019</h2>
