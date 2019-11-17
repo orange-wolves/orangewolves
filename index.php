@@ -43,7 +43,7 @@
 						<br>
 						<p>The event will be a celebration of creativity, technology and performance - providing the audience with a creative, transformational and immersive experience.</p>
 						<br>
-						<p>The Orange Wolves event was only made possible thanks to the support of the ACT Government from the City Renewal Authority's City Grants Program.</p>
+						<p>Orange Wolves was made possible with support from the ACT Government under the City Renewal Authority's City Grants Program.</p>
 						<br>
 					</div>
 					<div class="col-6">
