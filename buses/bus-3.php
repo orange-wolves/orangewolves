@@ -11,7 +11,7 @@
 
 	gtag('config', 'UA-150729305-1');
 	</script>
-        <title>Bus 3</title>
+        <title>Night Ride</title>
         <?php include("../resources/layout/style.html");?>
     </head>
 

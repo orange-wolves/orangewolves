@@ -11,7 +11,7 @@
 
 	gtag('config', 'UA-150729305-1');
 	</script>
-        <title>Bus 1</title>
+        <title>Floristry and Landscaping</title>
 		<?php include("../resources/layout/style.html");?>
     </head>
 
