@@ -11,7 +11,7 @@
 
 	gtag('config', 'UA-150729305-1');
 	</script>
-        <title>Music</title>
+        <title>Photography & Building Design</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no>
 		<?php include("../resources/layout/style.html");?>
     </head>
@@ -31,14 +31,14 @@
 
 								<div class="col-4 businfo-header">
 									<div id='busicon'>
-										<img src="../resources/images/MusicBus.svg" alt="Music Bus" >
+										<img src="../resources/images/MusicBus.svg" alt="Photography & Building Design Bus" >
 									</div>
-									<h1>Music</h1>
-										<p>Coming Soon</p>
+									<h1>Photography & Building Design</h1>
+										<p>Information to be added</p>
 								</div>
 
 								<div class="col-8 businfo-content">
-<h1>Coming Soon</h1>
+<h1>Information to be added</h1>
 								</div>
 
 							</div>

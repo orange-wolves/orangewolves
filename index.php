@@ -108,8 +108,8 @@
 
 					<div class="col-2 bus-link">
 						<a href="buses/bus-4.php">
-						<div class="bus-link-header">
-							<h3>Music<h3>
+						<div class="bus-link-header-long">
+							<h3>Photography &<br> Building Design<h3>
 						</div>
 							<div class="buslink-body">
 								

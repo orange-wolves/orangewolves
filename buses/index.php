@@ -35,8 +35,8 @@
 						<div class="col-4 bus-portal">
 							<div class="busportal-image">
 								<a href="bus-1.php">
-								<img src="../resources/images/HorticultureBus.svg" alt="horticulture bus">
-								<h1>Horticulture</h1>
+								<img src="../resources/images/HorticultureBus.svg" alt="Floristry & Landscaping bus">
+								<h1>Floristry & Landscaping</h1>
 								</a>
 							</div>
 						</div>
@@ -65,8 +65,8 @@
 						<div class="col-4 bus-portal">
 							<div class="busportal-image">
 								<a href="bus-4.php">
-								<img src="../resources/images/MusicBus.svg" alt="music bus">
-								<h1>Music</h1>
+								<img src="../resources/images/MusicBus.svg" alt="Photography & Building Design bus">
+								<h1>Photography & Building Design</h1>
 								</a>
 							</div>
 						</div>

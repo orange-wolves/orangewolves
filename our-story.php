@@ -76,6 +76,7 @@
 								<a href="our-story.php?team_name=T5"><h2>Horticulture</h2></a>
 								<a href="our-story.php?team_name=T6"><h2>Information technology</h2></a>
 								<a href="our-story.php?team_name=T7"><h2>Interior Design</h2></a>
+								<a href="our-story.php?team_name=T8"><h2>Building Design</h2></a>
 							</div>
 							<div class="col-6">
 								<a href="our-story.php?team_name=T9"><h2>Media</h2></a>
