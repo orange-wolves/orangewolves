@@ -1,0 +1,13 @@
+Privacy Policy
+This website collects some Personal Data from it's Users
+
+Information Collected
+Your server address
+Top level domain name
+The type of Browser used
+The type of Operating System
+Which pages are accessed
+
+
+Google Analytics
+This wbsite Uses Google Analytics to collect data usage, loaction

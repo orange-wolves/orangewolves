@@ -1,94 +1,75 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Bus 6</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no>
-        <link rel="stylesheet" type="text/css" href="../resources/css/layout.css">
-		<link rel="stylesheet" type="text/css" href="../resources/css/header.css">
-        <link rel="stylesheet" type="text/css" href="../resources/css/footer.css">
-        <link rel="stylesheet" type="text/css" href="../resources/css/bus1.css">
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150729305-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-150729305-1');
+	</script>
+        <title>Design Den</title>
+        <?php include("../resources/layout/style.html");?>
     </head>
 
     <body>
         <div class = "webpage">
 <!----------------------------------Header------------------------------------------------------>
-            <div class="row content">
+            <div class="row">
                     <header>
                         <?php include("../resources/layout/header.html"); ?>
                     </header>
             </div>
 
 <!----------------------------------Body------------------------------------------------------>            
-            <div class="row content_center">
-                <!----------First column--------->
-                <div class="col-4 conMod">
-                    <!----------1th block in left side, content discription--------->
-                    <div class="row">
-                        <p id="left_top_title">BUS 6</p>
-                        <p class="left_top_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam non augue convallis tincidunt.</p><br><br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                    </div>
+            
+<div class="row content">
+							<div class="col-12">
 
-                    <!----------2th block in left side, display image1--------->
-                    <div class="row left_image">
-                        <img src="../resources/images/image_545x380.png" alt="image">
-                    </div>
-                    
-                    <!----------3th block in left side, display image2--------->
-                    <div class="row left_image">
-                        <img src="../resources/images/image_545x380.png" alt="image">
-                    </div>
+								<div class="col-4 businfo-header">
+									<div id='busicon'>
+										<img src="../resources/images/GraphicDesignBus.svg" alt="Design Den Bus" >
+									</div>
+									<h1>Design Den</h1>
+                                    <p><b>Advanced Diploma of Graphic Design</b></p><br>
+                                    <img src="../resources/images/design-progress.jpg" alt="graphic design progress image" class="busimage">
+                                    <br>
+                                    <img src="../resources/images/design-insidebus.jpg" alt="graphic design inside bus image" class="busimage">
+                                </div>
+                                
 
-                    <!----------4th block in left side, display image3--------->
-                    <div class="row left_image bottom">
-                        <img src="../resources/images/image_545x380.png" alt="image">
-                    </div>
-                </div>
-                <!----------Second column--------->
-                <div class="col-8">
-                    <!----------1th block in right side, display image1--------->
-                    <div class="row right_image_1">
-                            <img src="../resources/images/image_993x324.png" alt="image">
-                    </div>
-                    
-                    <!----------2th block in right side, ??introduce??--------->
-                    <div class="row conLight right_text">
-                            <!--Sub column of introduce-->
-                            <div class="row col-12">
-                                <br>
-                                <p id="right_introduce_title">Introduce</p>
-                                <br>
+								<div class="col-8 businfo-content">
+                                <h1>Graphic Design</h1>
+                                <p>The <b>'Design Den'</b> will feature students design work in a traditional and immersive context. <br><br>
+                                The interior will be transformed into a dynamic exhibition space using elements of the <b>Orange Wolves</b> visual identity which was created by the graphic design students. 
+                                Mounted work, display screens (visible from the exterior and interior of the 'Design Den') and illuminated Augmented Reality ‘trigger’ images’.  <br>
+                                The exterior of the bus will feature a large typographic piece branding our bus as the 'Design Den'.</p><br>
+                                <img src="../resources/images/design-Orange-Wolves-Bus.jpg" alt="graphic design image" class="busimage">
+                               <br><br><p>The exhibition will feature:</p>
+                                <ul class="indent">
+                                    <li><b>Display Boards</b> - mounted internally along the left and right windows where each student display showcasing a range of design work in a traditional printed manner.</li>
+                                    <br><li><b>Motion Graphics Showreel</b> - a series of motion graphics portfolio showreels set to music displayed on large screen monitors visible to public from interior and exterior.</li>
+                                    <br><li><b>Augmented Reality “triggers”</b> - an exploration into dynamic sustainable interactive content as an additional and innovative way of experiencing student work. This platform allows for a broader range of content to be accessed via smart devices. The ‘Design Den’ will provide screens and signage explaining how the Augmented Reality component can be accessed.  Instructions would also be provided to obtain the app and use your own device.</li>
+                                </ul>
+                                <br><p>The Augmented Reality will be presented as a series of highly visible trigger objects that are  mounted both internally and externally to the bus. When a user interacts with the trigger on their iPad or phone you launch the interactive AR component of the exhibition and unlock an expanded range of the students work.</p>
+                                <br><p>The opportunity that the <b>Orange Wolves</b> has provided the graphic design students has been a collaborative effort with the creation of the branding and visual identity of the event. Planning and strategies for the exhibition approach and each students individual effort in organising and presenting the finished work.</p>
+                                <br><p>The <b>Design Den</b> exhibition will be the culmination of two years full time study as part of the Advanced Diploma of Graphic Design. 
+                                In addition to the students friends and families, the exhibition will be viewed by the general public. An opening night will establish connection with invited industry representatives.</p>
+                                <div class="col-12">
+                                    <img src="../resources/images/design-bus.jpg" alt="graphic design concept image" class="busimage">
+                                </div>
+                                <div class="col-12">
+                                    <img src="../resources/images/design-OW-Concept.jpg" alt="graphic design concept image" class="busimage">
+                                </div>
                             </div>
-                            <div id="right_sub_column_1" class="col-6">
-                                <p class="right_side_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at imperdiet velit. Quisque lobortis volutpat lorem a varius. Praesent gravida ac augue ac fermentum. Quisque cursus luctus tellus, a molestie ante rutrum facilisis. Mauris consequat, tortor maximus euismod convallis, sem ante fermentum lacus, ac sagittis nulla metus imperdiet elit. Morbi elementum, diam a sagittis volutpat, ligula ante interdum velit, at eleifend enim lectus vel diam. Donec aliquet a nisi vel condimentum. Suspendisse potenti.</p>
-                                <br>
-                                <br>
-                                <br>
-                            </div>
-
-                            <!--Sub column of introduce-->
-                            <div id="right_sub_column_2" class="col-6">
-                                <p class="right_side_text">Pellentesque porttitor condimentum massa quis ornare. Integer vestibulum ultrices arcu, eget dapibus enim auctor sed. In in mi posuere leo luctus sollicitudin. Sed facilisis, quam vel aliquet fringilla, eros ex tincidunt nibh, quis maximus mi mi quis nisi. Ut finibus nisi felis, nec vulputate tortor convallis quis. Nunc nec pharetra ex. Ut sit amet enim nulla. Cras pretium arcu velit, consequat bibendum turpis gravida vulputate. Pellentesque rutrum, massa nec bibendum interdum, orci leo rhoncus sapien, sit amet porta velit nisl nec magna. Proin id quam vel tortor molestie luctus et sit amet elit. Etiam in accumsan tortor, ac volutpat ligula.</p>
-                            </div>
-                            <!--Sub column of introduce-->
-
-                            <!--Todo: display a photo or icon on top right. Need finish next time.-->
-                    </div>
-
-                    <!----------3th block in right side, display image2--------->
-                    <div class="row right_image_2">
-                            <img src="../resources/images/image_993x449.png" alt="image">
-                    </div>
-                </div> 
+							</div>
             </div>
+
 <!----------------------------------Footer------------------------------------------------------>            
-            <div class="row content">
+            <div class="row">
                     <header>
                         <?php include("../resources/layout/footer.html"); ?>
                     </header>

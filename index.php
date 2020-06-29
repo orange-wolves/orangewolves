@@ -2,21 +2,32 @@
 <html>
 
 	<head>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150729305-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-150729305-1');
+	</script>
+	
 		<title>Orange Wolves Homepage</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no>
-		<link rel="stylesheet" type="text/css" href="resources/css/layout.css">
-		<link rel="stylesheet" type="text/css" href="resources/css/header.css">
-		<link rel="stylesheet" type="text/css" href="resources/css/footer.css">
-		<link rel="stylesheet" type="text/css" href="resources/css/indexLayout.css">
+		<?php include("resources/layout/style.html");?>
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+		<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+		<link rel="stylesheet" href="//unpkg.com/leaflet-gesture-handling/dist/leaflet-gesture-handling.min.css" type="text/css">
+		<script src="//unpkg.com/leaflet-gesture-handling"></script>
 	</head>
 		
 	<body>
 		<div class="webpage">	
-			<div class="pagecontent col-12">
+			<div class="col-12">
 
 <!-----------------------------HEADER------------------------------>
 				
-				<div class="row content">
+				<div class="row">
 					<header>
 						<?php include("resources/layout/header.html"); ?>
 					</header>
@@ -25,114 +36,116 @@
 <!-----------------------------CONTENT------------------------------>					
 				
 							<!------HERO------>	
-				<div class="row info-box-container background-l-blue">
-					<div class="col-12 info-box hero-med ">
-						<div class="col-4 xsml hero-info">
-							<h2> Orange Wolves</h2>
-							<p> This is the orange wolves home page..</p>
-						</div>
-					</div>		
+				<div class="row info-hero content">
+				<h1>FEAST YOUR EYES ON THIS!</h1><br>
+					<div class="col-6">
+						<p><b><I>Orange Wolves</I></b> is a multi-disciplinary immersive experience that encompasses music, media, arts, fashion, technology and design.</p>
+						<br>
+						<p>The event will be a celebration of creativity, technology and performance - providing the audience with a creative, transformational and immersive experience.</p>
+						<br>
+						<p>The plan is to use <b>6</b> retired Action buses that will be transformed into small cinemas, music venues, fashion parades, make spaces, and installation spaces - located in the CANBERRA CBD, for three days.</p>
+						
+					</div>
+					<div class="col-6" style="text-align: center;">
+					<br>
+					<h1>CANBERRA - CITY WALK</h1>
+						<h1>26 - 28 November 2019</h1>
+					<br><p><i>Orange Wolves was made possible with support from the ACT Government under the City Renewal Authority's City Grants Program.</i></p>
+					
+					</div>
 				</div>
+				<div class="info-hero" style="text-align: center;"><h2>Fashion Parade – November 26 at 7 pm </h2></div>
 
 							<!------Information------>	
 
 					<!--Medium/Wide information boxes row 1 -->
-				<div class="row info-box-container">
-					<div class="col-6 info-box lrg bor-spacing background-white ">
-						<h3 class="h3-med-wide-info color-d-blue">Lorem ipsum dolor</h3>
-						<p class="p-med-wide-info color-d-blue">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Molestie a iaculis at erat pellentesque adipiscing commodo. Condimentum mattis pellentesque id nibh tortor id. Id semper risus in hendrerit gravida rutrum quisque. Non curabitur gravida arcu ac tortor dignissim. Augue neque gravida in fermentum et. Amet risus nullam eget felis eget. Ut sem viverra aliquet eget sit amet tellus. Elementum integer enim neque volutpat ac. Accumsan lacus vel facilisis volutpat est. Congue mauris rhoncus aenean vel elit scelerisque. Habitant morbi tristique senectus et netus et malesuada fames. Nisi scelerisque eu ultrices vitae auctor eu. Viverra nam libero justo laoreet sit amet cursus.</p>
+				<div class="row">
+					<div class="col-6 media-container">
+						<video controls class="homepage-media">
+							<source src="resources/videos/FEAST-YOUR-EYES.mp4" type="video/mp4" />
+						</video>
 					</div>
-					<div class="col-6 info-box lrg bor-spacing  ">
-
-					</div>
-				</div>
-					<!--Medium/Wide information boxes row 2 -->
-				<div class="row info-box-container">
-					<div class="col-6 info-box med-wide bor-spacing ">
-
-					</div>
-					<div class="col-6 info-box med-wide bor-spacing background-m-blue ">
-
+					<div class="col-6 media-container">
+						<div class="homepage-media" id="orangewolves-map"></div>
 					</div>
 				</div>
 					<!--Medium/Small information boxes row 1 -->
-				<div class="row info-box-container">	
-					<div class="col-2 info-box med bor-spacing ">
-						<div class="med-info-box-head">
-							<h3 class="h3-med-sml-info">Lorem Ipsum</h3>
-							<p class="p-med-sml-info">tortor</p>
+
+				<div class="row buslink-container">
+
+					<div class="col-2 bus-link">
+						<a href="buses/bus-1.php">
+						<div class="bus-link-header-long">
+							<h3>Floristry &<br> Landscaping</h3>
 						</div>
-					</div>
-					<div class="col-2 info-box med bor-spacing ">
-						<div class="med-info-box-head">
-							<h3 class="h3-med-sml-info">Lorem Ipsum</h3>
-							<p class="p-med-sml-info">tortor</p>
+						<div class="buslink-body">
+							<img src="resources/images/HorticultureBus.svg" alt="Floristry and Landscaping bus">
 						</div>
+						</a>
 					</div>
-					<div class="col-2 info-box med bor-spacing ">
-						<div class="med-info-box-head">
-							<h3 class="h3-med-sml-info">Lorem Ipsum</h3>
-							<p class="p-med-sml-info">tortor</p>
+					
+						<div class="col-2 bus-link">
+						<a href="buses/bus-2.php">
+						<div class="bus-link-header-long">
+							<h3>Fashion, Hair <br>& Beauty</h3>
 						</div>
-					</div>
-					<div class="col-2 info-box med bor-spacing ">
-						<div class="med-info-box-head">
-							<h3 class="h3-med-sml-info">Lorem Ipsum</h3>
-							<p class="p-med-sml-info">tortor</p>
+						<div class="buslink-body">	
+							<img src="resources/images/FashionHairMakeupBus.svg" alt="hair & beauty bus">
 						</div>
+						</a>
 					</div>
-					<div class="col-2 info-box med bor-spacing ">
-						<div class="med-info-box-head">
-							<h3 class="h3-med-sml-info">Lorem Ipsum</h3>
-							<p class="p-med-sml-info">tortor</p>
+					
+					<div class="col-2 bus-link">
+						<a href="buses/bus-1.php">
+						<div class="bus-link-header">
+							<h3>Night Ride<h3>
 						</div>
-					</div>
-					<div class="col-2 info-box med bor-spacing ">
-						<div class="med-info-box-head">
-							<h3 class="h3-med-sml-info">Lorem Ipsum</h3>
-							<p class="p-med-sml-info">tortor</p>
+						<div class="buslink-body">
+							<img src="resources/images/MediaBus.svg" alt="media & Sound">
 						</div>
+						</a>
 					</div>
-				
-					<!--Medium/Small information boxes row 2 -->
-					<div class="col-2 info-box med bor-spacing ">
-						<div class="med-info-box-head">
-							<h3 class="h3-med-sml-info">Lorem Ipsum</h3>
-							<p class="p-med-sml-info">tortor</p>
+
+					<div class="col-2 bus-link">
+						<a href="buses/bus-4.php">
+						<div class="bus-link-header-long">
+							<h3>Photography &<br> Building Design<h3>
 						</div>
+							<div class="buslink-body">
+								
+								<img src="resources/images/MusicBus.svg" alt="music bus">
+							</div>
+						</a>
 					</div>
-					<div class="col-2 info-box med bor-spacing ">
-						<div class="med-info-box-head">
-							<h3 class="h3-med-sml-info">Lorem Ipsum</h3>
-							<p class="p-med-sml-info">tortor</p>
+
+					<div class="col-2 bus-link">
+						<a href="buses/bus-5.php">
+						<div class="bus-link-header">
+							<h3>Visual Arts<h3>
 						</div>
+							<div class="buslink-body">
+								
+								<img src="resources/images/VisualArtsBus.svg" alt="visual arts bus">
+							</div>
+						</a>
 					</div>
-					<div class="col-2 info-box med bor-spacing ">
-						<div class="med-info-box-head">
-							<h3 class="h3-med-sml-info">Lorem Ipsum</h3>
-							<p class="p-med-sml-info">tortor</p>
+
+					<div class="col-2 bus-link">
+						<a href="buses/bus-6.php">
+						<div class="bus-link-header">
+							<h3>Design Den<h3>
 						</div>
+							<div class="buslink-body">
+								
+								<img src="resources/images/GraphicDesignBus.svg" alt="design den bus">
+							</div>
+							
+						</a>
 					</div>
-					<div class="col-2 info-box med bor-spacing ">
-						<div class="med-info-box-head">
-							<h3 class="h3-med-sml-info">Lorem Ipsum</h3>
-							<p class="p-med-sml-info">tortor</p>
-						</div>
-					</div>
-					<div class="col-2 info-box med bor-spacing ">
-						<div class="med-info-box-head">
-							<h3 class="h3-med-sml-info">Lorem Ipsum</h3>
-							<p class="p-med-sml-info">tortor</p>
-						</div>
-					</div>
-					<div class="col-2 info-box med bor-spacing ">
-						<div class="med-info-box-head">
-							<h3 class="h3-med-sml-info">Lorem Ipsum</h3>
-							<p class="p-med-sml-info">tortor</p>
-						</div>
-					</div>
+
 				</div>
-<!-----------------------------FOOTER------------------------------>
+
+<!-----------------------------FOOTER---------------------------->
 				
 				<div class="row">
 					<footer>
@@ -144,4 +157,26 @@
 			</div>
 		</div>
 	</body>
+
+	<script>
+	var mymap = L.map("orangewolves-map", {
+        center: [-35.279827, 149.132210],
+        zoom: 15,
+        gestureHandling: true
+    });
+
+	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoib3Jhbmdld29sdmVzIiwiYSI6ImNrMjJpbWpscTA2ZnIzZnBmczJjNmoxa2IifQ.g_RwduUVRTEDMvgCowI95Q', {
+	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+	maxZoom: 18,
+	id: 'mapbox.streets',
+	accessToken: 'pk.eyJ1Ijoib3Jhbmdld29sdmVzIiwiYSI6ImNrMjJpbWpscTA2ZnIzZnBmczJjNmoxa2IifQ.g_RwduUVRTEDMvgCowI95Q',
+	gestureHandling: true
+	}).addTo(mymap);
+
+	L.marker([-35.279827, 149.132210]).addTo(mymap);
+	mymap.scrollWheelZoom.disable();
+
+
+	</script>
+
 </html> 

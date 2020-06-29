@@ -2,12 +2,18 @@
 <html>
 
 	<head>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150729305-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-150729305-1');
+	</script>
 		<title>Sponsors</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no>
-		<link rel="stylesheet" type="text/css" href="resources/css/layout.css">
-		<link rel="stylesheet" type="text/css" href="resources/css/header.css">
-		<link rel="stylesheet" type="text/css" href="resources/css/footer.css">
-		<link rel="stylesheet" type="text/css" href="resources/css/pages.css">
+		<?php include("resources/layout/style.html");?>
 	</head>
 		
 	<body>
@@ -16,7 +22,7 @@
 
 <!-----------------------------HEADER------------------------------>
 				
-				<div class="row content">
+				<div class="row">
 					<header>
 						<?php include("resources/layout/header.html"); ?>
 					</header>
@@ -24,49 +30,114 @@
 
 <!-----------------------------CONTENT------------------------------>					
 				
-				<div class="row">
+				<div class="row content">
 
 					<div class="col-12 content-heading">
 						<h1>Sponsors</h1>
+						<div class="line">
+						</div>
 					</div>
 
 				</div>
 
 				<div class="row">
-					<div class="col-12 sponsor-container">
+					<div class="sponsor-container">
+						<!-- ACT City Renewal logo -->
 						<div class="col-3 sponsor-img">
-							<img src="resources\images\img-200px.png">
+							<a href="https://www.act.gov.au/cityrenewal/home" target="_blank">
+								<img src="resources\images\sponsors\ACTCRA_Inline_MONO_RGB.png" 
+									title="ACT City Renewal"
+									alt="ACTCRA Logo">
+							</a>
 						</div>
+						<!-- TC logo -->
 						<div class="col-3 sponsor-img">
-						<img src="resources\images\img-200px.png">
+							<a href="https://www.transport.act.gov.au/"target="_blank">
+								<img src="resources\images\sponsors\transport-canberra-logo.png"
+									title="Transport Canberra"
+									alt="Transport Canberra Logo">
+							</a>
 						</div>
+						<!-- CIT logo -->
 						<div class="col-3 sponsor-img">
-						<img src="resources\images\img-200px.png">
+							<a href="https://cit.edu.au/"target="_blank">
+								<img src="resources\images\sponsors\cit_logo.png"
+									title="Canberra Institute of Technology"
+									alt="CIT Logo">
+							</a>
 						</div>
-						<div class="col-3 sponsor-img">
-						<img src="resources\images\img-200px.png">
-						</div>
-					</div>
-					<div class="col-12 sponsor-container">
-						<div class="col-3 sponsor-img">
-							<img src="resources\images\img-200px.png">
-						</div>
-						<div class="col-3 sponsor-img">
-						<img src="resources\images\img-200px.png">
-						</div>
-						<div class="col-3 sponsor-img">
-						<img src="resources\images\img-200px.png">
-						</div>
-						<div class="col-3 sponsor-img">
-						<img src="resources\images\img-200px.png">
+					<div class="col-3 sponsor-img">
+							<a href="https://www.citsa.com.au/"target="_blank">
+									<img src="resources\images\sponsors\CITSA_Logo_2012-03_JPEG.jpg"
+										title="CITSA"
+										alt="CITSA Logo">
+								</a>
 						</div>
 					</div>
 				</div>
-
 				<div class="row">
-					<br>
-					<br>
+					<div class="sponsor-container">
+						<div class="col-3 sponsor-img">
+								<a href="https://srasolutions.com.au/"target="_blank">
+									<img src="resources\images\sponsors\SRA-Solutions_logo.png"
+										title="SRA Solutions"
+										alt="SRA Solutions Logo">
+								</a>
+						</div>
+						<div class="col-3 sponsor-img">
+								<a href="https://www.impactwrap.com.au/"target="_blank">
+									<img src="resources\images\sponsors\IW Landscape Logo.jpg"
+										title="Impact Wrap"
+										alt="Impact Wrap Logo">
+								</a>
+						</div>
+						<div class="col-3 sponsor-img">
+								<a href="https://sustainablesalons.org/"target="_blank">
+									<img src="resources\images\sponsors\Sustainable-Salons-Logo-Horizontal-Colour-Digital.jpg"
+										title="Sustainable Salons"
+										alt="Sustainable Salons Logo">
+								</a>
+						</div>
+						<div class="col-3 sponsor-img">
+								<a href="https://www.delorenzo.com.au/"target="_blank">
+									<img src="resources\images\sponsors\de-lorenzo.jpg"
+										title="De Lorenzo"
+										alt="De Lorenzo Logo">
+								</a>
+						</div>
+					</div>
 				</div>
+				<div class="row">
+					<div class="sponsor-container">
+						<div class="col-3 sponsor-img">
+						<a href="https://www.capitallinenservice.act.gov.au/"target="_blank">
+								<img src="resources\images\sponsors\CapitalLinenServiceLogoColour.png"
+									title="Capital Linen Service"
+									alt="Capital Linen Service logo">
+							</a>
+						</div>
+						<div class="col-3 ">
+
+								</a>
+						</div>
+						<div class="col-3 ">
+								
+								</a>
+						</div>
+						<div class="col-3 ">
+							
+								</a>
+						</div>
+					</div>
+				</div>
+						<div class="empty col-2"></div>
+					<!-- Information Technology Diploma Project logo -->
+					<div class="col-8">
+								<img src="resources\images\sponsors\ITDP.jpg" width="100%"
+									title="Information Technology Diploma Project"
+									alt="Information Technology Diploma Project logo">
+						</div>
+						<div class="empty col-2"></div>
 
 <!-----------------------------FOOTER------------------------------>
 				
